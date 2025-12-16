@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CAIR | Teaching &amp; Curriculum</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Theme Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f9f506",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#23220f",
+                        "text-main": "#181811",
+                        "text-light": "#8c8b5f",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main font-display antialiased overflow-x-hidden">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-md border-b border-solid border-[#f5f5f0] dark:bg-background-dark/90 dark:border-white/10">
+<div class="px-4 md:px-10 py-3 flex items-center justify-between">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-text-main dark:text-white">
+<div class="size-8 text-primary">
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em] hidden sm:block">CAIR | University of Colorado Boulder</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-9">
+<a class="text-text-main dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#">Research</a>
+<a class="text-text-main dark:text-gray-200 text-sm font-medium text-primary" href="#">Teaching</a>
+<a class="text-text-main dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#">People</a>
+<a class="text-text-main dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#">Publications</a>
+<a class="text-text-main dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors" href="#">News</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="lg:hidden p-2 text-text-main dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<div class="hidden md:flex bg-[#f5f5f0] dark:bg-white/5 rounded-xl h-10 items-center px-4 min-w-[200px]">
+<span class="material-symbols-outlined text-text-light text-[20px]">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full ml-2 text-text-main dark:text-white placeholder:text-text-light" placeholder="Search courses..."/>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative px-4 md:px-10 py-8 md:py-12 bg-white dark:bg-background-dark">
+<div class="max-w-[1280px] mx-auto bg-cover bg-center bg-no-repeat rounded-xl overflow-hidden relative min-h-[480px] flex items-center justify-center p-8" data-alt="Abstract visualization of neural networks and glowing data connections representing AI education" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDh7GSN_qfcYU45SOICzuCxnM7vKsp1vSA5uQq0Q64tLcpTA1-4DbbWlvNhIJA67CS_LNBwTBDLbke6mBXdKELA6prefJ3wXmHeyrTdVU6fFvgesurRGErKwp0cpC6BwjJQ_l5RAJ_Idci8ZwnWZ-Dy2l5LcZmMUc7GNdEOCC2SmoZvV9pe9Q1BCs2bWPFD1KkiRM-nGAnPY9EJZqqClwOsyrCxYZmg3bs7Y5DRluvU2MTc19cohWSifUbASKq6cGCbVZ38uk9wMX8");'>
+<div class="text-center max-w-3xl z-10 flex flex-col gap-6 items-center">
+<h1 class="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em]">
+                    Forging the Future of <span class="text-primary">Intelligence</span>
+</h1>
+<p class="text-gray-200 text-lg md:text-xl font-normal leading-relaxed max-w-2xl">
+                    Explore the AI curriculum at CAIR and build your personalized academic journey in artificial intelligence, machine learning, and robotics.
+                </p>
+<button class="mt-4 flex cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-text-main text-base font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all shadow-[0_0_20px_rgba(249,245,6,0.4)]">
+                    Start Building Curriculum
+                </button>
+</div>
+</div>
+</section>
+<!-- Interactive Course Tree & Stats Wrapper -->
+<div class="layout-container px-4 md:px-10 py-12 flex flex-col xl:flex-row gap-8 max-w-[1400px] mx-auto">
+<!-- Left: Visualization Canvas -->
+<div class="flex-grow flex flex-col gap-6">
+<div class="flex justify-between items-end">
+<h2 class="text-text-main dark:text-white text-[32px] font-bold leading-tight">AI Course Tree</h2>
+<div class="flex gap-4 text-sm font-medium">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-primary border border-black/10"></div>
+<span class="text-text-main dark:text-gray-300">Core</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-white border-2 border-primary"></div>
+<span class="text-text-main dark:text-gray-300">Elective</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-gray-200 border border-gray-300"></div>
+<span class="text-text-main dark:text-gray-300">Locked</span>
+</div>
+</div>
+</div>
+<!-- Graph Container -->
+<div class="relative w-full h-[600px] bg-white dark:bg-[#2a2912] rounded-xl border border-[#e6e6db] dark:border-white/10 overflow-hidden group/graph shadow-sm">
+<!-- Decorative Grid Background -->
+<div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#181811 1px, transparent 1px); background-size: 20px 20px;">
+</div>
+<!-- Connecting Lines (SVG) -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none z-0 stroke-[#e6e6db] dark:stroke-white/20" stroke-width="2">
+<!-- Intro -> ML -->
+<path class="stroke-primary" d="M100,300 C200,300 200,200 300,200" fill="none" stroke-width="3"></path>
+<!-- Intro -> Algorithms -->
+<path d="M100,300 C200,300 200,400 300,400" fill="none"></path>
+<!-- ML -> Deep Learning -->
+<path d="M300,200 C400,200 400,150 500,150" fill="none"></path>
+<!-- ML -> NLP -->
+<path d="M300,200 C400,200 400,250 500,250" fill="none"></path>
+<!-- Algorithms -> Ethics -->
+<path d="M300,400 C400,400 400,400 500,400" fill="none"></path>
+<!-- Deep Learning -> Adv Robotics -->
+<path d="M500,150 C600,150 600,100 700,100" fill="none" stroke-dasharray="5,5"></path>
+</svg>
+<!-- Node: Intro to AI (Selected/Completed) -->
+<button class="absolute left-[100px] top-[300px] -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-full bg-primary flex items-center justify-center shadow-[0_0_15px_rgba(249,245,6,0.5)] z-10 hover:scale-110 transition-transform cursor-pointer group/node">
+<span class="material-symbols-outlined text-text-main text-2xl">smart_toy</span>
+<div class="absolute top-20 bg-text-main text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover/node:opacity-100 transition-opacity whitespace-nowrap">CSCI 3022: Intro to AI</div>
+</button>
+<!-- Node: Machine Learning (Available) -->
+<button class="absolute left-[300px] top-[200px] -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-white dark:bg-background-dark border-4 border-primary flex items-center justify-center z-10 hover:scale-110 transition-transform cursor-pointer group/node">
+<span class="material-symbols-outlined text-text-main dark:text-white text-xl">model_training</span>
+<div class="absolute top-16 bg-text-main text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover/node:opacity-100 transition-opacity whitespace-nowrap">CSCI 5622: Machine Learning</div>
+</button>
+<!-- Node: Algorithms (Available) -->
+<button class="absolute left-[300px] top-[400px] -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-white dark:bg-background-dark border-2 border-primary flex items-center justify-center z-10 hover:scale-110 transition-transform cursor-pointer group/node">
+<span class="material-symbols-outlined text-text-main dark:text-white text-xl">functions</span>
+<div class="absolute top-16 bg-text-main text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover/node:opacity-100 transition-opacity whitespace-nowrap">CSCI 3104: Algorithms</div>
+</button>
+<!-- Node: Deep Learning (Locked) -->
+<button class="absolute left-[500px] top-[150px] -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-[#f5f5f0] dark:bg-white/10 border border-gray-300 flex items-center justify-center z-10 cursor-not-allowed group/node grayscale opacity-70">
+<span class="material-symbols-outlined text-gray-400 text-lg">neurology</span>
+<div class="absolute top-14 bg-gray-600 text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover/node:opacity-100 transition-opacity whitespace-nowrap">Prereq: ML</div>
+</button>
+<!-- Node: NLP (Locked) -->
+<button class="absolute left-[500px] top-[250px] -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-[#f5f5f0] dark:bg-white/10 border border-gray-300 flex items-center justify-center z-10 cursor-not-allowed group/node grayscale opacity-70">
+<span class="material-symbols-outlined text-gray-400 text-lg">translate</span>
+<div class="absolute top-14 bg-gray-600 text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover/node:opacity-100 transition-opacity whitespace-nowrap">Prereq: ML</div>
+</button>
+<!-- Node: AI Ethics (Available) -->
+<button class="absolute left-[500px] top-[400px] -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-white dark:bg-background-dark border-2 border-primary flex items-center justify-center z-10 hover:scale-110 transition-transform cursor-pointer group/node">
+<span class="material-symbols-outlined text-text-main dark:text-white text-xl">policy</span>
+<div class="absolute top-16 bg-text-main text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover/node:opacity-100 transition-opacity whitespace-nowrap">CSCI 4802: AI Ethics</div>
+</button>
+<!-- Node: Adv Robotics (Locked) -->
+<button class="absolute left-[700px] top-[100px] -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-[#f5f5f0] dark:bg-white/10 border border-gray-300 flex items-center justify-center z-10 cursor-not-allowed group/node grayscale opacity-70">
+<span class="material-symbols-outlined text-gray-400 text-lg">precision_manufacturing</span>
+<div class="absolute top-14 bg-gray-600 text-white text-xs py-1 px-3 rounded-full opacity-0 group-hover/node:opacity-100 transition-opacity whitespace-nowrap">Prereq: Deep Learning</div>
+</button>
+</div>
+</div>
+<!-- Right: Curriculum Stats Sidebar -->
+<div class="w-full xl:w-[360px] flex-shrink-0 flex flex-col gap-6">
+<!-- Summary Card -->
+<div class="bg-white dark:bg-background-dark rounded-xl border border-[#e6e6db] dark:border-white/10 p-6 flex flex-col gap-4 shadow-sm">
+<div class="flex items-center gap-3 border-b border-[#f5f5f0] dark:border-white/10 pb-4">
+<div class="p-2 bg-primary rounded-lg text-text-main">
+<span class="material-symbols-outlined block">school</span>
+</div>
+<div>
+<h3 class="text-text-main dark:text-white font-bold text-lg">Your Curriculum</h3>
+<p class="text-text-light text-sm">Fall 2024 Planning</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-1">
+<p class="text-text-light text-xs font-medium uppercase tracking-wider">Credits</p>
+<p class="text-text-main dark:text-white text-2xl font-bold">12</p>
+</div>
+<div class="flex flex-col gap-1">
+<p class="text-text-light text-xs font-medium uppercase tracking-wider">Timeline</p>
+<p class="text-text-main dark:text-white text-2xl font-bold">4 Sem</p>
+</div>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<p class="text-text-light text-xs font-medium uppercase tracking-wider">Selected Courses</p>
+<div class="flex flex-wrap gap-2">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary/20 text-text-main dark:text-white text-xs font-semibold">
+                            CSCI 3022
+                            <button class="hover:text-red-500"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-[#f5f5f0] dark:bg-white/10 text-text-main dark:text-white text-xs font-semibold">
+                            CSCI 5622
+                            <button class="hover:text-red-500"><span class="material-symbols-outlined text-[14px]">close</span></button>
+</span>
+</div>
+</div>
+</div>
+<!-- Skills Distribution Chart (Reused Component Logic) -->
+<div class="bg-white dark:bg-background-dark rounded-xl border border-[#e6e6db] dark:border-white/10 p-6 flex flex-col gap-4 shadow-sm">
+<div class="flex justify-between items-center mb-2">
+<p class="text-text-main dark:text-white text-base font-bold">Skills Acquired</p>
+<span class="material-symbols-outlined text-primary">radar</span>
+</div>
+<div class="grid min-h-[160px] grid-flow-col gap-3 grid-rows-[1fr_auto] items-end justify-items-center">
+<div class="w-full flex flex-col items-center gap-2 group">
+<div class="w-full bg-primary/20 rounded-t-lg relative h-[120px]">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-lg transition-all duration-500" style="height: 80%;"></div>
+</div>
+<p class="text-text-light text-[11px] font-bold tracking-wider">ML</p>
+</div>
+<div class="w-full flex flex-col items-center gap-2 group">
+<div class="w-full bg-primary/20 rounded-t-lg relative h-[120px]">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-lg transition-all duration-500" style="height: 40%;"></div>
+</div>
+<p class="text-text-light text-[11px] font-bold tracking-wider">NLP</p>
+</div>
+<div class="w-full flex flex-col items-center gap-2 group">
+<div class="w-full bg-primary/20 rounded-t-lg relative h-[120px]">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-lg transition-all duration-500" style="height: 65%;"></div>
+</div>
+<p class="text-text-light text-[11px] font-bold tracking-wider">Ethics</p>
+</div>
+<div class="w-full flex flex-col items-center gap-2 group">
+<div class="w-full bg-primary/20 rounded-t-lg relative h-[120px]">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-lg transition-all duration-500" style="height: 25%;"></div>
+</div>
+<p class="text-text-light text-[11px] font-bold tracking-wider">Robot</p>
+</div>
+<div class="w-full flex flex-col items-center gap-2 group">
+<div class="w-full bg-primary/20 rounded-t-lg relative h-[120px]">
+<div class="absolute bottom-0 w-full bg-primary rounded-t-lg transition-all duration-500" style="height: 90%;"></div>
+</div>
+<p class="text-text-light text-[11px] font-bold tracking-wider">Data</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Degree Programs Section -->
+<section class="px-4 md:px-10 py-12 bg-[#f8f8f5] dark:bg-background-dark/50">
+<div class="max-w-[1400px] mx-auto">
+<h2 class="text-text-main dark:text-white tracking-tight text-3xl font-bold leading-tight mb-10 border-l-4 border-primary pl-4">Degree Programs</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- MS CS Card -->
+<div class="group bg-white dark:bg-background-dark rounded-[2rem] p-8 border border-[#e6e6db] dark:border-white/10 hover:border-primary transition-colors flex flex-col gap-4 shadow-sm hover:shadow-md">
+<div class="w-12 h-12 bg-[#f5f5f0] dark:bg-white/10 rounded-full flex items-center justify-center text-primary mb-2 group-hover:bg-primary group-hover:text-text-main transition-colors">
+<span class="material-symbols-outlined">code</span>
+</div>
+<h3 class="text-xl font-bold text-text-main dark:text-white">MS in Computer Science</h3>
+<p class="text-text-main/80 dark:text-gray-300 text-sm leading-relaxed mb-4">
+                        A rigorous program combining traditional computer science theory with specialized tracks in Artificial Intelligence. Ideal for those seeking a deep technical foundation.
+                    </p>
+<ul class="flex flex-col gap-2 mb-4">
+<li class="flex items-center gap-2 text-sm text-text-light dark:text-gray-400">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                            30 Credit Hours
+                        </li>
+<li class="flex items-center gap-2 text-sm text-text-light dark:text-gray-400">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                            Thesis &amp; Non-Thesis Options
+                        </li>
+</ul>
+<a class="mt-auto text-sm font-bold text-text-main dark:text-white border-b-2 border-primary w-max pb-0.5 hover:text-primary transition-colors" href="#">View Curriculum →</a>
+</div>
+<!-- PhD CS Card -->
+<div class="group bg-background-dark text-white rounded-[2rem] p-8 border border-background-dark relative overflow-hidden flex flex-col gap-4 shadow-lg">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary/20 rounded-full blur-2xl -mr-10 -mt-10"></div>
+<div class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-primary mb-2">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h3 class="text-xl font-bold text-white">PhD in Computer Science</h3>
+<p class="text-gray-300 text-sm leading-relaxed mb-4">
+                        Research-first focus designed for future academic and industrial leaders. Work directly with CAIR faculty on groundbreaking AI methodologies.
+                    </p>
+<ul class="flex flex-col gap-2 mb-4">
+<li class="flex items-center gap-2 text-sm text-gray-400">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                            Fully Funded Positions
+                        </li>
+<li class="flex items-center gap-2 text-sm text-gray-400">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                            Publication Focus
+                        </li>
+</ul>
+<a class="mt-auto text-sm font-bold text-white border-b-2 border-primary w-max pb-0.5 hover:text-primary transition-colors" href="#">Explore Research →</a>
+</div>
+<!-- MS AI Card -->
+<div class="group bg-white dark:bg-background-dark rounded-[2rem] p-8 border border-[#e6e6db] dark:border-white/10 hover:border-primary transition-colors flex flex-col gap-4 shadow-sm hover:shadow-md">
+<div class="w-12 h-12 bg-[#f5f5f0] dark:bg-white/10 rounded-full flex items-center justify-center text-primary mb-2 group-hover:bg-primary group-hover:text-text-main transition-colors">
+<span class="material-symbols-outlined">smart_toy</span>
+</div>
+<h3 class="text-xl font-bold text-text-main dark:text-white">Professional MS in AI</h3>
+<p class="text-text-main/80 dark:text-gray-300 text-sm leading-relaxed mb-4">
+                        Application-based mastery for industry professionals. Focuses on deploying scalable AI systems, ethics, and real-world problem solving.
+                    </p>
+<ul class="flex flex-col gap-2 mb-4">
+<li class="flex items-center gap-2 text-sm text-text-light dark:text-gray-400">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                            Project-Based Learning
+                        </li>
+<li class="flex items-center gap-2 text-sm text-text-light dark:text-gray-400">
+<span class="material-symbols-outlined text-primary text-base">check_circle</span>
+                            Industry Partnerships
+                        </li>
+</ul>
+<a class="mt-auto text-sm font-bold text-text-main dark:text-white border-b-2 border-primary w-max pb-0.5 hover:text-primary transition-colors" href="#">Program Details →</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Traditional Course List Table -->
+<section class="px-4 md:px-10 py-12 bg-white dark:bg-background-dark">
+<div class="max-w-[1400px] mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-8 gap-4">
+<h2 class="text-text-main dark:text-white tracking-tight text-3xl font-bold leading-tight">Full Course Catalog</h2>
+<div class="flex gap-2">
+<div class="relative">
+<select class="appearance-none bg-[#f5f5f0] dark:bg-white/5 border-none rounded-lg py-2 pl-4 pr-10 text-sm font-medium text-text-main dark:text-white focus:ring-1 focus:ring-primary">
+<option>All Semesters</option>
+<option>Fall 2024</option>
+<option>Spring 2025</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-2 text-text-light pointer-events-none">expand_more</span>
+</div>
+<button class="flex items-center gap-2 bg-[#f5f5f0] dark:bg-white/5 px-4 py-2 rounded-lg text-sm font-medium text-text-main dark:text-white hover:bg-primary hover:text-text-main transition-colors">
+<span class="material-symbols-outlined text-lg">filter_list</span>
+                        Filter
+                    </button>
+</div>
+</div>
+<div class="overflow-x-auto rounded-xl border border-[#e6e6db] dark:border-white/10">
+<table class="w-full text-left border-collapse">
+<thead class="bg-[#f5f5f0] dark:bg-white/5 text-text-light text-xs uppercase tracking-wider font-semibold">
+<tr>
+<th class="p-4 rounded-tl-xl">Code</th>
+<th class="p-4">Course Title</th>
+<th class="p-4">Instructor</th>
+<th class="p-4">Level</th>
+<th class="p-4 rounded-tr-xl">Status</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-[#e6e6db] dark:divide-white/10 text-sm">
+<!-- Row 1 -->
+<tr class="group hover:bg-[#f9f506]/5 dark:hover:bg-white/5 transition-colors">
+<td class="p-4 font-mono font-bold text-text-main dark:text-white">CSCI 5622</td>
+<td class="p-4 font-medium text-text-main dark:text-white">Machine Learning</td>
+<td class="p-4 text-text-main/80 dark:text-gray-300">Dr. Jordan Boyd-Graber</td>
+<td class="p-4"><span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-2 py-1 rounded-md text-xs font-bold">Graduate</span></td>
+<td class="p-4 text-green-600 dark:text-green-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-base">check_circle</span> Open
+                            </td>
+</tr>
+<!-- Row 2 -->
+<tr class="group hover:bg-[#f9f506]/5 dark:hover:bg-white/5 transition-colors">
+<td class="p-4 font-mono font-bold text-text-main dark:text-white">CSCI 7000</td>
+<td class="p-4 font-medium text-text-main dark:text-white">Reinforcement Learning</td>
+<td class="p-4 text-text-main/80 dark:text-gray-300">Dr. Alessandro Roncone</td>
+<td class="p-4"><span class="bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200 px-2 py-1 rounded-md text-xs font-bold">PhD</span></td>
+<td class="p-4 text-orange-500 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-base">timelapse</span> Waitlist
+                            </td>
+</tr>
+<!-- Row 3 -->
+<tr class="group hover:bg-[#f9f506]/5 dark:hover:bg-white/5 transition-colors">
+<td class="p-4 font-mono font-bold text-text-main dark:text-white">CSCI 4802</td>
+<td class="p-4 font-medium text-text-main dark:text-white">Data Science Ethics</td>
+<td class="p-4 text-text-main/80 dark:text-gray-300">Dr. Casey Fiesler</td>
+<td class="p-4"><span class="bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200 px-2 py-1 rounded-md text-xs font-bold">Undergrad</span></td>
+<td class="p-4 text-green-600 dark:text-green-400 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-base">check_circle</span> Open
+                            </td>
+</tr>
+<!-- Row 4 -->
+<tr class="group hover:bg-[#f9f506]/5 dark:hover:bg-white/5 transition-colors">
+<td class="p-4 font-mono font-bold text-text-main dark:text-white">CSCI 5302</td>
+<td class="p-4 font-medium text-text-main dark:text-white">Advanced Robotics</td>
+<td class="p-4 text-text-main/80 dark:text-gray-300">Dr. Bradley Hayes</td>
+<td class="p-4"><span class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-2 py-1 rounded-md text-xs font-bold">Graduate</span></td>
+<td class="p-4 text-red-500 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-base">block</span> Closed
+                            </td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="mt-4 flex justify-center">
+<button class="text-sm font-medium text-text-light hover:text-primary transition-colors flex items-center gap-1">
+                    Load More Courses <span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Faculty Spotlight -->
+<section class="px-4 md:px-10 py-12 bg-[#f8f8f5] dark:bg-background-dark/50">
+<div class="max-w-[1400px] mx-auto text-center">
+<h2 class="text-text-main dark:text-white text-2xl font-bold mb-8">Meet Your Instructors</h2>
+<div class="flex flex-wrap justify-center gap-8 md:gap-12">
+<!-- Faculty 1 -->
+<div class="flex flex-col items-center gap-3 group cursor-pointer">
+<div class="w-24 h-24 rounded-full overflow-hidden border-2 border-transparent group-hover:border-primary transition-all p-1">
+<img alt="Headshot of Dr. Sarah Chen, AI researcher" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3L0Ahbufa_JDbmEJm5ETu-F9v2fNx6G2F8Fc7k_zSJokKV_BBzvp2qwpVVWgGq_Dg1zuwKbt4X8HOXOKmKG9MXUPMp9DZSJqG2KQa1ZdIq5rJO2fWqQX4sP3-x79a-u31LGQNHp55UP-z8ffHGIiehFWSJsONCksgG0-j-RtDO9cp7J9xtIXFe_p-8PI1ZHp3FEs5vuZQnoQIZPkTzr9tqnix7iLX-V6dGH0UvHPoskyX2jFYz7pWLkTZp06s-mBPdIbivNw9Sz8"/>
+</div>
+<div>
+<p class="font-bold text-text-main dark:text-white">Dr. Sarah Chen</p>
+<p class="text-xs text-text-light">NLP &amp; Linguistics</p>
+</div>
+</div>
+<!-- Faculty 2 -->
+<div class="flex flex-col items-center gap-3 group cursor-pointer">
+<div class="w-24 h-24 rounded-full overflow-hidden border-2 border-transparent group-hover:border-primary transition-all p-1">
+<img alt="Headshot of Dr. James Miller, Robotics expert" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwQpK1FYBph9Cd9GZ-zV-ccDd719rGgxeTVccJZ18Bhs_R8i_gAGZv_CEJpPuXewUFPVbKrtnrvoMiMjExO39LLJkTtygZkSw5Pzkpb06E-HHA6EWbEitqipcQVKmQRID5-M3BfU9vh8O89GxRR4riBs16-3pGJYNHfZq32Cn6Mt3kILOc-70Awryf9hoWbeT4xmNxwL0LGqtQZ-fYKQCVm4Rhk2PZqBSfENwZy7rBs1aXwL3pKRU8lBcdo1kBpyPIlt652JjfL3M"/>
+</div>
+<div>
+<p class="font-bold text-text-main dark:text-white">Dr. James Miller</p>
+<p class="text-xs text-text-light">Robotics</p>
+</div>
+</div>
+<!-- Faculty 3 -->
+<div class="flex flex-col items-center gap-3 group cursor-pointer">
+<div class="w-24 h-24 rounded-full overflow-hidden border-2 border-transparent group-hover:border-primary transition-all p-1">
+<img alt="Headshot of Dr. Elena Rodriguez, Computer Vision specialist" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAD7IPOWfRDmLVYDirFev1Od6zmrWXwPQKwS6M-Ew76QRu0QiQyIONn2j4-MIcGIWyNQzVNwC9Z1Vy1g6MakOhqs8YBfpuPyT6uVnMTCGfSm-NaQSJmXytqyUVTuTIDVMBD9hY5KKvgr5HW6ZLm9nBAN55LpENBhXC6hjZPDjB0TSK150ZelFxm6bKdHxEof8y63qs9VxCXOUuydSlvnQ9uGn5KYgnqZ7xmBJ-yd2Tk11DbDGL_cbNv6wRw6bl6qNHZDTm7k8E8v0"/>
+</div>
+<div>
+<p class="font-bold text-text-main dark:text-white">Dr. Elena Rodriguez</p>
+<p class="text-xs text-text-light">Computer Vision</p>
+</div>
+</div>
+<!-- Faculty 4 -->
+<div class="flex flex-col items-center gap-3 group cursor-pointer">
+<div class="w-24 h-24 rounded-full overflow-hidden border-2 border-transparent group-hover:border-primary transition-all p-1">
+<img alt="Headshot of Dr. David Kim, Machine Learning Ethics researcher" class="w-full h-full rounded-full object-cover grayscale group-hover:grayscale-0 transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCO5LR5CKI1KpWw7TFQbgphydhifJhjGwaT58QNf6DNVHSXv1RjodI8hc9UPFvqbo5NZB2AHxma_fk9Rr0097uxhxcdbNnaPYiiP2tQ7ng9WU63Do_SpoFiBRIyRV_1tEVOvLCj08udQRzlhoF39TPQgwUrKxK2c4bAvVy5JN9rNUbRwwpujLcBftIWDwD3zcBBC_rDJSs-5Rpjo8-MvHk_e_VbMWZ0qJAK2FnH1HfqnIQdlgl5axNBXy4HnmzfEkV4h74e-k4_wFE"/>
+</div>
+<div>
+<p class="font-bold text-text-main dark:text-white">Dr. David Kim</p>
+<p class="text-xs text-text-light">ML Ethics</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-white dark:bg-background-dark border-t border-[#f5f5f0] dark:border-white/10 py-12 px-4 md:px-10">
+<div class="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-2 text-text-main dark:text-white font-bold">
+<div class="size-5 text-primary">
+<svg class="w-full h-full" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z" fill="currentColor"></path>
+</svg>
+</div>
+                    CAIR
+                </div>
+<p class="text-text-light text-sm max-w-xs">Colorado AI Research, University of Colorado Boulder. Advancing the frontiers of artificial intelligence.</p>
+</div>
+<div class="flex gap-8 flex-wrap">
+<a class="text-text-main dark:text-white text-sm font-medium hover:text-primary" href="#">Contact</a>
+<a class="text-text-main dark:text-white text-sm font-medium hover:text-primary" href="#">Apply to CU</a>
+<a class="text-text-main dark:text-white text-sm font-medium hover:text-primary" href="#">Accessibility</a>
+<a class="text-text-main dark:text-white text-sm font-medium hover:text-primary" href="#">Privacy Policy</a>
+</div>
+</div>
+</footer>
+</body></html>

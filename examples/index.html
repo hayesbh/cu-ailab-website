@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CAIR Homepage - Updated Option 1</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#CFB87C", // Retaining the gold/buff color seen in buttons in reference
+                        "primary-hover": "#bfa360",
+                        "accent": "#000000",
+                        "background-light": "#ffffff", // Pure white background like reference
+                        "background-alt": "#f3f3f3", // Light gray for section breaks
+                        "background-dark": "#000000", // Stark black for dark mode/footer
+                        "text-main": "#231f20", // Deep charcoal/black like reference text
+                        "text-light": "#ffffff",
+                        "text-muted": "#636363", // Standard grey text
+                        "text-muted-dark": "#b0b0a0",
+                        "card-light": "#ffffff",
+                        "card-dark": "#1a1a1a",
+                        "border-light": "#e0e0e0",
+                        "border-dark": "#333333",
+                        "cu-blue": "#005e9c", // Adding CU Boulder blue for specific accents if needed
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.375rem", "xl": "0.5rem", "2xl": "1rem", "full": "9999px"}, // Reduced border radius to match the sharper look of the reference
+                },
+            },
+        }
+    </script>
+<style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-text-light font-display antialiased transition-colors duration-200">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-border-light dark:border-border-dark bg-background-light/95 dark:bg-background-dark/90 backdrop-blur-md">
+<div class="mx-auto flex h-20 max-w-[1400px] items-center justify-between px-4 sm:px-6 lg:px-8">
+<div class="flex items-center gap-4">
+<div class="flex h-10 w-10 items-center justify-center rounded bg-black text-white dark:bg-primary dark:text-text-main">
+<span class="material-symbols-outlined text-[24px]">bubble_chart</span>
+</div>
+<div>
+<h2 class="text-xl font-bold tracking-tight leading-none">CAIR</h2>
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark uppercase tracking-wide">University of Colorado Boulder</p>
+</div>
+</div>
+<nav class="hidden lg:flex items-center gap-6">
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">Research</a>
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">People</a>
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">Publications</a>
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">Courses</a>
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">News</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex h-10 items-center justify-center rounded bg-black dark:bg-primary px-6 text-sm font-bold text-white dark:text-text-main hover:bg-gray-800 transition-all">
+                        Join Us
+                    </button>
+<button class="lg:hidden p-2 text-text-main dark:text-text-light">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="relative w-full overflow-hidden bg-background-dark text-white pt-24 pb-32 lg:pt-32 lg:pb-40">
+<div class="absolute inset-0">
+<img alt="Hero background abstract mathematical graph" class="h-full w-full object-cover opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSdWb_C_G3GHM6NJayjX0wPw5G6sQD9JhTxpEUlNC_wISRbxhVfincuAu6WEJ7pSo1makzk-YhiMC7FY0MWpNNSZR2MqEFmQdsbAF0NZHJgaWYZaXQoERroYNFgI91Wl55nZ3iXWd3YqDGimo7A_OTytOtBzNoCHDzSHZKCvRHt62gWteMOjmualNzi_KiHfq9agJiwxkuJ99boALSr_mLg1pB7yDC-2fXbV-73FBfniRShFwtbt8gAHa1xP-Va1kFUjbSMR4k8Kw"/>
+<div class="absolute inset-0 bg-black/60"></div>
+</div>
+<div class="relative z-10 mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+<div class="max-w-4xl">
+<div class="inline-flex items-center gap-2 rounded border border-white/20 bg-white/10 px-4 py-1.5 text-sm font-medium backdrop-blur-sm mb-8">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+<span class="text-primary font-bold">New:</span> Accepting PhD Applications for Fall 2025
+                    </div>
+<h1 class="text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tighter leading-[1.1] mb-8">
+                        The Future of <br/>
+<span class="text-primary">Machine Intelligence</span>
+</h1>
+<p class="text-xl sm:text-2xl text-gray-200 max-w-2xl leading-relaxed mb-10 font-light">
+                        We are the Colorado AI Research group. We build robust, explainable, and human-centered systems at the intersection of computer vision, NLP, and robotics.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="h-12 px-8 rounded bg-primary text-black font-bold text-lg hover:bg-primary-hover transition-colors shadow-lg">
+                            Explore Our Research
+                        </button>
+<button class="h-12 px-8 rounded border-2 border-white bg-transparent font-bold text-lg hover:bg-white hover:text-black transition-colors">
+                            Meet the Team
+                        </button>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full border-t border-white/10 bg-black/40 backdrop-blur-md py-4">
+<div class="flex overflow-hidden whitespace-nowrap">
+<div class="animate-marquee flex gap-12 px-6 text-sm font-mono text-primary uppercase tracking-widest">
+<span>Latest: "Advances in Neural Rendering" @ CVPR 2024</span>
+<span>•</span>
+<span>New Grant Awarded: NSF Robust Intelligence</span>
+<span>•</span>
+<span>Welcome new faculty: Dr. Sarah Chen</span>
+<span>•</span>
+<span>Upcoming Seminar: Transformer Architectures on Oct 12</span>
+<span>•</span>
+<span>Latest: "Advances in Neural Rendering" @ CVPR 2024</span>
+<span>•</span>
+<span>New Grant Awarded: NSF Robust Intelligence</span>
+<span>•</span>
+<span>Welcome new faculty: Dr. Sarah Chen</span>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-light dark:bg-background-dark border-b border-border-light dark:border-border-dark overflow-hidden">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8 mb-12 flex items-end justify-between">
+<div>
+<h2 class="text-4xl font-bold tracking-tight mb-4 text-black dark:text-white">Impactful Research Areas</h2>
+<p class="text-lg text-text-muted dark:text-text-muted-dark max-w-2xl">
+                        Our work spans fundamental theory to real-world applications, addressing the most challenging problems in AI today.
+                    </p>
+</div>
+<div class="hidden md:flex gap-2">
+<button class="p-3 rounded-full border border-border-light dark:border-border-dark hover:bg-background-alt dark:hover:bg-card-dark transition-colors">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<button class="p-3 rounded-full border border-border-light dark:border-border-dark hover:bg-background-alt dark:hover:bg-card-dark transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="relative w-full">
+<div class="flex gap-6 overflow-x-auto pb-12 px-4 sm:px-6 lg:px-8 no-scrollbar snap-x snap-mandatory">
+<div class="min-w-[85vw] md:min-w-[400px] lg:min-w-[500px] snap-center">
+<div class="group relative aspect-[4/5] md:aspect-[3/4] overflow-hidden rounded-xl bg-black">
+<img alt="Research Area 1" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-70 group-hover:opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe8mfN_G7kd7x6WrMIw_YxCFsjEqT9thbxP1ll0-IoUM3EsZfnmMnf01K7iz4TJBLf4nWw-Tz34Dcztvs2VOe_hEHMGyIEwIs2n01dCspjbft3hMRt36yqPkIfIWspuWQr67Pqg8-sNxGj91tMAX0QOFd0XEQH75D3dgihPETyMEWCmFDP5Dz3DL0RGjKeK8ldn24rd79z3t5vqPJa29mqRqC2eUbq0l9N4qDFUWry-t36ToJow9lHCGgaTwI-QqnmQ-Kvg5DCFCM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded bg-primary text-black">
+<span class="material-symbols-outlined">visibility</span>
+</div>
+<h3 class="text-3xl font-bold text-white mb-2">Computer Vision</h3>
+<p class="text-gray-200 mb-6 line-clamp-3">
+                                From low-light scene understanding to 3D reconstruction, we are pushing the boundaries of how machines perceive the world.
+                            </p>
+<span class="inline-flex items-center text-primary font-bold group-hover:underline underline-offset-4">
+                                View Projects <span class="material-symbols-outlined ml-1 text-lg">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+<div class="min-w-[85vw] md:min-w-[400px] lg:min-w-[500px] snap-center">
+<div class="group relative aspect-[4/5] md:aspect-[3/4] overflow-hidden rounded-xl bg-black">
+<img alt="Research Area 2" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-70 group-hover:opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXjf9IU6pAMV3KL6HuRuimC7j6Knu0kf1_VpABpvyBP8fe7WRIfcGr4KyBfpri7p82Pl0UPAyJ7ImoOvTHb_SwjZTNcFldJmhI-LmA6PQZh1neCBkOJj8MHlSLCS0qTR2311QyRVR7DAHYGDo2K2zwUKAQsmMN9UodJ982tRzjuX43AzJF6e29g9hIP3OPIH3l1L89IpHzQAw6PDiLdEidRdIToDBs04ByibtHMYFd0bn_O3UJM4m_AnW91_rvMkxTAyASddrdpaw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded bg-primary text-black">
+<span class="material-symbols-outlined">chat</span>
+</div>
+<h3 class="text-3xl font-bold text-white mb-2">NLP &amp; LLMs</h3>
+<p class="text-gray-200 mb-6 line-clamp-3">
+                                Investigating bias, reasoning capabilities, and efficiency in large language models to create more equitable AI.
+                            </p>
+<span class="inline-flex items-center text-primary font-bold group-hover:underline underline-offset-4">
+                                View Projects <span class="material-symbols-outlined ml-1 text-lg">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+<div class="min-w-[85vw] md:min-w-[400px] lg:min-w-[500px] snap-center">
+<div class="group relative aspect-[4/5] md:aspect-[3/4] overflow-hidden rounded-xl bg-black">
+<img alt="Research Area 3" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-70 group-hover:opacity-50" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxD1K0L_4u9F_msTI6E0CKwOAhZuXZHeEwB1dim8opPlR8uB2N63xtrdXUIfEV6gIe5MlUIl6rHmE_uLesexDhiOencfhSbbjHH7K85Ek2mXQytRxMefJ5A2AD4Bm1qOOJyYHvn0LOOPa0I7Uwt5vLTucwPh6rNtCgKmH8Wmdx24hCosgQvLAIgV5xqPrmzAfDzaamGadjy6RRCQvy0M9NRqpzDOoIiOVI1qYkSZtpGsPoBuknLPChVUJGGkK1nEFk--aK4ssC1i8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<div class="mb-4 inline-flex h-12 w-12 items-center justify-center rounded bg-primary text-black">
+<span class="material-symbols-outlined">precision_manufacturing</span>
+</div>
+<h3 class="text-3xl font-bold text-white mb-2">Robotics</h3>
+<p class="text-gray-200 mb-6 line-clamp-3">
+                                Bridging the simulation-to-reality gap with reinforcement learning and tactile sensing for dexterous manipulation.
+                            </p>
+<span class="inline-flex items-center text-primary font-bold group-hover:underline underline-offset-4">
+                                View Projects <span class="material-symbols-outlined ml-1 text-lg">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+<div class="min-w-[85vw] md:min-w-[400px] lg:min-w-[500px] snap-center">
+<div class="group relative aspect-[4/5] md:aspect-[3/4] overflow-hidden rounded-xl bg-black">
+<div class="absolute inset-0 bg-black/60 flex items-center justify-center">
+<span class="material-symbols-outlined text-6xl text-white/20">more_horiz</span>
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8">
+<h3 class="text-3xl font-bold text-white mb-2">More Areas</h3>
+<p class="text-gray-200 mb-6">
+                                Explore our work in machine learning theory, AI for science, and human-computer interaction.
+                            </p>
+<span class="inline-flex items-center text-primary font-bold group-hover:underline underline-offset-4">
+                                View All Areas <span class="material-symbols-outlined ml-1 text-lg">arrow_forward</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-alt dark:bg-card-dark">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<div class="lg:col-span-8 flex flex-col gap-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<h2 class="text-3xl font-bold tracking-tight mb-2 text-black dark:text-white">Latest Updates</h2>
+<p class="text-lg text-text-muted dark:text-text-muted-dark">News, publications, and events from the lab.</p>
+</div>
+<a class="text-sm font-bold border-b-2 border-primary pb-0.5 hover:text-primary transition-colors text-black dark:text-white" href="#">View Archive</a>
+</div>
+<div class="grid gap-6 sm:grid-cols-2">
+<article class="group relative flex flex-col h-full bg-white dark:bg-background-dark rounded shadow-sm hover:shadow-md p-6 border-l-4 border-l-primary transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="text-xs font-bold uppercase tracking-wider text-primary">Publication</span>
+<span class="text-xs text-text-muted dark:text-text-muted-dark">May 12, 2024</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-black dark:text-white group-hover:text-cu-blue transition-colors">
+<a href="#">"Advances in Neural Rendering" accepted to CVPR 2024</a>
+</h3>
+<p class="text-text-muted dark:text-text-muted-dark text-sm mb-6 flex-grow">
+                            Our latest work on efficient neural radiance fields has been accepted for oral presentation.
+                        </p>
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<img alt="Avatar" class="h-8 w-8 rounded-full border-2 border-white dark:border-card-dark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtZzh2aLebU_iIeIRGNbXssLiFlMj7np6ojK93SLM8Wn5sRM6dL25dVn5EwQUuPr8V3pGSyUm2PQqdXbZt5zHt5iBgPfel_yLXZ-8aEFAt-Sa5Z3DOOefPOkwMLoCEeCD_FqLOi5Xcvpn_HapKGgqiO6I4t419EVEQ5UuimGi_Wud3xEaKwdgy_MXALyJHhvLu9pZ7DiTzmgZPyqURKArQmkuGfFh_6VByxJrInQ0dPfvbxI0jbFLejIvheUMVN6PbsfS9L5xW4-0"/>
+<img alt="Avatar" class="h-8 w-8 rounded-full border-2 border-white dark:border-card-dark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClr0t1JcXrRowNpAzPHhpJGbs21dVc5tENUnWxQrDwWBsbvQugJGZ6GTpGKG5yrjgnzXdRUBZtAkjBzxDwwCsyk-Vyq5hgUvd98BBbMeQSmb63gHTkpubHMiDsqO2gA9Krx4tDkyFTpkUvNWirA7_XbwPLK7FBMqgHHGIT3pkYUsSk8A_HuVaIZuzU4XZkF8MsiIyR0xxUon5nAcHpKboA61vjvDPaPbSDAEVgv51kyhQ123wmIo_3AIwuMjHyw684rlPUoVEm6Bw"/>
+</div>
+<span class="text-xs font-medium text-text-muted dark:text-text-muted-dark">Author(s)</span>
+</div>
+</article>
+<article class="group relative flex flex-col h-full bg-white dark:bg-background-dark rounded shadow-sm hover:shadow-md p-6 border-l-4 border-l-black dark:border-l-gray-600 transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="text-xs font-bold uppercase tracking-wider text-black dark:text-gray-400">Grant</span>
+<span class="text-xs text-text-muted dark:text-text-muted-dark">April 28, 2024</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-black dark:text-white group-hover:text-cu-blue transition-colors">
+<a href="#">NSF Robust Intelligence Award</a>
+</h3>
+<p class="text-text-muted dark:text-text-muted-dark text-sm mb-6 flex-grow">
+                            We have been awarded a 3-year grant to study safety alignment in autonomous agents.
+                        </p>
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<img alt="Avatar" class="h-8 w-8 rounded-full border-2 border-white dark:border-card-dark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxRGp_AVQiSs1yalnYHL3_1OSZRYy36rf2LZMTSf1kez2oO7PTgKHqg7kUw7zVGsaRzXYulRKO6EvvsP27G7NiClumYe4IpWohvpyGT_1eCig9mARmMQjxdW0zeAjOTGA_x2acIJ7br4Rt3MG0NI3bF0xFSNifaClb7Gf5iZ9tcOWiugJUO0Q4GmbTI903_rdfCC0-jUp9lajsheOHffbFxJ3DvEEneIFRg2C1qSrpSfGX61forS1-tTPRfKPz63yCnT_rpjUpMqY"/>
+</div>
+<span class="text-xs font-medium text-text-muted dark:text-text-muted-dark">Prof. Rodriguez</span>
+</div>
+</article>
+<article class="group relative flex flex-col h-full bg-white dark:bg-background-dark rounded shadow-sm hover:shadow-md p-6 border-l-4 border-l-black dark:border-l-gray-600 transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="text-xs font-bold uppercase tracking-wider text-black dark:text-gray-400">Seminar</span>
+<span class="text-xs text-text-muted dark:text-text-muted-dark">April 15, 2024</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-black dark:text-white group-hover:text-cu-blue transition-colors">
+<a href="#">Guest Lecture: Dr. Geoffrey Hinton</a>
+</h3>
+<p class="text-text-muted dark:text-text-muted-dark text-sm mb-6 flex-grow">
+                            Join us for a special seminar on the future of deep learning.
+                        </p>
+<div class="mt-auto pt-2 border-t border-border-light dark:border-border-dark w-full">
+<div class="flex items-center gap-2 text-xs font-medium mt-2 text-text-muted dark:text-text-muted-dark">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                                DLC 1B70
+                            </div>
+</div>
+</article>
+<article class="group relative flex flex-col h-full bg-white dark:bg-background-dark rounded shadow-sm hover:shadow-md p-6 border-l-4 border-l-black dark:border-l-gray-600 transition-all">
+<div class="flex items-center justify-between mb-4">
+<span class="text-xs font-bold uppercase tracking-wider text-black dark:text-gray-400">Award</span>
+<span class="text-xs text-text-muted dark:text-text-muted-dark">April 02, 2024</span>
+</div>
+<h3 class="text-xl font-bold mb-3 text-black dark:text-white group-hover:text-cu-blue transition-colors">
+<a href="#">Best Paper Finalist at ICRA 2024</a>
+</h3>
+<p class="text-text-muted dark:text-text-muted-dark text-sm mb-6 flex-grow">
+                            Our robotics team was nominated for Best Paper for work on tactile manipulation.
+                        </p>
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2">
+<img alt="Avatar" class="h-8 w-8 rounded-full border-2 border-white dark:border-card-dark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxRGp_AVQiSs1yalnYHL3_1OSZRYy36rf2LZMTSf1kez2oO7PTgKHqg7kUw7zVGsaRzXYulRKO6EvvsP27G7NiClumYe4IpWohvpyGT_1eCig9mARmMQjxdW0zeAjOTGA_x2acIJ7br4Rt3MG0NI3bF0xFSNifaClb7Gf5iZ9tcOWiugJUO0Q4GmbTI903_rdfCC0-jUp9lajsheOHffbFxJ3DvEEneIFRg2C1qSrpSfGX61forS1-tTPRfKPz63yCnT_rpjUpMqY"/>
+<img alt="Avatar" class="h-8 w-8 rounded-full border-2 border-white dark:border-card-dark" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClr0t1JcXrRowNpAzPHhpJGbs21dVc5tENUnWxQrDwWBsbvQugJGZ6GTpGKG5yrjgnzXdRUBZtAkjBzxDwwCsyk-Vyq5hgUvd98BBbMeQSmb63gHTkpubHMiDsqO2gA9Krx4tDkyFTpkUvNWirA7_XbwPLK7FBMqgHHGIT3pkYUsSk8A_HuVaIZuzU4XZkF8MsiIyR0xxUon5nAcHpKboA61vjvDPaPbSDAEVgv51kyhQ123wmIo_3AIwuMjHyw684rlPUoVEm6Bw"/>
+</div>
+<span class="text-xs font-medium text-text-muted dark:text-text-muted-dark">CAIR Robotics</span>
+</div>
+</article>
+</div>
+</div>
+<div class="lg:col-span-4" id="646be3df7ea94f739691c5cf2eb4fef0">
+<div class="bg-white dark:bg-background-dark rounded shadow-sm p-6 h-full flex flex-col sticky top-24">
+<div class="flex items-center justify-between mb-6 border-b border-border-light dark:border-border-dark pb-4">
+<h3 class="text-xl font-bold text-black dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">calendar_month</span>
+                            Upcoming Events
+                        </h3>
+<a class="text-xs font-bold text-primary hover:text-primary-hover uppercase tracking-wider" href="#">View All</a>
+</div>
+<div class="flex flex-col gap-6">
+<div class="group flex gap-4">
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-14 h-14 bg-background-alt dark:bg-card-dark rounded border border-border-light dark:border-border-dark group-hover:border-primary transition-colors">
+<span class="text-xs font-bold text-primary uppercase">Oct</span>
+<span class="text-xl font-bold text-black dark:text-white leading-none">12</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-bold text-sm text-black dark:text-white group-hover:text-cu-blue transition-colors mb-1">
+<a href="#">Transformer Architectures Seminar</a>
+</h4>
+<p class="text-xs text-text-muted dark:text-text-muted-dark mb-1 line-clamp-2">
+                                    Deep dive into the latest efficiency improvements for large scale transformer models.
+                                </p>
+<div class="flex items-center gap-3 text-[10px] font-bold text-text-muted dark:text-text-muted-dark uppercase tracking-wide">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">schedule</span> 2:00 PM</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">location_on</span> DLC 1B50</span>
+</div>
+</div>
+</div>
+<div class="group flex gap-4">
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-14 h-14 bg-background-alt dark:bg-card-dark rounded border border-border-light dark:border-border-dark group-hover:border-primary transition-colors">
+<span class="text-xs font-bold text-primary uppercase">Oct</span>
+<span class="text-xl font-bold text-black dark:text-white leading-none">24</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-bold text-sm text-black dark:text-white group-hover:text-cu-blue transition-colors mb-1">
+<a href="#">PhD Defense: Sarah Jenkins</a>
+</h4>
+<p class="text-xs text-text-muted dark:text-text-muted-dark mb-1 line-clamp-2">
+                                    "Interpretability in Reinforcement Learning Agents for Healthcare Applications"
+                                </p>
+<div class="flex items-center gap-3 text-[10px] font-bold text-text-muted dark:text-text-muted-dark uppercase tracking-wide">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">schedule</span> 10:00 AM</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">location_on</span> ECCR 200</span>
+</div>
+</div>
+</div>
+<div class="group flex gap-4">
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-14 h-14 bg-background-alt dark:bg-card-dark rounded border border-border-light dark:border-border-dark group-hover:border-primary transition-colors">
+<span class="text-xs font-bold text-primary uppercase">Nov</span>
+<span class="text-xl font-bold text-black dark:text-white leading-none">05</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-bold text-sm text-black dark:text-white group-hover:text-cu-blue transition-colors mb-1">
+<a href="#">Fall AI Mixer</a>
+</h4>
+<p class="text-xs text-text-muted dark:text-text-muted-dark mb-1 line-clamp-2">
+                                    Networking event for faculty, students, and industry partners. Light refreshments served.
+                                </p>
+<div class="flex items-center gap-3 text-[10px] font-bold text-text-muted dark:text-text-muted-dark uppercase tracking-wide">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">schedule</span> 5:30 PM</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[12px]">location_on</span> Main Lobby</span>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-border-light dark:border-border-dark">
+<div class="bg-primary/10 rounded p-4 border border-primary/20">
+<h5 class="text-xs font-bold text-primary uppercase mb-1">Mark Your Calendar</h5>
+<p class="text-xs text-text-muted dark:text-text-muted-dark">
+                                The annual CAIR Symposium is scheduled for Dec 15th. Call for abstracts is now open.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-background-light dark:bg-background-dark py-24">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+<div class="max-w-2xl">
+<h2 class="text-4xl font-bold tracking-tight mb-4 text-black dark:text-white">Faculty &amp; Staff</h2>
+<p class="text-lg text-text-muted dark:text-text-muted-dark">Meet the minds behind the research. Our diverse team comprises experts from across the globe, united by a passion for intelligence.</p>
+</div>
+<a class="h-10 px-6 rounded bg-primary text-black flex items-center justify-center text-sm font-bold hover:bg-primary-hover transition-colors" href="#">
+                        Meet the whole team
+                    </a>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-12">
+<div class="flex flex-col items-start gap-4 group cursor-pointer">
+<div class="relative w-full aspect-square rounded overflow-hidden bg-gray-200">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0" data-alt="Portrait of Dr. Elena Rodriguez smiling professionally" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxRGp_AVQiSs1yalnYHL3_1OSZRYy36rf2LZMTSf1kez2oO7PTgKHqg7kUw7zVGsaRzXYulRKO6EvvsP27G7NiClumYe4IpWohvpyGT_1eCig9mARmMQjxdW0zeAjOTGA_x2acIJ7br4Rt3MG0NI3bF0xFSNifaClb7Gf5iZ9tcOWiugJUO0Q4GmbTI903_rdfCC0-jUp9lajsheOHffbFxJ3DvEEneIFRg2C1qSrpSfGX61forS1-tTPRfKPz63yCnT_rpjUpMqY"/>
+</div>
+<div>
+<h4 class="font-bold text-lg leading-tight group-hover:text-primary transition-colors text-black dark:text-white">Dr. Elena Rodriguez</h4>
+<p class="text-sm text-text-muted dark:text-text-muted-dark mt-1">Director</p>
+</div>
+</div>
+<div class="flex flex-col items-start gap-4 group cursor-pointer">
+<div class="relative w-full aspect-square rounded overflow-hidden bg-gray-200">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0" data-alt="Portrait of Prof. David Chen in a suit" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtZzh2aLebU_iIeIRGNbXssLiFlMj7np6ojK93SLM8Wn5sRM6dL25dVn5EwQUuPr8V3pGSyUm2PQqdXbZt5zHt5iBgPfel_yLXZ-8aEFAt-Sa5Z3DOOefPOkwMLoCEeCD_FqLOi5Xcvpn_HapKGgqiO6I4t419EVEQ5UuimGi_Wud3xEaKwdgy_MXALyJHhvLu9pZ7DiTzmgZPyqURKArQmkuGfFh_6VByxJrInQ0dPfvbxI0jbFLejIvheUMVN6PbsfS9L5xW4-0"/>
+</div>
+<div>
+<h4 class="font-bold text-lg leading-tight group-hover:text-primary transition-colors text-black dark:text-white">Prof. David Chen</h4>
+<p class="text-sm text-text-muted dark:text-text-muted-dark mt-1">Lead PI, NLP</p>
+</div>
+</div>
+<div class="flex flex-col items-start gap-4 group cursor-pointer">
+<div class="relative w-full aspect-square rounded overflow-hidden bg-gray-200">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0" data-alt="Portrait of Sarah Jenkins wearing glasses and smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClr0t1JcXrRowNpAzPHhpJGbs21dVc5tENUnWxQrDwWBsbvQugJGZ6GTpGKG5yrjgnzXdRUBZtAkjBzxDwwCsyk-Vyq5hgUvd98BBbMeQSmb63gHTkpubHMiDsqO2gA9Krx4tDkyFTpkUvNWirA7_XbwPLK7FBMqgHHGIT3pkYUsSk8A_HuVaIZuzU4XZkF8MsiIyR0xxUon5nAcHpKboA61vjvDPaPbSDAEVgv51kyhQ123wmIo_3AIwuMjHyw684rlPUoVEm6Bw"/>
+</div>
+<div>
+<h4 class="font-bold text-lg leading-tight group-hover:text-primary transition-colors text-black dark:text-white">Sarah Jenkins</h4>
+<p class="text-sm text-text-muted dark:text-text-muted-dark mt-1">PhD Candidate</p>
+</div>
+</div>
+<div class="flex flex-col items-start gap-4 group cursor-pointer">
+<div class="relative w-full aspect-square rounded overflow-hidden bg-gray-200">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0" data-alt="Portrait of Marcus Johnson looking thoughtful" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBakljQky1Gs8dUvnZHwcDgYBW2zw91MHye72rmZYhhePl_-f4bXUL8_vaqnJTlKMThYDsXKD_FPSPsFEYYyZkzshdpXI1JV61d1_Akkbx8KYeE1OTGLTqw1PA6q2PzYWcLCehQUbGsa3pfX1Pbp-9lwR9PWjrIyq949W4DpIuwCz7AKMEyKRLn-KChBszAkxmxNeyS0vXu7BMum61TrdaBsQKKR6xOl2FdIoo0NubndA2JJHvdp6BuDXiwcV0H75dAA5F4a4Pv93o"/>
+</div>
+<div>
+<h4 class="font-bold text-lg leading-tight group-hover:text-primary transition-colors text-black dark:text-white">Marcus Johnson</h4>
+<p class="text-sm text-text-muted dark:text-text-muted-dark mt-1">Postdoc Researcher</p>
+</div>
+</div>
+<div class="flex flex-col items-start gap-4 group cursor-pointer">
+<div class="relative w-full aspect-square rounded overflow-hidden bg-gray-200">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0" data-alt="Portrait of Priya Patel smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYYktN5bzTEUYQQDs8-a2q4NoA5Wu93yn8tB8UZeIOz31x8ty3vT48K1nkPDvhF8LKPrOESSwpjMJTHKaENgbqi5eYOQJOZH69hwA3viXRPUsqcX4Jy6y6ckc28MU7cvsPpg3t4vPxE1f8yrttCbaByCO3ky38F1POw0G_XIAaKjY6qVw1rSgTa31W3xQiUMl7BcxRuEHOrT0M9PXagQ5tCQ0Z1hxXyF29PwdxBt5uhAH7Rq5dG9E12-tL95B7FCiV3RrkSBCh7Vg"/>
+</div>
+<div>
+<h4 class="font-bold text-lg leading-tight group-hover:text-primary transition-colors text-black dark:text-white">Priya Patel</h4>
+<p class="text-sm text-text-muted dark:text-text-muted-dark mt-1">PhD Candidate</p>
+</div>
+</div>
+<div class="flex flex-col items-start gap-4 group cursor-pointer">
+<div class="relative w-full aspect-square rounded overflow-hidden bg-gray-100 border-2 border-dashed border-border-light dark:border-border-dark flex items-center justify-center group-hover:border-primary transition-colors">
+<span class="material-symbols-outlined text-4xl text-text-muted opacity-50 group-hover:text-primary group-hover:opacity-100 transition-all">add</span>
+</div>
+<div>
+<h4 class="font-bold text-lg leading-tight group-hover:text-primary transition-colors text-black dark:text-white">You?</h4>
+<p class="text-sm text-text-muted dark:text-text-muted-dark mt-1">Join CAIR</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-black dark:bg-card-dark text-white pt-20 pb-12">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-6">
+<div class="flex h-8 w-8 items-center justify-center rounded bg-primary text-black">
+<span class="material-symbols-outlined text-[18px]">bubble_chart</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight">CAIR</h2>
+</div>
+<p class="text-sm text-gray-400 mb-8 leading-relaxed">
+                            Colorado AI Research Group<br/>
+                            University of Colorado Boulder<br/>
+                            Engineering Center<br/>
+                            Boulder, CO 80309
+                        </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition-colors text-white" href="#">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</a>
+<a class="w-10 h-10 rounded bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition-colors text-white" href="#">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</a>
+</div>
+</div>
+<div class="col-span-1">
+<h4 class="font-bold mb-6 text-lg text-white">Research</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Computer Vision</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Natural Language Processing</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Robotics</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Machine Learning</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">AI for Science</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-bold mb-6 text-lg text-white">Group</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">People</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Publications</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">News</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Courses</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Join Us</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-bold mb-6 text-lg text-white">Stay Updated</h4>
+<p class="text-sm text-gray-400 mb-4">
+                        Subscribe to our newsletter for the latest research and events.
+                    </p>
+<form class="flex flex-col gap-2">
+<input class="w-full rounded border-gray-700 bg-gray-900 px-4 py-2 text-sm focus:border-primary focus:ring-primary text-white" placeholder="Email address" type="email"/>
+<button class="w-full rounded bg-primary px-4 py-2 text-sm font-bold text-black hover:bg-primary-hover transition-all">Subscribe</button>
+</form>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+<p>© 2024 University of Colorado Boulder</p>
+<div class="flex gap-6">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Use</a>
+<a class="hover:text-primary" href="#">Accessibility</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

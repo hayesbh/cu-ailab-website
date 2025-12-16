@@ -1,0 +1,383 @@
+
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CAIR - People</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#CFB87C", 
+                        "primary-hover": "#bfa360",
+                        "accent": "#000000",
+                        "background-light": "#ffffff", 
+                        "background-alt": "#f3f3f3", 
+                        "background-dark": "#000000", 
+                        "text-main": "#231f20", 
+                        "text-light": "#ffffff",
+                        "text-muted": "#636363", 
+                        "text-muted-dark": "#b0b0a0",
+                        "card-light": "#ffffff",
+                        "card-dark": "#1a1a1a",
+                        "border-light": "#e0e0e0",
+                        "border-dark": "#333333",
+                        "cu-blue": "#005e9c",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.375rem", "xl": "0.5rem", "2xl": "1rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-text-light font-display antialiased transition-colors duration-200">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-border-light dark:border-border-dark bg-background-light/95 dark:bg-background-dark/90 backdrop-blur-md">
+<div class="mx-auto flex h-20 max-w-[1400px] items-center justify-between px-4 sm:px-6 lg:px-8">
+<div class="flex items-center gap-4">
+<a class="flex items-center gap-4 group" href="#">
+<div class="flex h-10 w-10 items-center justify-center rounded bg-black text-white dark:bg-primary dark:text-text-main group-hover:bg-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">bubble_chart</span>
+</div>
+<div>
+<h2 class="text-xl font-bold tracking-tight leading-none">CAIR</h2>
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark uppercase tracking-wide">University of Colorado Boulder</p>
+</div>
+</a>
+</div>
+<nav class="hidden lg:flex items-center gap-6">
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">Research</a>
+<a class="text-sm font-bold text-primary transition-colors" href="#">People</a>
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">Publications</a>
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">Courses</a>
+<a class="text-sm font-bold text-text-main hover:text-primary transition-colors" href="#">News</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex h-10 items-center justify-center rounded bg-black dark:bg-primary px-6 text-sm font-bold text-white dark:text-text-main hover:bg-gray-800 transition-all">
+                        Join Us
+                    </button>
+<button class="lg:hidden p-2 text-text-main dark:text-text-light">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="bg-background-dark text-white pt-20 pb-20 border-b border-gray-800">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+<div class="max-w-3xl">
+<div class="inline-flex items-center gap-2 rounded border border-white/20 bg-white/10 px-3 py-1 text-xs font-medium backdrop-blur-sm mb-6 text-primary">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+<span>Faculty &amp; Staff</span>
+</div>
+<h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-6">Meet the Team</h1>
+<p class="text-xl text-gray-300 font-light leading-relaxed">
+                            Our diverse team of researchers, engineers, and students is dedicated to advancing the field of Artificial Intelligence.
+                        </p>
+</div>
+</div>
+</section>
+<div class="sticky top-20 z-40 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur border-b border-border-light dark:border-border-dark shadow-sm">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex flex-col md:flex-row gap-4 items-center justify-between">
+<div class="flex items-center gap-2 overflow-x-auto w-full md:w-auto no-scrollbar pb-1 md:pb-0">
+<button class="px-4 py-2 rounded-full text-sm font-bold bg-black text-white dark:bg-white dark:text-black whitespace-nowrap">
+                                All Members
+                            </button>
+<button class="px-4 py-2 rounded-full text-sm font-bold bg-background-alt text-text-muted hover:bg-gray-200 dark:bg-card-dark dark:text-gray-400 dark:hover:text-white transition-colors whitespace-nowrap">
+                                Faculty
+                            </button>
+<button class="px-4 py-2 rounded-full text-sm font-bold bg-background-alt text-text-muted hover:bg-gray-200 dark:bg-card-dark dark:text-gray-400 dark:hover:text-white transition-colors whitespace-nowrap">
+                                Postdocs
+                            </button>
+<button class="px-4 py-2 rounded-full text-sm font-bold bg-background-alt text-text-muted hover:bg-gray-200 dark:bg-card-dark dark:text-gray-400 dark:hover:text-white transition-colors whitespace-nowrap">
+                                PhD Students
+                            </button>
+<button class="px-4 py-2 rounded-full text-sm font-bold bg-background-alt text-text-muted hover:bg-gray-200 dark:bg-card-dark dark:text-gray-400 dark:hover:text-white transition-colors whitespace-nowrap">
+                                Alumni
+                            </button>
+</div>
+<div class="relative w-full md:w-72">
+<span class="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</span>
+<input class="w-full pl-10 pr-4 py-2 rounded bg-background-alt dark:bg-card-dark border-transparent focus:border-primary focus:ring-0 text-sm" placeholder="Search by name or keyword..." type="text"/>
+</div>
+</div>
+</div>
+</div>
+<section class="py-16 bg-background-light dark:bg-background-dark min-h-screen">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+<div class="group flex flex-col bg-white dark:bg-card-dark border border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+<div class="relative aspect-[4/4] overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Dr. Elena Rodriguez" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxRGp_AVQiSs1yalnYHL3_1OSZRYy36rf2LZMTSf1kez2oO7PTgKHqg7kUw7zVGsaRzXYulRKO6EvvsP27G7NiClumYe4IpWohvpyGT_1eCig9mARmMQjxdW0zeAjOTGA_x2acIJ7br4Rt3MG0NI3bF0xFSNifaClb7Gf5iZ9tcOWiugJUO0Q4GmbTI903_rdfCC0-jUp9lajsheOHffbFxJ3DvEEneIFRg2C1qSrpSfGX61forS1-tTPRfKPz63yCnT_rpjUpMqY"/>
+<div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="bg-primary text-black p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[20px] block">mail</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="mb-2">
+<span class="inline-block px-2 py-0.5 rounded bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wider mb-2">Director</span>
+<h3 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Dr. Elena Rodriguez</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark">Professor, Computer Science</p>
+</div>
+<div class="mt-auto pt-4 border-t border-dashed border-border-light dark:border-border-dark">
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark mb-2 uppercase tracking-wide">Interests</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Computer Vision</span>
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Robotics</span>
+</div>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-white dark:bg-card-dark border border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+<div class="relative aspect-[4/4] overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Prof. David Chen" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtZzh2aLebU_iIeIRGNbXssLiFlMj7np6ojK93SLM8Wn5sRM6dL25dVn5EwQUuPr8V3pGSyUm2PQqdXbZt5zHt5iBgPfel_yLXZ-8aEFAt-Sa5Z3DOOefPOkwMLoCEeCD_FqLOi5Xcvpn_HapKGgqiO6I4t419EVEQ5UuimGi_Wud3xEaKwdgy_MXALyJHhvLu9pZ7DiTzmgZPyqURKArQmkuGfFh_6VByxJrInQ0dPfvbxI0jbFLejIvheUMVN6PbsfS9L5xW4-0"/>
+<div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="bg-primary text-black p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[20px] block">mail</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="mb-2">
+<span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-text-muted dark:text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-2">Faculty</span>
+<h3 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Prof. David Chen</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark">Associate Professor, NLP</p>
+</div>
+<div class="mt-auto pt-4 border-t border-dashed border-border-light dark:border-border-dark">
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark mb-2 uppercase tracking-wide">Interests</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">NLP</span>
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">LLMs</span>
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Ethics</span>
+</div>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-white dark:bg-card-dark border border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+<div class="relative aspect-[4/4] overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Marcus Johnson" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBakljQky1Gs8dUvnZHwcDgYBW2zw91MHye72rmZYhhePl_-f4bXUL8_vaqnJTlKMThYDsXKD_FPSPsFEYYyZkzshdpXI1JV61d1_Akkbx8KYeE1OTGLTqw1PA6q2PzYWcLCehQUbGsa3pfX1Pbp-9lwR9PWjrIyq949W4DpIuwCz7AKMEyKRLn-KChBszAkxmxNeyS0vXu7BMum61TrdaBsQKKR6xOl2FdIoo0NubndA2JJHvdp6BuDXiwcV0H75dAA5F4a4Pv93o"/>
+<div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="bg-primary text-black p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[20px] block">mail</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="mb-2">
+<span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-text-muted dark:text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-2">Postdoc</span>
+<h3 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Dr. Marcus Johnson</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark">Postdoctoral Researcher</p>
+</div>
+<div class="mt-auto pt-4 border-t border-dashed border-border-light dark:border-border-dark">
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark mb-2 uppercase tracking-wide">Interests</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Reinforcement Learning</span>
+</div>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-white dark:bg-card-dark border border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+<div class="relative aspect-[4/4] overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Sarah Jenkins" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClr0t1JcXrRowNpAzPHhpJGbs21dVc5tENUnWxQrDwWBsbvQugJGZ6GTpGKG5yrjgnzXdRUBZtAkjBzxDwwCsyk-Vyq5hgUvd98BBbMeQSmb63gHTkpubHMiDsqO2gA9Krx4tDkyFTpkUvNWirA7_XbwPLK7FBMqgHHGIT3pkYUsSk8A_HuVaIZuzU4XZkF8MsiIyR0xxUon5nAcHpKboA61vjvDPaPbSDAEVgv51kyhQ123wmIo_3AIwuMjHyw684rlPUoVEm6Bw"/>
+<div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="bg-primary text-black p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[20px] block">mail</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="mb-2">
+<span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-text-muted dark:text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-2">PhD Candidate</span>
+<h3 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Sarah Jenkins</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark">Computer Science</p>
+</div>
+<div class="mt-auto pt-4 border-t border-dashed border-border-light dark:border-border-dark">
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark mb-2 uppercase tracking-wide">Interests</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">HCI</span>
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Accessible AI</span>
+</div>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-white dark:bg-card-dark border border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+<div class="relative aspect-[4/4] overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Priya Patel" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYYktN5bzTEUYQQDs8-a2q4NoA5Wu93yn8tB8UZeIOz31x8ty3vT48K1nkPDvhF8LKPrOESSwpjMJTHKaENgbqi5eYOQJOZH69hwA3viXRPUsqcX4Jy6y6ckc28MU7cvsPpg3t4vPxE1f8yrttCbaByCO3ky38F1POw0G_XIAaKjY6qVw1rSgTa31W3xQiUMl7BcxRuEHOrT0M9PXagQ5tCQ0Z1hxXyF29PwdxBt5uhAH7Rq5dG9E12-tL95B7FCiV3RrkSBCh7Vg"/>
+<div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="bg-primary text-black p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[20px] block">mail</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="mb-2">
+<span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-text-muted dark:text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-2">PhD Candidate</span>
+<h3 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Priya Patel</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark">Robotics &amp; Control</p>
+</div>
+<div class="mt-auto pt-4 border-t border-dashed border-border-light dark:border-border-dark">
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark mb-2 uppercase tracking-wide">Interests</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Robot Manipulation</span>
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Tactile Sensing</span>
+</div>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-white dark:bg-card-dark border border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+<div class="relative aspect-[4/4] overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="Staff Member" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxRGp_AVQiSs1yalnYHL3_1OSZRYy36rf2LZMTSf1kez2oO7PTgKHqg7kUw7zVGsaRzXYulRKO6EvvsP27G7NiClumYe4IpWohvpyGT_1eCig9mARmMQjxdW0zeAjOTGA_x2acIJ7br4Rt3MG0NI3bF0xFSNifaClb7Gf5iZ9tcOWiugJUO0Q4GmbTI903_rdfCC0-jUp9lajsheOHffbFxJ3DvEEneIFRg2C1qSrpSfGX61forS1-tTPRfKPz63yCnT_rpjUpMqY"/>
+<div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="bg-primary text-black p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[20px] block">mail</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="mb-2">
+<span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-text-muted dark:text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-2">Staff</span>
+<h3 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">James Wilson</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark">Lab Manager</p>
+</div>
+<div class="mt-auto pt-4 border-t border-dashed border-border-light dark:border-border-dark">
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark mb-2 uppercase tracking-wide">Focus</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Operations</span>
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Grant Management</span>
+</div>
+</div>
+</div>
+</div>
+<div class="group flex flex-col bg-white dark:bg-card-dark border border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:shadow-lg hover:border-primary/50 transition-all duration-300">
+<div class="relative aspect-[4/4] overflow-hidden bg-gray-100 dark:bg-gray-800">
+<img alt="PhD Student" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 grayscale group-hover:grayscale-0" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClr0t1JcXrRowNpAzPHhpJGbs21dVc5tENUnWxQrDwWBsbvQugJGZ6GTpGKG5yrjgnzXdRUBZtAkjBzxDwwCsyk-Vyq5hgUvd98BBbMeQSmb63gHTkpubHMiDsqO2gA9Krx4tDkyFTpkUvNWirA7_XbwPLK7FBMqgHHGIT3pkYUsSk8A_HuVaIZuzU4XZkF8MsiIyR0xxUon5nAcHpKboA61vjvDPaPbSDAEVgv51kyhQ123wmIo_3AIwuMjHyw684rlPUoVEm6Bw"/>
+<div class="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+<div class="bg-primary text-black p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined text-[20px] block">mail</span>
+</div>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<div class="mb-2">
+<span class="inline-block px-2 py-0.5 rounded bg-gray-100 dark:bg-gray-800 text-text-muted dark:text-gray-400 text-[10px] font-bold uppercase tracking-wider mb-2">PhD Student</span>
+<h3 class="text-xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">Alex Thorne</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark">Applied Math</p>
+</div>
+<div class="mt-auto pt-4 border-t border-dashed border-border-light dark:border-border-dark">
+<p class="text-xs font-bold text-text-muted dark:text-text-muted-dark mb-2 uppercase tracking-wide">Interests</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Optimization</span>
+<span class="px-2 py-1 rounded bg-background-alt dark:bg-gray-800 text-xs font-medium text-text-main dark:text-gray-300">Deep Learning</span>
+</div>
+</div>
+</div>
+</div>
+<a class="group flex flex-col h-full bg-background-alt dark:bg-card-dark border-2 border-dashed border-border-light dark:border-border-dark rounded-lg overflow-hidden hover:border-primary hover:bg-white dark:hover:bg-gray-900 transition-all duration-300 cursor-pointer min-h-[300px]" href="#">
+<div class="flex-1 flex flex-col items-center justify-center p-8 text-center">
+<div class="mb-6 h-20 w-20 rounded-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-4xl text-gray-400 dark:text-gray-600 group-hover:text-primary transition-colors">person_add</span>
+</div>
+<h3 class="text-2xl font-bold text-text-main dark:text-white mb-2">Join the Team</h3>
+<p class="text-sm text-text-muted dark:text-text-muted-dark mb-6">We are always looking for talented PhD students and Postdocs.</p>
+<span class="inline-flex items-center text-sm font-bold text-primary group-hover:underline underline-offset-4">
+                                    View Openings <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-black dark:bg-card-dark text-white pt-20 pb-12">
+<div class="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-6">
+<div class="flex h-8 w-8 items-center justify-center rounded bg-primary text-black">
+<span class="material-symbols-outlined text-[18px]">bubble_chart</span>
+</div>
+<h2 class="text-xl font-bold tracking-tight">CAIR</h2>
+</div>
+<p class="text-sm text-gray-400 mb-8 leading-relaxed">
+                            Colorado AI Research Group<br/>
+                            University of Colorado Boulder<br/>
+                            Engineering Center<br/>
+                            Boulder, CO 80309
+                        </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition-colors text-white" href="#">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</a>
+<a class="w-10 h-10 rounded bg-gray-800 flex items-center justify-center hover:bg-primary hover:text-black transition-colors text-white" href="#">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+</a>
+</div>
+</div>
+<div class="col-span-1">
+<h4 class="font-bold mb-6 text-lg text-white">Research</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Computer Vision</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Natural Language Processing</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Robotics</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Machine Learning</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">AI for Science</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-bold mb-6 text-lg text-white">Group</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">People</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Publications</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">News</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Courses</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Join Us</a></li>
+</ul>
+</div>
+<div class="col-span-1">
+<h4 class="font-bold mb-6 text-lg text-white">Stay Updated</h4>
+<p class="text-sm text-gray-400 mb-4">
+                            Subscribe to our newsletter for the latest research and events.
+                        </p>
+<form class="flex flex-col gap-2">
+<input class="w-full rounded border-gray-700 bg-gray-900 px-4 py-2 text-sm focus:border-primary focus:ring-primary text-white" placeholder="Email address" type="email"/>
+<button class="w-full rounded bg-primary px-4 py-2 text-sm font-bold text-black hover:bg-primary-hover transition-all">Subscribe</button>
+</form>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+<p>© 2024 University of Colorado Boulder</p>
+<div class="flex gap-6">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Use</a>
+<a class="hover:text-primary" href="#">Accessibility</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

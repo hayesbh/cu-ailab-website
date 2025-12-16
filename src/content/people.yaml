@@ -1,0 +1,32 @@
+faculty:
+  - name: "Prof. Christoffer Heckman"
+    role: "Director, Associate Professor"
+    image: "https://www.colorado.edu/researchinnovation/sites/default/files/styles/large_image_style/public/people/chrisheckman500.png?itok=2cmVU6fk"
+    link: "https://arpg.colorado.edu/"
+    interests: ["Foundation Models", "VLMs", "Robotics"]
+  - name: "Prof. Bradley Hayes"
+    role: "Associate Professor"
+    image: "https://www.bradhayes.info/headshot.jpg"
+    link: "https://www.bradhayes.info/"
+    interests: ["Human-Centric AI", "Computer Vision", "Robotics"]
+  - name: "Prof. Esther Rolf"
+    role: "Assistant Professor"
+    image: "https://www.estherrolf.com/imgs/esther_2019_cropped.JPG"
+    link: "https://www.estherrolf.com/"
+    interests: ["Climate Science", "Computer Vision", "Machine Learning"]
+students:
+  - name: "Sarah Jenkins"
+    role: "PhD Candidate"
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuClr0t1JcXrRowNpAzPHhpJGbs21dVc5tENUnWxQrDwWBsbvQugJGZ6GTpGKG5yrjgnzXdRUBZtAkjBzxDwwCsyk-Vyq5hgUvd98BBbMeQSmb63gHTkpubHMiDsqO2gA9Krx4tDkyFTpkUvNWirA7_XbwPLK7FBMqgHHGIT3pkYUsSk8A_HuVaIZuzU4XZkF8MsiIyR0xxUon5nAcHpKboA61vjvDPaPbSDAEVgv51kyhQ123wmIo_3AIwuMjHyw684rlPUoVEm6Bw"
+    link: "#"
+    interests: ["HCI", "Accessible AI"]
+  - name: "Marcus Johnson"
+    role: "Postdoctoral Researcher"
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBakljQky1Gs8dUvnZHwcDgYBW2zw91MHye72rmZYhhePl_-f4bXUL8_vaqnJTlKMThYDsXKD_FPSPsFEYYyZkzshdpXI1JV61d1_Akkbx8KYeE1OTGLTqw1PA6q2PzYWcLCehQUbGsa3pfX1Pbp-9lwR9PWjrIyq949W4DpIuwCz7AKMEyKRLn-KChBszAkxmxNeyS0vXu7BMum61TrdaBsQKKR6xOl2FdIoo0NubndA2JJHvdp6BuDXiwcV0H75dAA5F4a4Pv93o"
+    link: "#"
+    interests: ["Reinforcement Learning"]
+  - name: "Priya Patel"
+    role: "PhD Candidate"
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBYYktN5bzTEUYQQDs8-a2q4NoA5Wu93yn8tB8UZeIOz31x8ty3vT48K1nkPDvhF8LKPrOESSwpjMJTHKaENgbqi5eYOQJOZH69hwA3viXRPUsqcX4Jy6y6ckc28MU7cvsPpg3t4vPxE1f8yrttCbaByCO3ky38F1POw0G_XIAaKjY6qVw1rSgTa31W3xQiUMl7BcxRuEHOrT0M9PXagQ5tCQ0Z1hxXyF29PwdxBt5uhAH7Rq5dG9E12-tL95B7FCiV3RrkSBCh7Vg"
+    link: "#"
+    interests: ["Robot Manipulation", "Tactile Sensing"]

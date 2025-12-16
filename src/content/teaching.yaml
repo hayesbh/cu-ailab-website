@@ -1,0 +1,462 @@
+hero:
+  title: "Forging the Future of **Intelligence**"
+  subtitle: "Explore the AI curriculum at CAIR and build your personalized academic journey in artificial intelligence, machine learning, and robotics."
+  button_text: "Start Building Curriculum"
+  image_url: "teaching-skyline.png"
+
+courses:
+  - id: "csci-5434"
+    code: "CSCI 5434"
+    title: "Prob for Comp Sci"
+    description: "Probability theory applied to computer science problems."
+    credits: 3
+    type: "core"
+    semesters: ["Fall", "Spring"]
+    requisites: []
+    skills:
+      Math: 50
+    instructor: "Rafael Frongillo"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1000, y: 50 }
+    icon: "trending_up"
+
+  - id: "csci-5202"
+    code: "CSCI 5202"
+    title: "Introduction to Robotics"
+    description: "Foundational concepts in robotics, including kinematics and control."
+    credits: 3
+    type: "core"
+    semesters: ["Fall"]
+    requisites: []
+    skills:
+      Robotics: 30
+      Math: 20
+    instructor: "Alessandro Roncone"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 400, y: 150 }
+    icon: "precision_manufacturing"
+
+  - id: "csci-5602"
+    code: "CSCI 5602"
+    title: "Intro to AI"
+    description: "Core principles of artificial intelligence and intelligent agents."
+    credits: 3
+    type: "core"
+    semesters: ["Fall", "Spring"]
+    requisites: []
+    skills:
+      AI: 30
+      Python: 10
+    instructor: "Ashutosh Trivedi"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 800, y: 150 }
+    icon: "psychology"
+
+  - id: "csci-5722"
+    code: "CSCI 5722"
+    title: "Computer Vision"
+    description: "Image processing, feature extraction, and object recognition."
+    credits: 3
+    type: "core"
+    semesters: ["Fall"]
+    requisites: []
+    skills:
+      Vision: 40
+      Math: 20
+    instructor: "Danna Gurari"
+    status: "Waitlist"
+    level: "Graduate"
+    coordinates: { x: 1200, y: 150 }
+    icon: "visibility"
+
+  - id: "csci-5622"
+    code: "CSCI 5622"
+    title: "Machine Learning"
+    description: "Comprehensive introduction to machine learning algorithms."
+    credits: 3
+    type: "core"
+    semesters: ["Fall", "Spring"]
+    requisites: ["csci-5434"]
+    skills:
+      ML: 50
+      Python: 20
+    instructor: "Esther Rolf"
+    status: "Waitlist"
+    level: "Graduate"
+    coordinates: { x: 1600, y: 150 }
+    icon: "model_training"
+
+  - id: "csci-5302"
+    code: "CSCI 5302"
+    title: "Adv Robotics"
+    description: "Advanced topics in robotic manipulation and planning."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: ["csci-5202"]
+    skills:
+      Robotics: 50
+      Python: 20
+    instructor: "Bradley Hayes"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 200, y: 300 }
+    icon: "robot_2"
+
+  - id: "csci-5322"
+    code: "CSCI 5322"
+    title: "Algorithmic HRI"
+    description: "Algorithmic Foundations of Human-Robot Interaction."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: ["csci-5202"]
+    skills:
+      Robotics: 30
+      HRI: 40
+    instructor: "Bradley Hayes"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 500, y: 300 }
+    icon: "face"
+
+  - id: "csci-5264"
+    code: "CSCI 5264"
+    title: "Decision Making"
+    description: "Decision Making under Uncertainty, MDPs, and POMDPs."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall"]
+    requisites: ["csci-5434"]
+    skills:
+      Math: 30
+      AI: 20
+    instructor: "Christoffer Heckman"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 700, y: 300 }
+    icon: "call_split"
+
+  - id: "csci-5352"
+    code: "CSCI 5352"
+    title: "Network Analysis"
+    description: "Network Analysis and Modeling of complex systems."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall"]
+    requisites: ["csci-5434"]
+    skills:
+      Data: 30
+      Math: 20
+    instructor: "Bo Waggoner"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 900, y: 300 }
+    icon: "hub"
+
+  - id: "csci-6712"
+    code: "CSCI 6712"
+    title: "Data-Centric CV"
+    description: "Data-Centric Computer Vision."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: ["csci-5722"]
+    skills:
+      Vision: 40
+      Data: 30
+    instructor: "Danna Gurari"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1200, y: 300 }
+    icon: "image_search"
+
+  - id: "csci-5932"
+    code: "CSCI 5932"
+    title: "Deep RL"
+    description: "Deep Reinforcement Learning theory and practical applications."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: ["csci-5622"]
+    skills:
+      ML: 40
+      RL: 40
+    instructor: "Alessandro Roncone"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1400, y: 300 }
+    icon: "smart_toy"
+
+  - id: "csci-5922"
+    code: "CSCI 5922"
+    title: "Neural Nets & DL"
+    description: "Architectures and training of neural networks."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall"]
+    requisites: ["csci-5622"]
+    skills:
+      ML: 40
+      AI: 30
+    instructor: "Nicolaus Correll"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1800, y: 300 }
+    icon: "neurology"
+
+  - id: "csci-5832"
+    code: "CSCI 5832"
+    title: "NLP"
+    description: "Natural Language Processing algorithms and models."
+    credits: 3
+    type: "core"
+    semesters: ["Spring"]
+    requisites: ["csci-5622"]
+    skills:
+      NLP: 40
+      Python: 20
+    instructor: "Maria Antoniak"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1600, y: 300 }
+    icon: "translate"
+
+  - id: "csci-6502"
+    code: "CSCI 6502"
+    title: "Big Data Analytics"
+    description: "Techniques for processing and analyzing massive datasets."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: []
+    skills:
+      Data: 50
+    instructor: "David Quigley"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1900, y: 200 }
+    icon: "storage"
+
+  - id: "csci-7000-robot-learning"
+    code: "CSCI 7000"
+    title: "Robot Learning"
+    description: "Machine learning techniques applied to robotics."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: ["csci-5202", "csci-5622"]
+    skills:
+      Robotics: 40
+      ML: 40
+    instructor: "Mark Zhao"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 300, y: 450 }
+    icon: "smart_toy"
+
+  - id: "csci-7000-neur-sym-ai"
+    code: "CSCI 7000"
+    title: "Neurosymbolic AI"
+    description: "Integration of connectionist and symbolic AI."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall"]
+    requisites: ["csci-5602"]
+    skills:
+      AI: 50
+    instructor: "Alvaro Velasquez"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 800, y: 450 }
+    icon: "extension"
+
+  - id: "csci-7000-vlam"
+    code: "CSCI 7000"
+    title: "Vision Lang Action"
+    description: "Vision Language Action Models."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall"]
+    requisites: ["csci-5722", "csci-5832"]
+    skills:
+      Vision: 30
+      NLP: 30
+      Robotics: 30
+    instructor: "Theodora Chaspari"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1200, y: 450 }
+    icon: "view_in_ar"
+
+  - id: "csci-7000-geo-ml"
+    code: "CSCI 7000"
+    title: "Geospatial ML"
+    description: "Geospatial and Statistical Machine Learning."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: ["csci-5622"]
+    skills:
+      ML: 40
+      Data: 30
+    instructor: "Esther Rolf"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1500, y: 450 }
+    icon: "map"
+
+  - id: "csci-7000-dlnlp"
+    code: "CSCI 7000"
+    title: "Deep Learning NLP"
+    description: "Deep learning approaches for natural language processing."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall"]
+    requisites: ["csci-5832"]
+    skills:
+      NLP: 50
+      ML: 30
+    instructor: "James Martin"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1700, y: 450 }
+    icon: "chat"
+
+  - id: "csci-7000-neuro-sym-nlp"
+    code: "CSCI 7000"
+    title: "Neuro-Symbolic NLP"
+    description: "Combining neural and symbolic methods for NLP."
+    credits: 3
+    type: "elective"
+    semesters: ["Spring"]
+    requisites: ["csci-5832"]
+    skills:
+      NLP: 40
+      AI: 40
+    instructor: "Maria Pacheco"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 1900, y: 450 }
+    icon: "psychology_alt"
+
+  - id: "csci-7000-nlp-culture"
+    code: "CSCI 7000"
+    title: "NLP Cultural"
+    description: "NLP for Cultural Analytics."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall"]
+    requisites: ["csci-5832"]
+    skills:
+      NLP: 30
+      Data: 30
+    instructor: "Maria Antoniak"
+    status: "Open"
+    level: "Graduate"
+    coordinates: { x: 2100, y: 450 }
+    icon: "public"
+
+  - id: "csci-7000-res-sem-nlp"
+    code: "CSCI 7000"
+    title: "Research Sem NLP"
+    description: "Research Seminar in Natural Language Processing."
+    credits: 3
+    type: "elective"
+    semesters: ["Fall", "Spring"]
+    requisites: []
+    skills:
+      Research: 50
+      NLP: 30
+    instructor: "James Martin"
+    status: "Closed"
+    level: "Graduate"
+    coordinates: { x: 1000, y: 550 }
+    icon: "school"
+
+degree_programs:
+  - title: "MS in Computer Science"
+    description: "A rigorous program combining traditional computer science theory with specialized tracks in Artificial Intelligence. Ideal for those seeking a deep technical foundation."
+    type: "light"
+    icon: "code"
+    features:
+      - "30 Credit Hours"
+      - "Thesis & Non-Thesis Options"
+    link_text: "View Curriculum"
+    link_url: "#"
+
+  - title: "PhD in Computer Science"
+    description: "Research-first focus designed for future academic and industrial leaders. Work directly with CAIR faculty on groundbreaking AI methodologies."
+    type: "dark"
+    icon: "psychology"
+    features:
+      - "Fully Funded Positions"
+      - "Publication Focus"
+    link_text: "Explore Research"
+    link_url: "#"
+
+  - title: "Professional MS in AI"
+    description: "Application-based mastery for industry professionals. Focuses on deploying scalable AI systems, ethics, and real-world problem solving."
+    type: "light"
+    icon: "smart_toy"
+    features:
+      - "Project-Based Learning"
+      - "Industry Partnerships"
+    link_text: "Program Details"
+    link_url: "#"
+
+instructors:
+  - name: "Alessandro Roncone"
+    role: "Robotics & AI"
+    image: ""
+  - name: "Alvaro Velasquez"
+    role: "Neurosymbolic AI"
+    image: ""
+  - name: "Ashutosh Trivedi"
+    role: "Formal Methods & AI"
+    image: ""
+  - name: "Bo Waggoner"
+    role: "Econ & CS"
+    image: ""
+  - name: "Bradley Hayes"
+    role: "HRI & Robotics"
+    image: ""
+  - name: "Christoffer Heckman"
+    role: "Robotics & Perception"
+    image: ""
+  - name: "Danna Gurari"
+    role: "Computer Vision"
+    image: ""
+  - name: "David Quigley"
+    role: "Systems & Data"
+    image: ""
+  - name: "Esther Rolf"
+    role: "ML & Statistics"
+    image: ""
+  - name: "James Martin"
+    role: "NLP"
+    image: ""
+  - name: "Maria Antoniak"
+    role: "NLP & CSS"
+    image: ""
+  - name: "Maria Pacheco"
+    role: "NLP"
+    image: ""
+  - name: "Mark Zhao"
+    role: "Robot Learning"
+    image: ""
+  - name: "Nicolaus Correll"
+    role: "Robotics"
+    image: ""
+  - name: "Rafael Frongillo"
+    role: "Economics & Computation"
+    image: ""
+  - name: "Theodora Chaspari"
+    role: "Affective Computing"
+    image: ""
+
+catalog_filters:
+  semesters: ["Fall 2024", "Spring 2025"]

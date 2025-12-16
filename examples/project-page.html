@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CAIR - Project Feature</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f9f506",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#23220f",
+                        "text-main": "#181811",
+                        "text-sub": "#8c8b5f",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main font-display min-h-screen flex flex-col overflow-x-hidden">
+<header class="w-full px-6 py-4 lg:px-10 border-b border-[#e5e5dc] dark:border-[#3a3928] bg-background-light dark:bg-background-dark sticky top-0 z-50">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<a class="flex items-center gap-3" href="#">
+<div class="size-8 rounded-full bg-text-main text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-xl font-bold">diamond</span>
+</div>
+<h1 class="text-2xl font-bold tracking-tight dark:text-white">CAIR</h1>
+</a>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">Home</a>
+<a class="text-sm font-medium text-text-sub cursor-default border-b-2 border-primary pb-0.5 dark:text-primary" href="#">Research</a>
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">People</a>
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">Teaching</a>
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">Contact</a>
+</nav>
+<button class="hidden md:flex h-10 px-6 items-center justify-center rounded-full bg-primary text-text-main text-sm font-bold hover:bg-primary/90 transition-colors">
+                Join Us
+            </button>
+<button class="md:hidden p-2 text-text-main dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+<div class="flex items-center gap-2 text-sm text-text-sub dark:text-gray-500">
+<a class="hover:text-text-main dark:hover:text-white transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-lg">arrow_back</span>
+                Back to Research
+            </a>
+<span class="opacity-50">/</span>
+<span>Projects</span>
+</div>
+<header class="flex flex-col gap-6 max-w-4xl">
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-primary text-text-main text-xs font-bold rounded-full uppercase tracking-wider">Climate AI</span>
+<span class="px-3 py-1 bg-white border border-[#e5e5dc] dark:bg-[#32311b] dark:border-[#3a3928] dark:text-gray-300 text-text-main text-xs font-bold rounded-full uppercase tracking-wider">Machine Learning</span>
+</div>
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight dark:text-white">
+                Generative Models for Climate Science
+            </h1>
+<p class="text-xl md:text-2xl text-text-sub dark:text-gray-400 font-normal leading-relaxed">
+                Developing novel diffusion models to predict extreme weather events with higher accuracy than traditional meteorological simulations.
+            </p>
+</header>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+<div class="lg:col-span-8 space-y-12">
+<div class="w-full rounded-[2rem] overflow-hidden shadow-sm aspect-video bg-gray-100 dark:bg-[#32311b]">
+<img alt="Abstract visualization of neural networks connecting global climate data points" class="w-full h-full object-cover filter brightness-95" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5YnG3XZ7gMrxPPeeyKK1Tv5b_dEKIMHudACvyA_dOrhyXMg8hyhvzCuoKxmgMVFbDbhiiR-Ctuf9J7bm2eiX13PcLY_XEridIH35Ct6-1lbkYaVZtGn4JYgKqYATp9dH3fLwR_69oX8o6kLNDjW3RXtJNrcKjnvNSrNFOCIyv2C62nKLbB4yWyexND9CuKThv1oigBHcVVFCI3INaGedMIVrwItEcpZfM1JcZPCmbPDo-iBF_lZHQ_YhEQlF5-GTHuEpnhG2uCtk"/>
+</div>
+<article class="prose prose-lg dark:prose-invert max-w-none text-text-main dark:text-gray-300 leading-relaxed font-display">
+<h3 class="text-2xl font-bold mb-4 text-text-main dark:text-white">Project Overview</h3>
+<p class="mb-6">
+                        Climate change poses an existential threat to humanity, necessitating accurate and timely predictions of extreme weather events. Traditional numerical weather prediction (NWP) models, while effective, are computationally expensive and often struggle with capturing fine-grained spatiotemporal dependencies. Our research introduces a novel class of generative diffusion models tailored for climate science.
+                    </p>
+<p class="mb-6">
+                        By leveraging large-scale historical climate data, our models learn the underlying probability distributions of weather patterns. This allows for the rapid generation of high-fidelity forecasts and the simulation of rare, extreme events that are often underrepresented in standard datasets.
+                    </p>
+<div class="my-10 p-8 bg-background-light dark:bg-[#32311b] rounded-[2rem] border-l-4 border-primary">
+<h4 class="text-xl font-bold mb-2 text-text-main dark:text-white">Key Innovation</h4>
+<p class="italic text-text-sub dark:text-gray-400">
+                            "Replacing deterministic physics-based solvers with probabilistic neural operators reduces computational cost by 1000x while maintaining physical consistency."
+                        </p>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-text-main dark:text-white">Methodology</h3>
+<p class="mb-6">
+                        We employ a hierarchical approach, starting with a coarse-grained global model that feeds into high-resolution regional downscaling networks. The core architecture utilizes a U-Net backbone enhanced with attention mechanisms to capture long-range teleconnections in the climate system.
+                    </p>
+<div class="my-8 rounded-[2rem] overflow-hidden bg-black relative aspect-video group cursor-pointer">
+<div class="absolute inset-0 flex items-center justify-center z-10">
+<div class="size-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-white text-4xl">play_arrow</span>
+</div>
+</div>
+<img alt="Simulation preview" class="w-full h-full object-cover opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRhbb8UPBvKhgJ6bm2Dw88IivgsI0oHdLmyHQeTQ8nHyT0aB1_aE1r-CubejWuVSyV7uuAjuavgqhlMu1UTjKSVKfGXikhXGpR-VsCPyLzQSuI6JuPSIvspOhZq2YER3a1EPzj4Cu9NRn6pYsizpS7rWYNkpOqfGZWPcv235pyl82HnJuCq-wAUBgzAlPyAiXtZjL-sZxpXZVdCljYPImMJy8QLZ9omkmfrvhtzSchr36_JOXUNUvGJHaIuU-DFTJy5ov8P2sFMQs"/>
+<div class="absolute bottom-6 left-6 z-10">
+<span class="text-white font-bold text-sm bg-black/50 px-3 py-1 rounded-full backdrop-blur-sm">Simulation Demo: El Niño Prediction</span>
+</div>
+</div>
+<h3 class="text-2xl font-bold mb-4 text-text-main dark:text-white">Preliminary Results</h3>
+<p class="mb-6">
+                        Initial benchmarks against the ERA5 reanalysis dataset show a 15% improvement in Root Mean Square Error (RMSE) for 7-day temperature forecasts. More importantly, our model successfully predicted the onset of the 2023 Pacific heatwave 5 days earlier than operational NWP systems.
+                    </p>
+</article>
+<section class="border-t border-[#e5e5dc] dark:border-[#3a3928] pt-10">
+<h3 class="text-2xl font-bold text-text-main dark:text-white mb-6">Related Publications</h3>
+<div class="space-y-4">
+<div class="group p-6 rounded-[1.5rem] bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-[#3a3928] hover:shadow-sm transition-all">
+<div class="flex flex-col sm:flex-row justify-between gap-4">
+<div>
+<h4 class="font-bold text-lg dark:text-white mb-1 group-hover:text-primary transition-colors">Generative Diffusion for Atmospheric Dynamics</h4>
+<p class="text-sm text-text-sub dark:text-gray-400">NeurIPS 2023 • <span class="font-medium">C. Lee, M. Garcia, et al.</span></p>
+</div>
+<div class="flex gap-2 shrink-0">
+<button class="size-10 flex items-center justify-center rounded-full bg-gray-50 dark:bg-[#3e3d25] hover:bg-primary dark:hover:bg-primary text-text-main transition-colors">
+<span class="material-symbols-outlined text-lg">picture_as_pdf</span>
+</button>
+</div>
+</div>
+</div>
+<div class="group p-6 rounded-[1.5rem] bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-[#3a3928] hover:shadow-sm transition-all">
+<div class="flex flex-col sm:flex-row justify-between gap-4">
+<div>
+<h4 class="font-bold text-lg dark:text-white mb-1 group-hover:text-primary transition-colors">Benchmarking AI Weather Models</h4>
+<p class="text-sm text-text-sub dark:text-gray-400">ICLR 2024 (Under Review) • <span class="font-medium">J. Doe, C. Lee</span></p>
+</div>
+<div class="flex gap-2 shrink-0">
+<button class="size-10 flex items-center justify-center rounded-full bg-gray-50 dark:bg-[#3e3d25] hover:bg-primary dark:hover:bg-primary text-text-main transition-colors">
+<span class="material-symbols-outlined text-lg">picture_as_pdf</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<aside class="lg:col-span-4 space-y-10">
+<div class="p-6 bg-white dark:bg-[#32311b] rounded-[2rem] border border-[#e5e5dc] dark:border-[#3a3928]">
+<h3 class="text-sm font-bold uppercase tracking-widest text-text-sub dark:text-gray-500 mb-4">Project Details</h3>
+<div class="space-y-4">
+<div class="flex justify-between items-center pb-3 border-b border-gray-100 dark:border-[#3e3d25]">
+<span class="text-sm font-medium dark:text-gray-300">Status</span>
+<span class="px-2 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-md">Active</span>
+</div>
+<div class="flex justify-between items-center pb-3 border-b border-gray-100 dark:border-[#3e3d25]">
+<span class="text-sm font-medium dark:text-gray-300">Duration</span>
+<span class="text-sm font-bold dark:text-white">2022 - 2025</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="text-sm font-medium dark:text-gray-300">Funding</span>
+<span class="text-sm font-bold dark:text-white">NSF, NOAA</span>
+</div>
+</div>
+<div class="mt-6 pt-4 border-t border-gray-100 dark:border-[#3e3d25]">
+<button class="w-full py-3 bg-text-main dark:bg-white text-white dark:text-text-main rounded-full font-bold text-sm hover:opacity-90 transition-opacity flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-lg">mail</span>
+                            Contact Team
+                        </button>
+</div>
+</div>
+<div>
+<h3 class="text-sm font-bold uppercase tracking-widest text-text-sub dark:text-gray-500 mb-6 border-b border-[#e5e5dc] dark:border-[#3a3928] pb-2">Principal Investigators</h3>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="size-14 rounded-full bg-gray-200 dark:bg-[#3e3d25] flex items-center justify-center text-xl font-bold text-text-sub dark:text-gray-400">
+                                CL
+                            </div>
+<div>
+<h4 class="font-bold text-lg dark:text-white leading-tight"><a class="hover:underline decoration-primary decoration-2" href="#">Dr. Chris Lee</a></h4>
+<p class="text-sm text-text-sub dark:text-gray-400">Assistant Professor</p>
+<p class="text-xs text-text-sub dark:text-gray-500 mt-0.5">Computer Science</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="size-14 rounded-full bg-gray-200 dark:bg-[#3e3d25] flex items-center justify-center text-xl font-bold text-text-sub dark:text-gray-400">
+                                SP
+                            </div>
+<div>
+<h4 class="font-bold text-lg dark:text-white leading-tight"><a class="hover:underline decoration-primary decoration-2" href="#">Dr. Sarah Patel</a></h4>
+<p class="text-sm text-text-sub dark:text-gray-400">Associate Professor</p>
+<p class="text-xs text-text-sub dark:text-gray-500 mt-0.5">Atmospheric Sciences</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="text-sm font-bold uppercase tracking-widest text-text-sub dark:text-gray-500 mb-6 border-b border-[#e5e5dc] dark:border-[#3a3928] pb-2">Researchers</h3>
+<div class="space-y-4">
+<div class="flex items-center gap-3 p-3 rounded-[1.5rem] hover:bg-white hover:dark:bg-[#32311b] hover:shadow-sm transition-all -mx-3">
+<div class="size-10 rounded-full bg-gray-100 dark:bg-[#3e3d25] overflow-hidden">
+<svg class="w-full h-full text-gray-300" fill="currentColor" viewBox="0 0 24 24"><path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+</div>
+<div>
+<h4 class="font-bold text-sm dark:text-white">Marcus Johnson</h4>
+<p class="text-xs text-text-sub dark:text-gray-400">PhD Candidate, CS</p>
+</div>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-[1.5rem] hover:bg-white hover:dark:bg-[#32311b] hover:shadow-sm transition-all -mx-3">
+<div class="size-10 rounded-full bg-gray-100 dark:bg-[#3e3d25] overflow-hidden">
+<svg class="w-full h-full text-gray-300" fill="currentColor" viewBox="0 0 24 24"><path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+</div>
+<div>
+<h4 class="font-bold text-sm dark:text-white">Emily Davis</h4>
+<p class="text-xs text-text-sub dark:text-gray-400">PhD Student, ATOC</p>
+</div>
+</div>
+<div class="flex items-center gap-3 p-3 rounded-[1.5rem] hover:bg-white hover:dark:bg-[#32311b] hover:shadow-sm transition-all -mx-3">
+<div class="size-10 rounded-full bg-gray-100 dark:bg-[#3e3d25] overflow-hidden">
+<svg class="w-full h-full text-gray-300" fill="currentColor" viewBox="0 0 24 24"><path d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+</div>
+<div>
+<h4 class="font-bold text-sm dark:text-white">Alex Chen</h4>
+<p class="text-xs text-text-sub dark:text-gray-400">Undergraduate Researcher</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="text-sm font-bold uppercase tracking-widest text-text-sub dark:text-gray-500 mb-4 border-b border-[#e5e5dc] dark:border-[#3a3928] pb-2">Topics</h3>
+<div class="flex flex-wrap gap-2">
+<a class="px-3 py-1 bg-white border border-[#e5e5dc] dark:bg-[#32311b] dark:border-[#3a3928] dark:text-gray-300 text-text-main text-xs font-medium rounded-md hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors" href="#">Generative AI</a>
+<a class="px-3 py-1 bg-white border border-[#e5e5dc] dark:bg-[#32311b] dark:border-[#3a3928] dark:text-gray-300 text-text-main text-xs font-medium rounded-md hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors" href="#">Forecasting</a>
+<a class="px-3 py-1 bg-white border border-[#e5e5dc] dark:bg-[#32311b] dark:border-[#3a3928] dark:text-gray-300 text-text-main text-xs font-medium rounded-md hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors" href="#">Sustainability</a>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<footer class="bg-white dark:bg-[#32311b] border-t border-[#e5e5dc] dark:border-[#3a3928] py-12 mt-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-3">
+<div class="size-6 rounded-full bg-text-main text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-sm font-bold">diamond</span>
+</div>
+<span class="text-lg font-bold text-text-main dark:text-white">CAIR</span>
+</div>
+<div class="text-sm text-text-sub dark:text-gray-500">
+                    © 2024 Colorado AI Research Group. All rights reserved.
+                </div>
+<div class="flex gap-6">
+<a class="text-text-sub dark:text-gray-400 hover:text-primary transition-colors" href="#">Twitter</a>
+<a class="text-text-sub dark:text-gray-400 hover:text-primary transition-colors" href="#">GitHub</a>
+<a class="text-text-sub dark:text-gray-400 hover:text-primary transition-colors" href="#">Scholar</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CAIR - Research</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f9f506",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#23220f",
+                        "text-main": "#181811",
+                        "text-sub": "#8c8b5f",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main font-display min-h-screen flex flex-col overflow-x-hidden">
+<!-- Top Navigation -->
+<header class="w-full px-6 py-4 lg:px-10 border-b border-[#e5e5dc] dark:border-[#3a3928] bg-background-light dark:bg-background-dark sticky top-0 z-50">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="size-8 rounded-full bg-text-main text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-xl font-bold">diamond</span>
+</div>
+<h1 class="text-2xl font-bold tracking-tight dark:text-white">CAIR</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">Home</a>
+<a class="text-sm font-medium text-text-sub cursor-default border-b-2 border-primary pb-0.5 dark:text-primary" href="#">Research</a>
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">People</a>
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">Teaching</a>
+<a class="text-sm font-medium hover:text-text-sub transition-colors dark:text-gray-200" href="#">Contact</a>
+</nav>
+<button class="hidden md:flex h-10 px-6 items-center justify-center rounded-full bg-primary text-text-main text-sm font-bold hover:bg-primary/90 transition-colors">
+                Join Us
+            </button>
+<button class="md:hidden p-2 text-text-main dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-16">
+<!-- Hero Section -->
+<section class="flex flex-col md:flex-row md:items-end justify-between gap-8 pb-8 border-b border-[#e5e5dc] dark:border-[#3a3928]">
+<div class="flex flex-col gap-4 max-w-2xl">
+<h2 class="text-4xl md:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight dark:text-white">
+                    Our Research
+                </h2>
+<p class="text-lg md:text-xl text-text-sub dark:text-gray-400 font-normal leading-relaxed max-w-xl">
+                    Pushing the boundaries of Artificial Intelligence at CU Boulder through interdisciplinary collaboration and ethical innovation.
+                </p>
+</div>
+<!-- Stats -->
+<div class="flex gap-6 md:gap-12 self-start md:self-end pt-4 md:pt-0">
+<div class="flex flex-col">
+<span class="text-3xl md:text-4xl font-bold dark:text-white">150+</span>
+<span class="text-sm text-text-sub dark:text-gray-500 font-medium">Papers Published</span>
+</div>
+<div class="flex flex-col">
+<span class="text-3xl md:text-4xl font-bold dark:text-white">12</span>
+<span class="text-sm text-text-sub dark:text-gray-500 font-medium">Best Awards</span>
+</div>
+<div class="flex flex-col">
+<span class="text-3xl md:text-4xl font-bold dark:text-white">8</span>
+<span class="text-sm text-text-sub dark:text-gray-500 font-medium">Active Grants</span>
+</div>
+</div>
+</section>
+<!-- Search & Filter Section -->
+<section class="space-y-6">
+<div class="flex flex-col md:flex-row gap-4">
+<!-- Search Bar -->
+<div class="flex-1 relative group">
+<div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-text-sub">search</span>
+</div>
+<input class="block w-full pl-12 pr-4 py-3 bg-white dark:bg-[#32311b] border-none rounded-full text-text-main dark:text-white placeholder-text-sub dark:placeholder-gray-500 focus:ring-2 focus:ring-primary shadow-sm text-base" placeholder="Search projects, papers, or authors..." type="text"/>
+</div>
+<!-- Secondary Actions -->
+<div class="flex gap-2 shrink-0">
+<button class="flex items-center gap-2 px-5 py-3 bg-white dark:bg-[#32311b] rounded-full text-sm font-medium hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors dark:text-white shadow-sm">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+                        Filters
+                    </button>
+<button class="flex items-center gap-2 px-5 py-3 bg-white dark:bg-[#32311b] rounded-full text-sm font-medium hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors dark:text-white shadow-sm">
+<span class="material-symbols-outlined text-[20px]">sort</span>
+                        Newest
+                    </button>
+</div>
+</div>
+<!-- Chips -->
+<div class="flex flex-wrap gap-2 md:gap-3">
+<button class="px-5 py-2 bg-primary text-text-main rounded-full text-sm font-bold transition-transform active:scale-95">All Areas</button>
+<button class="px-5 py-2 bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-transparent text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-[#3e3d25] rounded-full text-sm font-medium transition-colors">NLP</button>
+<button class="px-5 py-2 bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-transparent text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-[#3e3d25] rounded-full text-sm font-medium transition-colors">Robotics</button>
+<button class="px-5 py-2 bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-transparent text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-[#3e3d25] rounded-full text-sm font-medium transition-colors">Computer Vision</button>
+<button class="px-5 py-2 bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-transparent text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-[#3e3d25] rounded-full text-sm font-medium transition-colors">Machine Learning</button>
+<button class="px-5 py-2 bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-transparent text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-[#3e3d25] rounded-full text-sm font-medium transition-colors">HCI</button>
+<button class="px-5 py-2 bg-white dark:bg-[#32311b] border border-[#e5e5dc] dark:border-transparent text-text-main dark:text-white hover:bg-gray-50 dark:hover:bg-[#3e3d25] rounded-full text-sm font-medium transition-colors">AI Ethics</button>
+</div>
+</section>
+<!-- Featured Projects Grid -->
+<section>
+<div class="flex items-center justify-between mb-8">
+<h3 class="text-2xl font-bold text-text-main dark:text-white">Featured Projects</h3>
+<a class="text-sm font-bold underline decoration-2 decoration-primary underline-offset-4 hover:text-text-sub dark:text-primary dark:hover:text-white transition-colors" href="#">View All Projects</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+<!-- Project Card 1 -->
+<article class="group relative flex flex-col h-full bg-white dark:bg-[#32311b] rounded-[2rem] overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="h-64 w-full overflow-hidden">
+<img alt="Abstract visualization of neural networks connecting global climate data points" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 filter brightness-95" data-alt="Abstract visualization of neural networks connecting global climate data points" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5YnG3XZ7gMrxPPeeyKK1Tv5b_dEKIMHudACvyA_dOrhyXMg8hyhvzCuoKxmgMVFbDbhiiR-Ctuf9J7bm2eiX13PcLY_XEridIH35Ct6-1lbkYaVZtGn4JYgKqYATp9dH3fLwR_69oX8o6kLNDjW3RXtJNrcKjnvNSrNFOCIyv2C62nKLbB4yWyexND9CuKThv1oigBHcVVFCI3INaGedMIVrwItEcpZfM1JcZPCmbPDo-iBF_lZHQ_YhEQlF5-GTHuEpnhG2uCtk"/>
+</div>
+<div class="p-8 flex flex-col flex-1">
+<div class="flex gap-2 mb-4">
+<span class="px-3 py-1 bg-[#f5f5f0] dark:bg-[#23220f] text-xs font-bold text-text-main dark:text-gray-300 rounded-full uppercase tracking-wider">Climate AI</span>
+</div>
+<h4 class="text-2xl font-bold text-text-main dark:text-white mb-3">Generative Models for Climate Science</h4>
+<p class="text-text-sub dark:text-gray-400 mb-6 flex-1 leading-relaxed">Developing novel diffusion models to predict extreme weather events with higher accuracy than traditional meteorological simulations.</p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-text-main dark:text-white group-hover:underline decoration-primary decoration-2 underline-offset-4" href="#">
+                            View Project 
+                            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+<!-- Project Card 2 -->
+<article class="group relative flex flex-col h-full bg-white dark:bg-[#32311b] rounded-[2rem] overflow-hidden shadow-sm hover:shadow-md transition-all duration-300">
+<div class="h-64 w-full overflow-hidden">
+<img alt="Digital representation of medical data interface and human anatomy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 filter brightness-95" data-alt="Digital representation of medical data interface and human anatomy" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRhbb8UPBvKhgJ6bm2Dw88IivgsI0oHdLmyHQeTQ8nHyT0aB1_aE1r-CubejWuVSyV7uuAjuavgqhlMu1UTjKSVKfGXikhXGpR-VsCPyLzQSuI6JuPSIvspOhZq2YER3a1EPzj4Cu9NRn6pYsizpS7rWYNkpOqfGZWPcv235pyl82HnJuCq-wAUBgzAlPyAiXtZjL-sZxpXZVdCljYPImMJy8QLZ9omkmfrvhtzSchr36_JOXUNUvGJHaIuU-DFTJy5ov8P2sFMQs"/>
+</div>
+<div class="p-8 flex flex-col flex-1">
+<div class="flex gap-2 mb-4">
+<span class="px-3 py-1 bg-[#f5f5f0] dark:bg-[#23220f] text-xs font-bold text-text-main dark:text-gray-300 rounded-full uppercase tracking-wider">Healthcare</span>
+<span class="px-3 py-1 bg-[#f5f5f0] dark:bg-[#23220f] text-xs font-bold text-text-main dark:text-gray-300 rounded-full uppercase tracking-wider">Ethics</span>
+</div>
+<h4 class="text-2xl font-bold text-text-main dark:text-white mb-3">Ethical AI in Healthcare Systems</h4>
+<p class="text-text-sub dark:text-gray-400 mb-6 flex-1 leading-relaxed">Investigating bias in diagnostic algorithms and proposing a new framework for equitable deployment in hospital settings.</p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-text-main dark:text-white group-hover:underline decoration-primary decoration-2 underline-offset-4" href="#">
+                            View Project 
+                            <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</article>
+</div>
+</section>
+<!-- Recent Publications List -->
+<section>
+<div class="flex items-center justify-between mb-8">
+<h3 class="text-2xl font-bold text-text-main dark:text-white">Recent Publications</h3>
+</div>
+<div class="flex flex-col rounded-[2rem] bg-white dark:bg-[#32311b] overflow-hidden shadow-sm border border-[#e5e5dc] dark:border-[#3a3928]">
+<!-- Publication Item 1 -->
+<div class="group border-b border-[#f0f0eb] dark:border-[#3a3928] p-6 sm:p-8 hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors relative">
+<div class="flex flex-col sm:flex-row gap-4 sm:items-start justify-between">
+<div class="flex-1 space-y-2">
+<div class="flex items-center gap-3 mb-2">
+<span class="text-xs font-bold text-text-main bg-primary px-2 py-0.5 rounded-md">Best Paper Award</span>
+<span class="text-xs font-bold text-text-sub dark:text-gray-400">NeurIPS 2023</span>
+</div>
+<h4 class="text-lg sm:text-xl font-bold text-text-main dark:text-white leading-tight group-hover:text-text-sub transition-colors cursor-pointer">
+                                Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles
+                            </h4>
+<p class="text-sm text-text-sub dark:text-gray-400 font-medium">
+                                A. Smith, B. Johnson, <span class="text-text-main dark:text-white underline decoration-1 underline-offset-2">C. Lee</span>, D. Williams
+                            </p>
+</div>
+<div class="flex gap-2 mt-4 sm:mt-0 shrink-0">
+<button class="flex items-center gap-1 px-4 py-2 rounded-full border border-[#e5e5dc] dark:border-[#55543d] hover:border-primary hover:bg-primary/10 text-xs font-bold transition-all dark:text-white">
+<span class="material-symbols-outlined text-[16px]">picture_as_pdf</span> PDF
+                            </button>
+<button class="flex items-center gap-1 px-4 py-2 rounded-full border border-[#e5e5dc] dark:border-[#55543d] hover:border-text-main hover:bg-gray-100 dark:hover:bg-[#4a4930] text-xs font-bold transition-all dark:text-white">
+<span class="material-symbols-outlined text-[16px]">code</span> Code
+                            </button>
+</div>
+</div>
+</div>
+<!-- Publication Item 2 -->
+<div class="group border-b border-[#f0f0eb] dark:border-[#3a3928] p-6 sm:p-8 hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors relative">
+<div class="flex flex-col sm:flex-row gap-4 sm:items-start justify-between">
+<div class="flex-1 space-y-2">
+<div class="flex items-center gap-3 mb-2">
+<span class="text-xs font-bold text-text-sub dark:text-gray-400">CVPR 2024</span>
+</div>
+<h4 class="text-lg sm:text-xl font-bold text-text-main dark:text-white leading-tight group-hover:text-text-sub transition-colors cursor-pointer">
+                                Segment Anything: A New Foundation Model for Image Segmentation
+                            </h4>
+<p class="text-sm text-text-sub dark:text-gray-400 font-medium">
+<span class="text-text-main dark:text-white underline decoration-1 underline-offset-2">M. Garcia</span>, R. Chen, S. Patel
+                            </p>
+</div>
+<div class="flex gap-2 mt-4 sm:mt-0 shrink-0">
+<button class="flex items-center gap-1 px-4 py-2 rounded-full border border-[#e5e5dc] dark:border-[#55543d] hover:border-primary hover:bg-primary/10 text-xs font-bold transition-all dark:text-white">
+<span class="material-symbols-outlined text-[16px]">picture_as_pdf</span> PDF
+                            </button>
+</div>
+</div>
+</div>
+<!-- Publication Item 3 -->
+<div class="group border-b border-[#f0f0eb] dark:border-[#3a3928] p-6 sm:p-8 hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors relative">
+<div class="flex flex-col sm:flex-row gap-4 sm:items-start justify-between">
+<div class="flex-1 space-y-2">
+<div class="flex items-center gap-3 mb-2">
+<span class="text-xs font-bold text-text-sub dark:text-gray-400">ICML 2023</span>
+</div>
+<h4 class="text-lg sm:text-xl font-bold text-text-main dark:text-white leading-tight group-hover:text-text-sub transition-colors cursor-pointer">
+                                Efficient Transformers for Long Sequence Modeling in Genomics
+                            </h4>
+<p class="text-sm text-text-sub dark:text-gray-400 font-medium">
+                                J. Doe, <span class="text-text-main dark:text-white underline decoration-1 underline-offset-2">K. Kim</span>, L. Wang
+                            </p>
+</div>
+<div class="flex gap-2 mt-4 sm:mt-0 shrink-0">
+<button class="flex items-center gap-1 px-4 py-2 rounded-full border border-[#e5e5dc] dark:border-[#55543d] hover:border-primary hover:bg-primary/10 text-xs font-bold transition-all dark:text-white">
+<span class="material-symbols-outlined text-[16px]">picture_as_pdf</span> PDF
+                            </button>
+<button class="flex items-center gap-1 px-4 py-2 rounded-full border border-[#e5e5dc] dark:border-[#55543d] hover:border-text-main hover:bg-gray-100 dark:hover:bg-[#4a4930] text-xs font-bold transition-all dark:text-white">
+<span class="material-symbols-outlined text-[16px]">dataset</span> Data
+                            </button>
+</div>
+</div>
+</div>
+<!-- Publication Item 4 -->
+<div class="group p-6 sm:p-8 hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors relative">
+<div class="flex flex-col sm:flex-row gap-4 sm:items-start justify-between">
+<div class="flex-1 space-y-2">
+<div class="flex items-center gap-3 mb-2">
+<span class="text-xs font-bold text-text-sub dark:text-gray-400">HRI 2023</span>
+</div>
+<h4 class="text-lg sm:text-xl font-bold text-text-main dark:text-white leading-tight group-hover:text-text-sub transition-colors cursor-pointer">
+                                Human-Robot Trust in High-Stakes Emergency Response Scenarios
+                            </h4>
+<p class="text-sm text-text-sub dark:text-gray-400 font-medium">
+                                P. Zhang, <span class="text-text-main dark:text-white underline decoration-1 underline-offset-2">E. Davis</span>
+</p>
+</div>
+<div class="flex gap-2 mt-4 sm:mt-0 shrink-0">
+<button class="flex items-center gap-1 px-4 py-2 rounded-full border border-[#e5e5dc] dark:border-[#55543d] hover:border-primary hover:bg-primary/10 text-xs font-bold transition-all dark:text-white">
+<span class="material-symbols-outlined text-[16px]">picture_as_pdf</span> PDF
+                            </button>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-center mt-8">
+<button class="px-8 py-3 rounded-full border border-[#e5e5dc] dark:border-[#3a3928] bg-white dark:bg-[#32311b] text-text-main dark:text-white font-bold text-sm hover:bg-gray-50 dark:hover:bg-[#3e3d25] transition-colors shadow-sm">
+                    Load More Publications
+                </button>
+</div>
+</section>
+<!-- Collaborators / Footer Promo -->
+<section class="py-12 border-t border-[#e5e5dc] dark:border-[#3a3928]">
+<p class="text-center text-sm font-bold text-text-sub dark:text-gray-500 uppercase tracking-widest mb-8">Research Supported By</p>
+<div class="flex flex-wrap justify-center items-center gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+<!-- Placeholder Logos -->
+<div class="h-8 flex items-center justify-center font-black text-xl text-gray-400 dark:text-gray-600">NSF</div>
+<div class="h-8 flex items-center justify-center font-black text-xl text-gray-400 dark:text-gray-600">DARPA</div>
+<div class="h-8 flex items-center justify-center font-black text-xl text-gray-400 dark:text-gray-600">Google Research</div>
+<div class="h-8 flex items-center justify-center font-black text-xl text-gray-400 dark:text-gray-600">Meta AI</div>
+<div class="h-8 flex items-center justify-center font-black text-xl text-gray-400 dark:text-gray-600">OpenAI</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-[#32311b] border-t border-[#e5e5dc] dark:border-[#3a3928] py-12">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-3">
+<div class="size-6 rounded-full bg-text-main text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-sm font-bold">diamond</span>
+</div>
+<span class="text-lg font-bold text-text-main dark:text-white">CAIR</span>
+</div>
+<div class="text-sm text-text-sub dark:text-gray-500">
+                    © 2024 Colorado AI Research Group. All rights reserved.
+                </div>
+<div class="flex gap-6">
+<a class="text-text-sub dark:text-gray-400 hover:text-primary transition-colors" href="#">Twitter</a>
+<a class="text-text-sub dark:text-gray-400 hover:text-primary transition-colors" href="#">GitHub</a>
+<a class="text-text-sub dark:text-gray-400 hover:text-primary transition-colors" href="#">Scholar</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

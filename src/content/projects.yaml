@@ -1,0 +1,43 @@
+projects:
+  - title: "Generative Models for Climate Science"
+    categories: ["Climate AI"]
+    description: "Developing novel diffusion models to predict extreme weather events with higher accuracy than traditional meteorological simulations. This project leverages large-scale satellite data."
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB5YnG3XZ7gMrxPPeeyKK1Tv5b_dEKIMHudACvyA_dOrhyXMg8hyhvzCuoKxmgMVFbDbhiiR-Ctuf9J7bm2eiX13PcLY_XEridIH35Ct6-1lbkYaVZtGn4JYgKqYATp9dH3fLwR_69oX8o6kLNDjW3RXtJNrcKjnvNSrNFOCIyv2C62nKLbB4yWyexND9CuKThv1oigBHcVVFCI3INaGedMIVrwItEcpZfM1JcZPCmbPDo-iBF_lZHQ_YhEQlF5-GTHuEpnhG2uCtk"
+    external_url: "/projects/generative-models"
+    status: "Active"
+    featured: true
+  - title: "Ethical AI in Healthcare Systems"
+    categories: ["Healthcare", "Ethics"]
+    description: "Investigating bias in diagnostic algorithms and proposing a new framework for equitable deployment in hospital settings across diverse populations."
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDRhbb8UPBvKhgJ6bm2Dw88IivgsI0oHdLmyHQeTQ8nHyT0aB1_aE1r-CubejWuVSyV7uuAjuavgqhlMu1UTjKSVKfGXikhXGpR-VsCPyLzQSuI6JuPSIvspOhZq2YER3a1EPzj4Cu9NRn6pYsizpS7rWYNkpOqfGZWPcv235pyl82HnJuCq-wAUBgzAlPyAiXtZjL-sZxpXZVdCljYPImMJy8QLZ9omkmfrvhtzSchr36_JOXUNUvGJHaIuU-DFTJy5ov8P2sFMQs"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Human-Robot Trust Dynamics"
+    categories: ["Robotics"]
+    description: "Exploring how humans develop trust in autonomous robotic systems during high-stakes emergency response scenarios using VR simulations."
+    image: "/research/robotics-trust.jpg"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Multilingual LLM Alignment"
+    categories: ["NLP", "New"]
+    description: "Addressing the gap in alignment techniques for low-resource languages in large language models to reduce harmful outputs globally."
+    image: "/research/multilingual-llm.jpg"
+    external_url: "#"
+    status: "New"
+    featured: true
+  - title: "Self-Supervised Video Understanding"
+    categories: ["Computer Vision"]
+    description: "Creating efficient algorithms for understanding temporal dynamics in long-form video content without requiring frame-by-frame labels."
+    image: "/research/video-understanding.jpg"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Brain-Inspired Learning Rules"
+    categories: ["Neuro-AI"]
+    description: "Bridging the gap between neuroscience and deep learning to create more energy-efficient and robust learning algorithms."
+    image: "/research/neuro-ai.jpg"
+    external_url: "#"
+    status: "Active"
+    featured: true
