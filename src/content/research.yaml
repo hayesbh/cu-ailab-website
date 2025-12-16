@@ -7,7 +7,7 @@ hero:
     - value: "12"
       label: "Best Paper Awards"
     - value: "16"
-      label: "Active Grants"
+      label: "Active Funded Projects"
 
 filters:
   categories:

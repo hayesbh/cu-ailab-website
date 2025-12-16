@@ -16,28 +16,7 @@ projects:
   - title: "Human-Robot Trust Dynamics"
     categories: ["Robotics"]
     description: "Exploring how humans develop trust in autonomous robotic systems during high-stakes emergency response scenarios using VR simulations."
-    image: "/research/robotics-trust.jpg"
-    external_url: "#"
-    status: "Active"
-    featured: true
-  - title: "Multilingual LLM Alignment"
-    categories: ["NLP", "New"]
-    description: "Addressing the gap in alignment techniques for low-resource languages in large language models to reduce harmful outputs globally."
-    image: "/research/multilingual-llm.jpg"
-    external_url: "#"
-    status: "New"
-    featured: true
-  - title: "Self-Supervised Video Understanding"
-    categories: ["Computer Vision"]
-    description: "Creating efficient algorithms for understanding temporal dynamics in long-form video content without requiring frame-by-frame labels."
-    image: "/research/video-understanding.jpg"
-    external_url: "#"
-    status: "Active"
-    featured: true
-  - title: "Brain-Inspired Learning Rules"
-    categories: ["Neuro-AI"]
-    description: "Bridging the gap between neuroscience and deep learning to create more energy-efficient and robust learning algorithms."
-    image: "/research/neuro-ai.jpg"
+    image: "/human-ai-trust.png"
     external_url: "#"
     status: "Active"
     featured: true

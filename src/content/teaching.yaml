@@ -1,8 +1,8 @@
 hero:
   title: "Forging the Future of **Intelligence**"
-  subtitle: "Explore the AI curriculum at CAIR and build your personalized academic journey in artificial intelligence, machine learning, and robotics."
+  subtitle: "Explore the AI curriculum at CU Boulder and build your personalized academic journey in artificial intelligence, machine learning, and robotics."
   button_text: "Start Building Curriculum"
-  image_url: "teaching-skyline.png"
+  image_url: "/teaching-skyline.jpg"
 
 courses:
   - id: "csci-5434"
@@ -389,7 +389,7 @@ degree_programs:
     link_url: "#"
 
   - title: "PhD in Computer Science"
-    description: "Research-first focus designed for future academic and industrial leaders. Work directly with CAIR faculty on groundbreaking AI methodologies."
+    description: "Research-first focus designed for future academic and industrial leaders. Work directly with AI@CUBoulder faculty on groundbreaking AI methodologies."
     type: "dark"
     icon: "psychology"
     features:

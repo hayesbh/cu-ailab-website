@@ -2,32 +2,19 @@ export default function JoinUsPage() {
   return (
     <div className="min-h-screen">
         {/* Simple Hero */}
-        <div className="relative h-[60vh] min-h-[500px] w-full flex items-center justify-center overflow-hidden bg-black">
+        <div className="relative h-[60vh] min-h-[600px] w-full flex items-end justify-center overflow-hidden bg-black pb-12">
             <img 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSdWb_C_G3GHM6NJayjX0wPw5G6sQD9JhTxpEUlNC_wISRbxhVfincuAu6WEJ7pSo1makzk-YhiMC7FY0MWpNNSZR2MqEFmQdsbAF0NZHJgaWYZaXQoERroYNFgI91Wl55nZ3iXWd3YqDGimo7A_OTytOtBzNoCHDzSHZKCvRHt62gWteMOjmualNzi_KiHfq9agJiwxkuJ99boALSr_mLg1pB7yDC-2fXbV-73FBfniRShFwtbt8gAHa1xP-Va1kFUjbSMR4k8Kw" 
-                className="absolute inset-0 w-full h-full object-cover opacity-60"
-                alt="CU Boulder Campus Mountains"
+                src="/ai-at-boulder.jpg" 
+                className="absolute inset-0 w-full h-full object-cover"
+                alt="AI at Boulder"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black"></div>
             
             <div className="relative z-10 text-center max-w-4xl px-4">
-                <div className="inline-flex items-center gap-1 bg-white/20 backdrop-blur-md rounded-full px-3 py-1 text-xs font-bold text-white mb-6 uppercase tracking-wider">
-                    <span className="material-symbols-outlined text-sm">location_on</span>
-                    Boulder, Colorado
-                </div>
-                <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-                    Build the Future of AI at CAIR
-                </h1>
-                <p className="text-xl md:text-2xl text-gray-200 mb-10 max-w-2xl mx-auto font-light">
-                    Join a world-class research team innovating at the foot of the Rockies. We are looking for visionary students, researchers, and faculty.
-                </p>
-                <div className="flex gap-4 justify-center">
-                    <button className="px-8 py-3 bg-primary text-black font-bold rounded hover:bg-primary-hover transition-colors">
-                        View Openings
-                    </button>
-                    <button className="px-8 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white font-bold rounded transition-colors">
-                        Why Boulder?
-                    </button>
+                <div className="bg-black/60 backdrop-blur-md rounded-[3rem] p-12">
+                    <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto font-light">
+                        Join a world-class research team innovating at the foot of the Rockies. We are looking for visionary students, researchers, and faculty.
+                    </p>
                 </div>
             </div>
         </div>

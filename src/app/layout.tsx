@@ -9,8 +9,8 @@ const splineSans = Spline_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "CAIR - Colorado AI Research",
-  description: "Colorado AI Research Group at the University of Colorado Boulder",
+  title: "AI@CUBoulder",
+  description: "AI at the University of Colorado Boulder",
 };
 
 import { Navbar } from "@/components/layout/Navbar";

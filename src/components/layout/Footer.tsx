@@ -10,10 +10,9 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded bg-primary text-black">
                 <span className="material-symbols-outlined text-[18px]">bubble_chart</span>
               </div>
-              <h2 className="text-xl font-bold tracking-tight">CAIR</h2>
+              <h2 className="text-xl font-bold tracking-tight">AI@CUBoulder</h2>
             </div>
             <p className="text-sm text-gray-400 mb-8 leading-relaxed">
-              Colorado AI Research<br />
               University of Colorado Boulder<br />
               Engineering Center<br />
               Boulder, CO 80309
