@@ -8,7 +8,7 @@ interface NewsItem {
   summary: string;
   location?: string;
   authors?: { name: string; image: string }[];
-  link: string;
+  link?: string;
 }
 
 interface LatestUpdatesProps {
@@ -99,7 +99,11 @@ export function LatestUpdates({ data, news }: LatestUpdatesProps) {
                     <span className="text-xs text-text-muted dark:text-text-muted-dark">{item.date}</span>
                   </div>
                   <h3 className="text-xl font-bold mb-3 text-black dark:text-white group-hover:text-cu-blue transition-colors">
-                    <Link href={item.link}>{item.title}</Link>
+                    {item.link ? (
+                      <Link href={item.link}>{item.title}</Link>
+                    ) : (
+                      item.title
+                    )}
                   </h3>
                   <p className="text-text-muted dark:text-text-muted-dark text-sm mb-6 flex-grow">
                     {item.summary}

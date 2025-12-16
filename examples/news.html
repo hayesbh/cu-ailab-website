@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CAIR News Archive</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f9f506",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#23220f",
+                        "text-main": "#181811",
+                        "text-muted": "#8c8b5f",
+                    },
+                    fontFamily: {
+                        "display": ["Spline Sans", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem", 
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Spline Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-main dark:text-white min-h-screen flex flex-col">
+<!-- Header -->
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#f5f5f0] dark:border-[#3a392a]">
+<div class="max-w-[1280px] mx-auto px-4 sm:px-10 py-3 flex items-center justify-between">
+<div class="flex items-center gap-4 text-text-main dark:text-white">
+<div class="size-8 flex items-center justify-center bg-primary rounded-lg text-black">
+<span class="material-symbols-outlined text-xl">smart_toy</span>
+</div>
+<h2 class="text-xl font-bold leading-tight tracking-[-0.015em]">CAIR</h2>
+</div>
+<!-- Desktop Nav -->
+<div class="hidden md:flex flex-1 justify-end gap-8 items-center">
+<nav class="flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Research</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">People</a>
+<a class="text-sm font-bold border-b-2 border-primary" href="#">News</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<button class="bg-primary hover:bg-[#e6e205] text-text-main text-sm font-bold h-10 px-6 rounded-full transition-transform hover:scale-105 active:scale-95">
+                    Contact Us
+                </button>
+</div>
+<!-- Mobile Menu Icon -->
+<button class="md:hidden p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow w-full max-w-[1280px] mx-auto px-4 sm:px-10 py-8 sm:py-12">
+<!-- Page Title -->
+<div class="flex flex-col gap-3 mb-12">
+<h1 class="text-4xl sm:text-5xl font-black leading-tight tracking-[-0.033em]">News Archive</h1>
+<p class="text-text-muted dark:text-gray-400 text-lg max-w-2xl">Latest updates, publications, and announcements from the Colorado AI Research lab.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left Sidebar: Filters & Search -->
+<aside class="lg:col-span-4 xl:col-span-3 flex flex-col gap-8">
+<!-- Search -->
+<div class="bg-white dark:bg-[#2a2915] p-6 rounded-xl shadow-sm border border-[#f0f0eb] dark:border-[#3a392a]">
+<h3 class="font-bold text-lg mb-4">Search</h3>
+<label class="flex w-full items-center rounded-full bg-background-light dark:bg-background-dark border border-transparent focus-within:border-primary transition-colors px-4 h-12">
+<span class="material-symbols-outlined text-text-muted">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-text-main dark:text-white w-full h-full text-sm placeholder:text-text-muted ml-2" placeholder="Keywords..." type="text"/>
+</label>
+</div>
+<!-- Categories -->
+<div class="bg-white dark:bg-[#2a2915] p-6 rounded-xl shadow-sm border border-[#f0f0eb] dark:border-[#3a392a]">
+<h3 class="font-bold text-lg mb-4">Categories</h3>
+<div class="flex flex-wrap gap-2">
+<button class="h-8 px-4 rounded-full bg-primary text-text-main text-sm font-bold shadow-sm">All</button>
+<button class="h-8 px-4 rounded-full bg-background-light dark:bg-background-dark hover:bg-gray-200 dark:hover:bg-gray-700 text-text-main dark:text-gray-300 text-sm font-medium transition-colors">Publications</button>
+<button class="h-8 px-4 rounded-full bg-background-light dark:bg-background-dark hover:bg-gray-200 dark:hover:bg-gray-700 text-text-main dark:text-gray-300 text-sm font-medium transition-colors">Grants</button>
+<button class="h-8 px-4 rounded-full bg-background-light dark:bg-background-dark hover:bg-gray-200 dark:hover:bg-gray-700 text-text-main dark:text-gray-300 text-sm font-medium transition-colors">Events</button>
+<button class="h-8 px-4 rounded-full bg-background-light dark:bg-background-dark hover:bg-gray-200 dark:hover:bg-gray-700 text-text-main dark:text-gray-300 text-sm font-medium transition-colors">Awards</button>
+</div>
+</div>
+<!-- Archive Year -->
+<div class="bg-white dark:bg-[#2a2915] p-6 rounded-xl shadow-sm border border-[#f0f0eb] dark:border-[#3a392a]">
+<h3 class="font-bold text-lg mb-4">Year</h3>
+<ul class="flex flex-col gap-2">
+<li><a class="flex items-center justify-between text-sm font-bold text-text-main dark:text-white group" href="#">2024 <span class="material-symbols-outlined text-base opacity-0 group-hover:opacity-100 text-primary">arrow_forward</span></a></li>
+<li><a class="flex items-center justify-between text-sm text-text-muted hover:text-text-main dark:hover:text-white transition-colors" href="#">2023</a></li>
+<li><a class="flex items-center justify-between text-sm text-text-muted hover:text-text-main dark:hover:text-white transition-colors" href="#">2022</a></li>
+<li><a class="flex items-center justify-between text-sm text-text-muted hover:text-text-main dark:hover:text-white transition-colors" href="#">2021</a></li>
+</ul>
+</div>
+</aside>
+<!-- Right Content: News Feed -->
+<div class="lg:col-span-8 xl:col-span-9">
+<div class="flex flex-col relative">
+<!-- Vertical Timeline Line -->
+<div class="absolute left-4 md:left-6 top-4 bottom-0 w-px bg-gray-200 dark:bg-gray-700"></div>
+<!-- Article 1 -->
+<article class="relative pl-12 md:pl-16 pb-12 group">
+<!-- Timeline Dot -->
+<div class="absolute left-2 md:left-4 top-1 size-4 md:size-5 rounded-full bg-white dark:bg-background-dark border-4 border-primary z-10"></div>
+<div class="flex flex-col md:flex-row gap-6 bg-white dark:bg-[#2a2915] p-6 rounded-2xl border border-transparent hover:border-gray-200 dark:hover:border-gray-700 shadow-sm transition-all hover:shadow-md">
+<div class="flex-1 flex flex-col gap-3">
+<div class="flex flex-wrap items-center gap-3 text-sm">
+<span class="font-bold text-text-main dark:text-white bg-primary/20 dark:bg-primary/10 px-2 py-1 rounded-md">Oct 12, 2023</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-muted font-medium">Publications</span>
+</div>
+<h3 class="text-2xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">
+<a href="#">CAIR Group Presents 3 Papers at NeurIPS 2023</a>
+</h3>
+<p class="text-text-muted dark:text-gray-400 leading-relaxed">
+                                    Our team explores new frontiers in reinforcement learning and generative models. Read the abstracts and meet the authors who will be presenting in New Orleans this December.
+                                </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-1 text-sm font-bold border-b-2 border-primary hover:border-black dark:hover:border-white transition-colors pb-0.5" href="#">
+                                        Read Full Article
+                                        <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+</div>
+<div class="w-full md:w-48 h-32 md:h-auto shrink-0 rounded-xl overflow-hidden bg-gray-100">
+<img alt="NeurIPS 2023" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Abstract visualization of neural networks with blue and purple connecting nodes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyvyZZ6ooQ4OhYGxlYJZEzPnmhr5BxB9TjTgFojXey6BZ-wRAlVgW8qChT1wDrdhhQUmOm6x3Id2WRc-BpJa7NnBpqw_dQiIX76gx8zvmTTF4cLR2pTE-uBKcck9vM_OcigGuDB_D-AKwz2KIG0lFYrQ5qO7DlzDDcPTG00zQgk-1XBvrzzxvNDOxDQw0YOlm7LkTS65Ht72uGRtP29Aflp9M8FkOsAHv2i7sNnd3lb-eLDd98xuWnCGClCMlUQF-dB0-Uyux0u8M"/>
+</div>
+</div>
+</article>
+<!-- Article 2 -->
+<article class="relative pl-12 md:pl-16 pb-12 group">
+<div class="absolute left-2 md:left-4 top-1 size-4 md:size-5 rounded-full bg-white dark:bg-background-dark border-4 border-gray-300 dark:border-gray-600 group-hover:border-primary transition-colors z-10"></div>
+<div class="flex flex-col md:flex-row gap-6 bg-white dark:bg-[#2a2915] p-6 rounded-2xl border border-transparent hover:border-gray-200 dark:hover:border-gray-700 shadow-sm transition-all hover:shadow-md">
+<div class="flex-1 flex flex-col gap-3">
+<div class="flex flex-wrap items-center gap-3 text-sm">
+<span class="font-bold text-text-muted dark:text-gray-400 bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-md">Sep 28, 2023</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-muted font-medium">Grants</span>
+</div>
+<h3 class="text-2xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">
+<a href="#">New NSF Grant Awarded for NLP Research</a>
+</h3>
+<p class="text-text-muted dark:text-gray-400 leading-relaxed">
+                                    Professor Smith has been awarded a $1.2M grant to investigate bias mitigation in Large Language Models. This 3-year project aims to develop more equitable AI systems.
+                                </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-1 text-sm font-bold border-b-2 border-primary hover:border-black dark:hover:border-white transition-colors pb-0.5" href="#">
+                                        Read Full Article
+                                        <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- Article 3 -->
+<article class="relative pl-12 md:pl-16 pb-12 group">
+<div class="absolute left-2 md:left-4 top-1 size-4 md:size-5 rounded-full bg-white dark:bg-background-dark border-4 border-gray-300 dark:border-gray-600 group-hover:border-primary transition-colors z-10"></div>
+<div class="flex flex-col md:flex-row gap-6 bg-white dark:bg-[#2a2915] p-6 rounded-2xl border border-transparent hover:border-gray-200 dark:hover:border-gray-700 shadow-sm transition-all hover:shadow-md">
+<div class="flex-1 flex flex-col gap-3">
+<div class="flex flex-wrap items-center gap-3 text-sm">
+<span class="font-bold text-text-muted dark:text-gray-400 bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-md">Aug 15, 2023</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-muted font-medium">Events</span>
+</div>
+<h3 class="text-2xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">
+<a href="#">Keynote at AI Summit 2023</a>
+</h3>
+<p class="text-text-muted dark:text-gray-400 leading-relaxed">
+                                    Watch the recording of the keynote address delivered by our lab director on the future of Human-AI collaboration at the annual AI Summit in Denver.
+                                </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-1 text-sm font-bold border-b-2 border-primary hover:border-black dark:hover:border-white transition-colors pb-0.5" href="#">
+                                        Watch Recording
+                                        <span class="material-symbols-outlined text-sm">play_circle</span>
+</a>
+</div>
+</div>
+<div class="w-full md:w-48 h-32 md:h-auto shrink-0 rounded-xl overflow-hidden bg-gray-100">
+<img alt="Keynote Speech" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Speaker on a stage with bright blue lighting addressing a large audience" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDITKCpAtLLEaQfjyh95fwxd4qGVlZx-okwpcDlpUcgHbS62kVs3PUMlytYeqHqlWkEsON_Isj6Kq0hZFnzB8Cyxexk3EgprBzScawjuWfM-V4ct8UK9HGF-XzMi_ANeq_KU1h90ixDzWTi7NeBtXHYSyGpJSduMBPqJif4wYhtpo_PZsCrzc6WzMGjr0lyJAmKCNnyo7f5C9IdHBSTC0y21s3iDGV7x5VSI0RYp-JoP4GK7gk4y1Y89nN1rcGs5c-R9_5RmQOIk9Q"/>
+</div>
+</div>
+</article>
+<!-- Article 4 -->
+<article class="relative pl-12 md:pl-16 pb-12 group">
+<div class="absolute left-2 md:left-4 top-1 size-4 md:size-5 rounded-full bg-white dark:bg-background-dark border-4 border-gray-300 dark:border-gray-600 group-hover:border-primary transition-colors z-10"></div>
+<div class="flex flex-col md:flex-row gap-6 bg-white dark:bg-[#2a2915] p-6 rounded-2xl border border-transparent hover:border-gray-200 dark:hover:border-gray-700 shadow-sm transition-all hover:shadow-md">
+<div class="flex-1 flex flex-col gap-3">
+<div class="flex flex-wrap items-center gap-3 text-sm">
+<span class="font-bold text-text-muted dark:text-gray-400 bg-gray-100 dark:bg-white/5 px-2 py-1 rounded-md">Aug 01, 2023</span>
+<span class="text-text-muted">•</span>
+<span class="text-text-muted font-medium">Personnel</span>
+</div>
+<h3 class="text-2xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">
+<a href="#">Welcome New Ph.D. Students</a>
+</h3>
+<p class="text-text-muted dark:text-gray-400 leading-relaxed">
+                                    We are thrilled to welcome four new Ph.D. candidates to the CAIR group this fall. They bring diverse backgrounds in mathematics, cognitive science, and computer engineering.
+                                </p>
+<div class="pt-2">
+<a class="inline-flex items-center gap-1 text-sm font-bold border-b-2 border-primary hover:border-black dark:hover:border-white transition-colors pb-0.5" href="#">
+                                        Meet the Team
+                                        <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- Pagination -->
+<div class="flex justify-center pt-8 pl-12 md:pl-16">
+<button class="flex items-center gap-2 px-6 py-3 rounded-full bg-white dark:bg-[#2a2915] border border-gray-200 dark:border-gray-700 hover:border-primary dark:hover:border-primary shadow-sm text-sm font-bold transition-all hover:-translate-y-1">
+                            Load More Articles
+                            <span class="material-symbols-outlined text-lg">expand_more</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-[#1a190b] border-t border-[#f5f5f0] dark:border-[#3a392a] py-12 mt-12">
+<div class="max-w-[1280px] mx-auto px-10">
+<div class="flex flex-col md:flex-row justify-between items-start gap-10">
+<div class="max-w-xs">
+<div class="flex items-center gap-3 mb-4 text-text-main dark:text-white">
+<div class="size-6 bg-primary rounded flex items-center justify-center">
+<span class="material-symbols-outlined text-sm text-black">smart_toy</span>
+</div>
+<h2 class="font-bold text-lg">CAIR</h2>
+</div>
+<p class="text-sm text-text-muted dark:text-gray-400 leading-relaxed">
+                        Colorado AI Research Group<br/>
+                        University of Colorado Boulder<br/>
+                        Engineering Center, ECOT 717
+                    </p>
+</div>
+<div class="flex gap-16 flex-wrap">
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-sm text-text-main dark:text-white">Research</h4>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">Publications</a>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">Projects</a>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">Data Sets</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-sm text-text-main dark:text-white">Lab</h4>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">People</a>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">News</a>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">Join Us</a>
+</div>
+<div class="flex flex-col gap-3">
+<h4 class="font-bold text-sm text-text-main dark:text-white">Social</h4>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">Twitter / X</a>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">GitHub</a>
+<a class="text-sm text-text-muted hover:text-primary transition-colors" href="#">LinkedIn</a>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-100 dark:border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-text-muted dark:text-gray-500">© 2024 University of Colorado Boulder</p>
+<div class="flex gap-6">
+<a class="text-xs text-text-muted hover:text-text-main dark:hover:text-white" href="#">Privacy Policy</a>
+<a class="text-xs text-text-muted hover:text-text-main dark:hover:text-white" href="#">Terms of Use</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
