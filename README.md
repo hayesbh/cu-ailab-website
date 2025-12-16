@@ -1,15 +1,15 @@
-# CU CAIR Website
+# AI @ CU Boulder Website
 
-This repository contains the source code for the Colorado AI Research (CAIR) Lab website at CU Boulder. It is a modern, static site built with [Next.js](https://nextjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/).
+This repository contains the source code for the AI @ CU Boulder website. It is a modern, static site built with [Next.js](https://nextjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/).
 
 ## Tech Stack
 
-The project relies on a modern frontend stack:
+The project relies on the following frontend stack:
 
 -   **Framework**: [Next.js 16](https://nextjs.org/) (React 19) - handles routing, static generation, and optimized rendering.
--   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) - utility-first CSS framework for rapid UI development.
--   **Animations**: [Framer Motion](https://www.framer.com/motion/) - powerful library for declarative animations (used for transitions, carousels, trees).
--   **Icons**: [Lucide React](https://lucide.dev/) - consistent and lightweight icon set.
+-   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) - CSS framework for rapid UI development.
+-   **Animations**: [Framer Motion](https://www.framer.com/motion/) - library for declarative animations (used for transitions, carousels, trees).
+-   **Icons**: [Lucide React](https://lucide.dev/) - icon set.
 -   **Content Management**:
     -   `js-yaml`: Parses YAML data files.
     -   `gray-matter`: Parses frontmatter from Markdown files.
