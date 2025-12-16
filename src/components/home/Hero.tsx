@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { ArrowDown } from 'lucide-react';
 
 import { ThreeGraph } from './ThreeGraph';
 
@@ -75,6 +76,17 @@ export function Hero({ data, ticker_items }: HeroProps) {
           </motion.div>
         </div>
       </div>
+
+      {/* Scroll Indicator */}
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 1 }}
+        className="absolute bottom-24 right-8 z-20 hidden md:flex flex-col items-center gap-2 text-white/50 pointer-events-none"
+      >
+        <span className="text-xs uppercase tracking-widest font-medium">Scroll</span>
+        <ArrowDown className="h-5 w-5 animate-bounce" />
+      </motion.div>
 
       {/* Ticker */}
       <div className="absolute bottom-0 left-0 w-full border-t border-white/10 bg-black/40 backdrop-blur-md py-4">
