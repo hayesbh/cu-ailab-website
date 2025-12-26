@@ -14,12 +14,13 @@ interface FacultyPreviewProps {
     cta: string;
   };
   faculty: Person[];
-  students: Person[];
 }
 
-export function FacultyPreview({ data, faculty, students }: FacultyPreviewProps) {
-  // Combine a few people for preview.
-  const previewPeople = [...faculty, ...students].slice(0, 5); // Take first 5
+export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
+  // Shuffle faculty and take 5
+  const previewPeople = [...(faculty || [])]
+    .sort(() => 0.5 - Math.random())
+    .slice(0, 5);
 
   return (
     <section className="bg-background-light dark:bg-background-dark py-24">

@@ -28,8 +28,8 @@ export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
 
   // Combine all people for easier filtering
   const allPeople = [
-    ...peopleData.faculty.map(p => ({ ...p, category: 'Faculty' })),
-    ...peopleData.students.map(p => {
+    ...(peopleData.faculty || []).map(p => ({ ...p, category: 'Faculty' })),
+    ...(peopleData.students || []).map(p => {
         // Simple heuristic to determine category from role if needed, 
         // or we rely on the role text itself. 
         // For now, let's assume the 'role' field maps reasonably well or we check specifically.
@@ -62,6 +62,9 @@ export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
       person.interests?.some(i => i.toLowerCase().includes(query));
 
     return matchesFilter && matchesSearch;
+  }).sort((a, b) => {
+    const getLast = (name: string) => name.split(' ').pop() || '';
+    return getLast(a.name).localeCompare(getLast(b.name));
   });
 
   return (

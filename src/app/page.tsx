@@ -25,7 +25,6 @@ export default function Home() {
       <FacultyPreview 
         data={homeData.faculty_preview} 
         faculty={peopleData.faculty} 
-        students={peopleData.students} 
       />
     </>
   );

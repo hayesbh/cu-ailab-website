@@ -1,32 +1,82 @@
 faculty:
-  - name: "Prof. Christoffer Heckman"
-    role: "Director, Associate Professor"
-    image: "https://www.colorado.edu/researchinnovation/sites/default/files/styles/large_image_style/public/people/chrisheckman500.png?itok=2cmVU6fk"
-    link: "https://arpg.colorado.edu/"
-    interests: ["Foundation Models", "VLMs", "Robotics"]
+  - name: "Prof. Alessandro Roncone"
+    role: "Assistant Professor"
+    image: "/headshots/alessandro_roncone.png"
+    link: "https://www.colorado.edu/cs/alessandro-roncone"
+    interests: ["Human-Robot Interaction", "Artificial Intelligence", "Robot Control"]
+  - name: "Prof. Alvaro Velasquez"
+    role: "Assistant Professor"
+    image: "/headshots/alvaro_velasquez.jpg"
+    link: "https://www.colorado.edu/cs/alvaro-velasquez"
+    interests: ["Neuro-symbolic AI", "Autonomy", "Artificial Intelligence"]
+  - name: "Prof. Ashutosh Trivedi"
+    role: "Associate Professor"
+    image: "/headshots/ashutosh_trivedi.jpg"
+    link: "https://ashutoshtrivedi.com/"
+    interests: ["Formal Methods", "Reinforcement Learning", "Trustworthy AI"]
+  - name: "Prof. Bo Waggoner"
+    role: "Assistant Professor"
+    image: "/headshots/bo_waggoner.jpg"
+    link: "https://www.bowaggoner.com/"
+    interests: ["Theoretical Computer Science", "Game Theory", "Machine Learning"]
   - name: "Prof. Bradley Hayes"
     role: "Associate Professor"
-    image: "https://www.bradhayes.info/headshot.jpg"
+    image: "/headshots/brad_hayes.jpg"
     link: "https://www.bradhayes.info/"
     interests: ["Human-Centric AI", "Computer Vision", "Robotics"]
+  - name: "Prof. Christoffer Heckman"
+    role: "Director, Associate Professor"
+    image: "/headshots/chris_heckman.png"
+    link: "https://arpg.colorado.edu/"
+    interests: ["Foundation Models", "VLMs", "Robotics"]
+  - name: "Prof. Danna Gurari"
+    role: "Assistant Professor"
+    image: "/headshots/danna_gurari.jpg"
+    link: "https://www.colorado.edu/cs/danna-gurari"
+    interests: ["Computer Vision", "Accessibility", "HCI"]
+  - name: "Prof. David Quigley"
+    role: "Assistant Teaching Professor"
+    image: "/headshots/david_quigley.png"
+    link: "https://www.colorado.edu/cs/david-quigley"
+    interests: ["Learning Analytics", "HCI", "Educational Technology"]
   - name: "Prof. Esther Rolf"
     role: "Assistant Professor"
-    image: "https://www.estherrolf.com/imgs/esther_2019_cropped.JPG"
+    image: "/headshots/esther_rolf.jpeg"
     link: "https://www.estherrolf.com/"
     interests: ["Climate Science", "Computer Vision", "Machine Learning"]
+  - name: "Prof. James Martin"
+    role: "Professor"
+    image: "/headshots/james_martin.png"
+    link: "https://www.colorado.edu/cs/james-martin"
+    interests: ["Natural Language Processing", "Computational Semantics", "HCI"]
+  - name: "Prof. Maria Antoniak"
+    role: "Assistant Professor"
+    image: "/headshots/maria_antoniak.jpg"
+    link: "https://maria-antoniak.github.io/"
+    interests: ["NLP", "Cultural Analytics", "Healthcare"]
+  - name: "Prof. Maria Pacheco"
+    role: "Assistant Professor"
+    image: "/headshots/maria_pacheco.jpg"
+    link: "https://www.colorado.edu/cs/maria-pacheco"
+    interests: ["NLP", "Machine Learning", "Computational Social Science"]
+  - name: "Prof. Mark Zhao"
+    role: "Assistant Professor"
+    image: "/headshots/mark_zhao.jpg"
+    link: "https://home.cs.colorado.edu/~myzhao/"
+    interests: ["Machine Learning Systems", "Scalability", "Security"]
+  - name: "Prof. Nikolaus Correll"
+    role: "Professor"
+    image: "/headshots/nikolaus_correll.png"
+    link: "https://correll.cs.colorado.edu/"
+    interests: ["Robotics", "Material Science", "Swarm Intelligence"]
+  - name: "Prof. Rafael Frongillo"
+    role: "Associate Professor"
+    image: "/headshots/rafael_frongillo.png"
+    link: "https://www.colorado.edu/cs/rafael-frongillo"
+    interests: ["Theoretical Machine Learning", "Algorithmic Economics", "Game Theory"]
+  - name: "Prof. Theodora Chaspari"
+    role: "Associate Professor"
+    image: "/headshots/theodora_chaspari.jpg"
+    link: "https://www.colorado.edu/ics/theodora-chaspari"
+    interests: ["Affective Computing", "Health Analytics", "Human-Centered ML"]
 students:
-  - name: "Sarah Jenkins"
-    role: "PhD Candidate"
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuClr0t1JcXrRowNpAzPHhpJGbs21dVc5tENUnWxQrDwWBsbvQugJGZ6GTpGKG5yrjgnzXdRUBZtAkjBzxDwwCsyk-Vyq5hgUvd98BBbMeQSmb63gHTkpubHMiDsqO2gA9Krx4tDkyFTpkUvNWirA7_XbwPLK7FBMqgHHGIT3pkYUsSk8A_HuVaIZuzU4XZkF8MsiIyR0xxUon5nAcHpKboA61vjvDPaPbSDAEVgv51kyhQ123wmIo_3AIwuMjHyw684rlPUoVEm6Bw"
-    link: "#"
-    interests: ["HCI", "Accessible AI"]
-  - name: "Marcus Johnson"
-    role: "Postdoctoral Researcher"
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBakljQky1Gs8dUvnZHwcDgYBW2zw91MHye72rmZYhhePl_-f4bXUL8_vaqnJTlKMThYDsXKD_FPSPsFEYYyZkzshdpXI1JV61d1_Akkbx8KYeE1OTGLTqw1PA6q2PzYWcLCehQUbGsa3pfX1Pbp-9lwR9PWjrIyq949W4DpIuwCz7AKMEyKRLn-KChBszAkxmxNeyS0vXu7BMum61TrdaBsQKKR6xOl2FdIoo0NubndA2JJHvdp6BuDXiwcV0H75dAA5F4a4Pv93o"
-    link: "#"
-    interests: ["Reinforcement Learning"]
-  - name: "Priya Patel"
-    role: "PhD Candidate"
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBYYktN5bzTEUYQQDs8-a2q4NoA5Wu93yn8tB8UZeIOz31x8ty3vT48K1nkPDvhF8LKPrOESSwpjMJTHKaENgbqi5eYOQJOZH69hwA3viXRPUsqcX4Jy6y6ckc28MU7cvsPpg3t4vPxE1f8yrttCbaByCO3ky38F1POw0G_XIAaKjY6qVw1rSgTa31W3xQiUMl7BcxRuEHOrT0M9PXagQ5tCQ0Z1hxXyF29PwdxBt5uhAH7Rq5dG9E12-tL95B7FCiV3RrkSBCh7Vg"
-    link: "#"
-    interests: ["Robot Manipulation", "Tactile Sensing"]

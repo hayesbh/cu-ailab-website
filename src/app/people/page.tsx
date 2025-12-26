@@ -38,7 +38,7 @@ export default function PeoplePage() {
       </div>
 
       <div className="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
-        <PeopleBrowser peopleData={peopleData} />
+        <PeopleBrowser peopleData={peopleData || { faculty: [], students: [] }} />
       </div>
     </div>
   );

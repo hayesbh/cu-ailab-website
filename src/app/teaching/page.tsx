@@ -10,7 +10,9 @@ export default function TeachingPage() {
   return (
     <>
       <Hero data={data.hero} />
-      <CourseInteractions courses={data.courses} />
+      <div className="hidden md:block">
+        <CourseInteractions courses={data.courses} />
+      </div>
       <DegreePrograms programs={data.degree_programs} />
       <CourseCatalog courses={data.courses} filters={data.catalog_filters} />
     </>
