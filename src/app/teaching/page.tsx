@@ -4,8 +4,11 @@ import { CourseInteractions } from '@/components/teaching/CourseInteractions';
 import { DegreePrograms } from '@/components/teaching/DegreePrograms';
 import { CourseCatalog } from '@/components/teaching/CourseCatalog';
 
+import { getAllDegreePrograms } from '@/lib/degreeProgramUtils';
+
 export default function TeachingPage() {
   const data = getContent<any>('teaching');
+  const degreePrograms = getAllDegreePrograms();
 
   return (
     <>
@@ -13,7 +16,7 @@ export default function TeachingPage() {
       <div className="hidden md:block">
         <CourseInteractions courses={data.courses} />
       </div>
-      <DegreePrograms programs={data.degree_programs} />
+      <DegreePrograms programs={degreePrograms} />
       <CourseCatalog courses={data.courses} filters={data.catalog_filters} />
     </>
   );

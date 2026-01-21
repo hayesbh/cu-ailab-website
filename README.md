@@ -190,6 +190,81 @@ courses:
 
 ---
 
+### 5. Managing Degree Programs (`src/content/degree-programs/*.md`)
+
+Each degree program corresponds to a single Markdown file in `src/content/degree-programs/`. These files use **Frontmatter** (YAML at the top) for structured data and **Markdown** (body) for the main overview text.
+
+#### Creating/Editing a Degree Program
+
+1.  **File Naming**: Use a kebab-case filename (e.g., `phd-cs.md`, `professional-ms.md`). This filename becomes the URL slug (e.g., `/teaching/phd-cs`).
+2.  **Frontmatter Configuration**:
+    The frontmatter controls the layout of the degree page. Key sections include:
+
+    ```yaml
+    ---
+    title: "PhD in Computer Science"
+    description: "Short summary card description."
+    type: "light" # Theme: 'light' or 'dark'
+    icon: "psychology" # Material Symbol name
+    order: 2 # Display order in lists
+    
+    # Hero Section
+    hero:
+      image: "https://..."
+      subtitle: "Department Name..."
+    
+    # Curriculum Tab
+    curriculum:
+      core:
+        - code: "CSCI 5454"
+          title: "Algorithms"
+          description: "..."
+      electives:
+        - code: "CSCI 6000"
+          title: "Elective Name"
+    
+    # Requirements Tab
+    requirements:
+      - title: "Prior Degree"
+        description: "Bachelor's required..."
+    
+    # Timeline Tab
+    timeline:
+      - title: "Year 1"
+        subtitle: "Foundations"
+        items:
+          - "Coursework"
+          - "Lab Rotation"
+    
+    # Sidebar: Quick Facts
+    quick_facts:
+      duration: "4-6 Years"
+      credits: "30 Course + 30 Thesis"
+      format: "On-Campus"
+      next_deadline: "Dec 1"
+    
+    # Sidebar: Contact
+    contact:
+      name: "Dr. Name"
+      role: "Director"
+      email: "email@colorado.edu"
+      image: "https://..."
+    ---
+    ```
+
+3.  **Program Overview (Body Content)**:
+    Anything written *below* the `---` separator is treated as the **Program Overview**. You can use standard Markdown here.
+
+    ```markdown
+    The PhD in Computer Science is a research-first program...
+    
+    ## Research Areas
+    - Artificial Intelligence
+    - Robotics
+    ```
+
+---
+
 ## Development & Deployment
 
 ### Getting Started

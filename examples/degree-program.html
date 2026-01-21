@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MS in AI - CAIR Group</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#eead2b",
+                        "background-light": "#f8f7f6",
+                        "background-dark": "#221c10",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+        /* Hide scrollbar for clean horizontal scroll if needed */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#181611] dark:text-white">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e6e2db] bg-white/95 backdrop-blur-sm px-4 md:px-10 py-3 dark:bg-[#181611]/95 dark:border-[#333]">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-[#181611] dark:text-white">
+<div class="size-8 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">CAIR Group</h2>
+</div>
+<div class="hidden lg:flex items-center gap-9">
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Research</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">People</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Teaching</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">News</a>
+<a class="text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+</div>
+<div class="flex flex-1 justify-end gap-4 md:gap-8">
+<label class="hidden md:flex flex-col min-w-40 !h-10 max-w-64">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full bg-[#f4f3f0] dark:bg-[#2a2a2a]">
+<div class="text-[#897c61] flex border-none items-center justify-center pl-4 rounded-l-lg border-r-0">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg focus:outline-0 focus:ring-0 border-none bg-transparent focus:border-none h-full placeholder:text-[#897c61] px-4 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal dark:text-white" placeholder="Search" value=""/>
+</div>
+</label>
+<button class="lg:hidden p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<div class="relative w-full">
+<div class="flex min-h-[400px] md:min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat items-start justify-end px-4 pb-10 md:px-40 py-20" data-alt="Futuristic abstract network background representing artificial intelligence connections" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqa12QX-QB7H0ru-RxEYN2dS7DECsxopcCNf0sjChWRj7myDKCRwosvk17ugP1V1WeR-u2maHGsYb9OWEyi3Ds4tQMPwnDiTGrVahtABySmEWSE7iQivlywNEgplYjPOhNDnLICZXQ996POVDn6Zenxr3KKIgT6i3HMbzC70Oi4y3jNhqmHQ7MbAzNXjWAOpzcn-a0INBK7dtnInXhQmCLS8csANDZCOyLplqcwnoG9ZRoDkzVzpsQgJaeGiL-JfaILWM3rAI7jEo");'>
+<div class="flex flex-col gap-4 text-left max-w-[960px] w-full mx-auto animate-fade-in-up">
+<span class="text-primary font-bold tracking-wider uppercase text-sm">Graduate Degree</span>
+<h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-[-0.033em]">
+                        Master of Science in <br class="hidden md:block"/> Artificial Intelligence
+                    </h1>
+<h2 class="text-white/90 text-lg md:text-xl font-normal leading-normal max-w-2xl">
+                        College of Engineering &amp; Applied Science • Department of Computer Science
+                    </h2>
+</div>
+</div>
+</div>
+<!-- Main Content Wrapper -->
+<div class="flex flex-1 justify-center py-8 px-4 md:px-10 lg:px-40">
+<div class="flex flex-col max-w-[1200px] flex-1 w-full">
+<!-- Breadcrumbs -->
+<div class="flex flex-wrap gap-2 pb-6 text-sm">
+<a class="text-[#897c61] hover:text-primary transition-colors font-medium leading-normal" href="#">Home</a>
+<span class="text-[#897c61] font-medium leading-normal">/</span>
+<a class="text-[#897c61] hover:text-primary transition-colors font-medium leading-normal" href="#">Academics</a>
+<span class="text-[#897c61] font-medium leading-normal">/</span>
+<span class="text-[#181611] dark:text-white font-semibold leading-normal">MS in AI</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<!-- Left Column: Main Content (8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-10">
+<!-- Tabs -->
+<div class="sticky top-[73px] z-40 bg-background-light dark:bg-background-dark pt-2 pb-2 -mx-4 px-4 md:mx-0 md:px-0">
+<div class="flex border-b border-[#e6e2db] dark:border-[#333] gap-6 md:gap-8 overflow-x-auto no-scrollbar">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-primary text-[#181611] dark:text-white pb-[13px] pt-2 min-w-fit" href="#overview">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Overview</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#897c61] hover:text-primary pb-[13px] pt-2 min-w-fit transition-colors" href="#curriculum">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Curriculum</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#897c61] hover:text-primary pb-[13px] pt-2 min-w-fit transition-colors" href="#requirements">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Requirements</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#897c61] hover:text-primary pb-[13px] pt-2 min-w-fit transition-colors" href="#timeline">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Timeline</p>
+</a>
+</div>
+</div>
+<!-- Section: Overview -->
+<section class="flex flex-col gap-4" id="overview">
+<h3 class="text-[#181611] dark:text-white text-2xl md:text-[28px] font-bold leading-tight">Program Overview</h3>
+<div class="text-[#181611] dark:text-gray-300 text-base leading-relaxed space-y-4">
+<p>
+                                    The Master of Science in Artificial Intelligence at CU Boulder offers a rigorous, interdisciplinary curriculum designed to prepare students for leadership roles in the rapidly evolving field of AI. Our program combines theoretical foundations with practical application, leveraging the cutting-edge research of the CAIR Group.
+                                </p>
+<p>
+                                    Students will engage in deep learning, natural language processing, computer vision, and robotics, working alongside world-class faculty. The program culminates in a capstone project or thesis that addresses real-world challenges, ensuring graduates are industry-ready.
+                                </p>
+</div>
+</section>
+<!-- Section: Curriculum -->
+<section class="flex flex-col gap-6 pt-6" id="curriculum">
+<h3 class="text-[#181611] dark:text-white text-2xl md:text-[28px] font-bold leading-tight">Core &amp; Elective Courses</h3>
+<div class="flex flex-col gap-4">
+<h4 class="text-lg font-semibold text-[#897c61] uppercase tracking-wide">Core Requirements</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Course Card 1 -->
+<div class="group bg-white dark:bg-[#2a2a2a] p-5 rounded-lg border border-[#e6e2db] dark:border-[#444] hover:border-primary dark:hover:border-primary transition-all cursor-pointer shadow-sm hover:shadow-md">
+<div class="flex justify-between items-start mb-2">
+<span class="text-xs font-bold text-primary bg-primary/10 px-2 py-1 rounded">CSCI 5622</span>
+<span class="material-symbols-outlined text-[#897c61] group-hover:text-primary text-xl">arrow_forward</span>
+</div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white mb-1">Machine Learning</h5>
+<p class="text-sm text-gray-500 dark:text-gray-400 line-clamp-2">Supervised learning, unsupervised learning, reinforcement learning, and learning theory.</p>
+</div>
+<!-- Course Card 2 -->
+<div class="group bg-white dark:bg-[#2a2a2a] p-5 rounded-lg border border-[#e6e2db] dark:border-[#444] hover:border-primary dark:hover:border-primary transition-all cursor-pointer shadow-sm hover:shadow-md">
+<div class="flex justify-between items-start mb-2">
+<span class="text-xs font-bold text-primary bg-primary/10 px-2 py-1 rounded">CSCI 5454</span>
+<span class="material-symbols-outlined text-[#897c61] group-hover:text-primary text-xl">arrow_forward</span>
+</div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white mb-1">Design &amp; Analysis of Algorithms</h5>
+<p class="text-sm text-gray-500 dark:text-gray-400 line-clamp-2">Advanced topics in algorithm design, including graph algorithms, approximation algorithms, and randomized algorithms.</p>
+</div>
+<!-- Course Card 3 -->
+<div class="group bg-white dark:bg-[#2a2a2a] p-5 rounded-lg border border-[#e6e2db] dark:border-[#444] hover:border-primary dark:hover:border-primary transition-all cursor-pointer shadow-sm hover:shadow-md">
+<div class="flex justify-between items-start mb-2">
+<span class="text-xs font-bold text-primary bg-primary/10 px-2 py-1 rounded">CSCI 5722</span>
+<span class="material-symbols-outlined text-[#897c61] group-hover:text-primary text-xl">arrow_forward</span>
+</div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white mb-1">Computer Vision</h5>
+<p class="text-sm text-gray-500 dark:text-gray-400 line-clamp-2">Image formation, feature detection, segmentation, and 3D reconstruction.</p>
+</div>
+<!-- Course Card 4 -->
+<div class="group bg-white dark:bg-[#2a2a2a] p-5 rounded-lg border border-[#e6e2db] dark:border-[#444] hover:border-primary dark:hover:border-primary transition-all cursor-pointer shadow-sm hover:shadow-md">
+<div class="flex justify-between items-start mb-2">
+<span class="text-xs font-bold text-primary bg-primary/10 px-2 py-1 rounded">CSCI 5832</span>
+<span class="material-symbols-outlined text-[#897c61] group-hover:text-primary text-xl">arrow_forward</span>
+</div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white mb-1">Natural Language Processing</h5>
+<p class="text-sm text-gray-500 dark:text-gray-400 line-clamp-2">Fundamental techniques for processing, analyzing, and understanding human language.</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-4 mt-4">
+<h4 class="text-lg font-semibold text-[#897c61] uppercase tracking-wide">Popular Electives</h4>
+<ul class="list-disc list-inside space-y-2 text-[#181611] dark:text-gray-300">
+<li><strong>CSCI 7000:</strong> Deep Learning for Science</li>
+<li><strong>CSCI 6402:</strong> Issues &amp; Methods in Cognitive Science</li>
+<li><strong>ETHN 5001:</strong> Ethics in AI &amp; Data Science</li>
+</ul>
+</div>
+</section>
+<!-- Section: Requirements -->
+<section class="flex flex-col gap-6 pt-6" id="requirements">
+<h3 class="text-[#181611] dark:text-white text-2xl md:text-[28px] font-bold leading-tight">Degree Requirements</h3>
+<div class="bg-white dark:bg-[#2a2a2a] rounded-xl p-6 border border-[#e6e2db] dark:border-[#444]">
+<div class="space-y-6">
+<div class="flex gap-4 items-start">
+<div class="min-w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">1</div>
+<div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white">Undergraduate Degree</h5>
+<p class="text-sm text-gray-600 dark:text-gray-300 mt-1">Bachelor's degree in Computer Science, Mathematics, or a related field with a minimum GPA of 3.0.</p>
+</div>
+</div>
+<div class="w-full h-px bg-[#e6e2db] dark:bg-[#444]"></div>
+<div class="flex gap-4 items-start">
+<div class="min-w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">2</div>
+<div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white">Standardized Tests</h5>
+<p class="text-sm text-gray-600 dark:text-gray-300 mt-1">GRE scores are currently waived for Fall 2024 applicants. TOEFL/IELTS required for international students.</p>
+</div>
+</div>
+<div class="w-full h-px bg-[#e6e2db] dark:bg-[#444]"></div>
+<div class="flex gap-4 items-start">
+<div class="min-w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold">3</div>
+<div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white">Letters of Recommendation</h5>
+<p class="text-sm text-gray-600 dark:text-gray-300 mt-1">Three letters of recommendation from academic or professional references familiar with your potential for graduate study.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section: Timeline -->
+<section class="flex flex-col gap-6 pt-6 pb-20" id="timeline">
+<h3 class="text-[#181611] dark:text-white text-2xl md:text-[28px] font-bold leading-tight">Sample Timeline</h3>
+<div class="relative pl-4 border-l-2 border-[#e6e2db] dark:border-[#444] space-y-10 ml-3">
+<!-- Step 1 -->
+<div class="relative pl-6">
+<div class="absolute -left-[23px] top-1 h-4 w-4 rounded-full bg-primary border-4 border-white dark:border-[#2a2a2a]"></div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white">Year 1: Fall Semester</h5>
+<p class="text-sm text-[#897c61] font-medium mb-2">Foundation Building</p>
+<ul class="text-sm text-gray-600 dark:text-gray-300 list-disc list-inside">
+<li>Machine Learning (Core)</li>
+<li>Algorithms (Core)</li>
+<li>Join a Research Lab</li>
+</ul>
+</div>
+<!-- Step 2 -->
+<div class="relative pl-6">
+<div class="absolute -left-[23px] top-1 h-4 w-4 rounded-full bg-background-light dark:bg-background-dark border-2 border-primary"></div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white">Year 1: Spring Semester</h5>
+<p class="text-sm text-[#897c61] font-medium mb-2">Advanced Topics</p>
+<ul class="text-sm text-gray-600 dark:text-gray-300 list-disc list-inside">
+<li>Natural Language Processing</li>
+<li>Computer Vision</li>
+<li>Define Thesis/Project Topic</li>
+</ul>
+</div>
+<!-- Step 3 -->
+<div class="relative pl-6">
+<div class="absolute -left-[23px] top-1 h-4 w-4 rounded-full bg-background-light dark:bg-background-dark border-2 border-primary"></div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white">Year 2: Fall Semester</h5>
+<p class="text-sm text-[#897c61] font-medium mb-2">Specialization &amp; Research</p>
+<ul class="text-sm text-gray-600 dark:text-gray-300 list-disc list-inside">
+<li>Ethics in AI (Elective)</li>
+<li>Graduate Research Credits</li>
+<li>Proposal Defense</li>
+</ul>
+</div>
+<!-- Step 4 -->
+<div class="relative pl-6">
+<div class="absolute -left-[23px] top-1 h-4 w-4 rounded-full bg-background-light dark:bg-background-dark border-2 border-primary"></div>
+<h5 class="text-lg font-bold text-[#181611] dark:text-white">Year 2: Spring Semester</h5>
+<p class="text-sm text-[#897c61] font-medium mb-2">Completion</p>
+<ul class="text-sm text-gray-600 dark:text-gray-300 list-disc list-inside">
+<li>Thesis Defense or Capstone Project</li>
+<li>Final Elective</li>
+<li>Graduation</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Sidebar (4 cols) -->
+<div class="lg:col-span-4 relative">
+<div class="sticky top-28 flex flex-col gap-6">
+<!-- Quick Facts Card -->
+<div class="bg-white dark:bg-[#2a2a2a] rounded-xl shadow-lg border-t-4 border-primary p-6">
+<h4 class="text-xl font-bold text-[#181611] dark:text-white mb-6">At a Glance</h4>
+<div class="space-y-5">
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-lg bg-[#f4f3f0] dark:bg-[#333] flex items-center justify-center text-[#897c61] dark:text-primary">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<p class="text-xs font-semibold text-[#897c61] uppercase tracking-wide">Duration</p>
+<p class="text-[#181611] dark:text-white font-bold">1.5 - 2 Years</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-lg bg-[#f4f3f0] dark:bg-[#333] flex items-center justify-center text-[#897c61] dark:text-primary">
+<span class="material-symbols-outlined">menu_book</span>
+</div>
+<div>
+<p class="text-xs font-semibold text-[#897c61] uppercase tracking-wide">Credits</p>
+<p class="text-[#181611] dark:text-white font-bold">30 Credits</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-10 h-10 rounded-lg bg-[#f4f3f0] dark:bg-[#333] flex items-center justify-center text-[#897c61] dark:text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="text-xs font-semibold text-[#897c61] uppercase tracking-wide">Format</p>
+<p class="text-[#181611] dark:text-white font-bold">On-Campus</p>
+</div>
+</div>
+<div class="w-full h-px bg-[#e6e2db] dark:bg-[#444] my-2"></div>
+<div class="bg-primary/10 rounded-lg p-4 border border-primary/20">
+<p class="text-sm text-[#181611] dark:text-white font-medium mb-1">Next Application Deadline</p>
+<p class="text-primary font-bold text-lg">December 15, 2024</p>
+<p class="text-xs text-gray-500 mt-1">For Fall 2025 Start</p>
+</div>
+<button class="w-full py-3 px-4 bg-primary hover:bg-[#d99a22] text-[#181611] font-bold rounded-lg shadow-sm transition-colors text-center block">
+                                        Apply Now
+                                    </button>
+</div>
+</div>
+<!-- Contact Card -->
+<div class="bg-[#f4f3f0] dark:bg-[#222] rounded-xl p-6 border border-[#e6e2db] dark:border-[#333]">
+<h5 class="text-base font-bold text-[#181611] dark:text-white mb-4">Have Questions?</h5>
+<div class="flex gap-4 mb-4">
+<div class="w-12 h-12 rounded-full bg-gray-300 bg-cover bg-center" data-alt="Portrait of Sarah Jenkins, Graduate Advisor" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBCO_18KGdOJyrdt1Ab2n36CGPxE2Qcfa2feXdmXHBKH6H3528InWE28hxYG6LRhZypyZi7XPQAZrKm5S4ks6jjZO-PEYm7BNJOqP6ya7gNdG5s9EoAZEIwIubRm1w5BaBDtwhYD8pe_CyFnvj4qu4WzTym4ansztWvoNhCvHlFhE0jH_IyYHU8T_IiUkpvNOJLD6N-_e0ruPtNxYS72drlJkDuEjvPfHcSUXy-LuDcIeLXMwv8irnjybW9aJ_hJK07pajompwQpq4");'></div>
+<div>
+<p class="text-sm font-bold text-[#181611] dark:text-white">Sarah Jenkins</p>
+<p class="text-xs text-[#897c61]">Graduate Advisor</p>
+</div>
+</div>
+<a class="flex items-center gap-2 text-sm text-[#181611] dark:text-white hover:text-primary font-medium" href="mailto:grad-advising@colorado.edu">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+                                    grad-advising@colorado.edu
+                                </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-[#221c10] text-white py-12 px-4 md:px-10 lg:px-40 mt-auto">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-2">
+<h2 class="text-xl font-bold mb-4">CAIR Group</h2>
+<p class="text-gray-400 text-sm max-w-sm mb-6">
+                         Advancing the frontiers of Artificial Intelligence through interdisciplinary research and education at the University of Colorado Boulder.
+                     </p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="sr-only">Twitter</span>
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<span class="sr-only">GitHub</span>
+<svg class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-4 text-[#897c61]">Quick Links</h3>
+<ul class="space-y-2 text-sm text-gray-400">
+<li><a class="hover:text-primary" href="#">Research Areas</a></li>
+<li><a class="hover:text-primary" href="#">Publications</a></li>
+<li><a class="hover:text-primary" href="#">Join Us</a></li>
+<li><a class="hover:text-primary" href="#">Seminars</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-sm font-bold uppercase tracking-wider mb-4 text-[#897c61]">University</h3>
+<ul class="space-y-2 text-sm text-gray-400">
+<li><a class="hover:text-primary" href="#">CU Boulder Home</a></li>
+<li><a class="hover:text-primary" href="#">College of Engineering</a></li>
+<li><a class="hover:text-primary" href="#">Computer Science</a></li>
+<li><a class="hover:text-primary" href="#">Campus Map</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-12 pt-8 text-center text-xs text-gray-500">
+                 © 2024 Regents of the University of Colorado
+             </div>
+</footer>
+</div>
+</body></html>
