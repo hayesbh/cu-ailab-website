@@ -9,7 +9,7 @@ const splineSans = Spline_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "AI@CUBoulder",
+  title: "Colorado AI Lab",
   description: "AI at the University of Colorado Boulder",
 };
 

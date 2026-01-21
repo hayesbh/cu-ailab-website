@@ -3,8 +3,8 @@ import { ResearchProject, ResearchPageContent } from "@/types/content";
 import { ProjectsContent } from "@/components/projects/ProjectsContent";
 
 export const metadata = {
-  title: "Projects | CAIR Lab",
-  description: "Explore the diverse range of AI research initiatives at CAIR Lab.",
+  title: "Projects | Colorado AI Lab",
+  description: "Explore the diverse range of AI research initiatives at Colorado AI Lab.",
 };
 
 export default function ProjectsPage() {

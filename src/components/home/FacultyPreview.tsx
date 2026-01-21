@@ -62,7 +62,7 @@ export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
             </div>
             <div>
               <h4 className="font-bold text-lg leading-tight group-hover:text-primary transition-colors text-black dark:text-white">You?</h4>
-              <p className="text-sm text-text-muted dark:text-text-muted-dark mt-1">Join CAIR</p>
+              <p className="text-sm text-text-muted dark:text-text-muted-dark mt-1">Join Colorado AI Lab</p>
             </div>
           </Link>
         </div>

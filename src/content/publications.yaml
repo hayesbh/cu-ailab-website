@@ -13,7 +13,7 @@ stats:
 
 network:
   nodes:
-    - id: "CAIR"
+    - id: "Colorado AI Lab"
       group: "lab"
       x: 400
       y: 300
@@ -82,37 +82,37 @@ network:
       x: 550
       y: 500
   links:
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Alessandro Roncone"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Alvaro Velasquez"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Ashutosh Trivedi"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Bo Waggoner"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Bradley Hayes"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Christoffer Heckman"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Danna Gurari"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "David Quigley"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Esther Rolf"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "James Martin"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Maria Antoniak"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Maria Pacheco"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Mark Zhao"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Nicolaus Correll"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Rafael Frongillo"
-    - source: "CAIR"
+    - source: "Colorado AI Lab"
       target: "Theodora Chaspari"
 
 publications:

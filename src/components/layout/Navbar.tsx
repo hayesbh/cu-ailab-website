@@ -53,7 +53,7 @@ export function Navbar() {
               </div>
               <div>
                 <h2 className="text-xl font-bold tracking-tight leading-none text-text-main dark:text-text-light">
-                  AI@CUBoulder
+                  Colorado AI Lab
                 </h2>
                 <p className="text-xs font-bold text-text-muted dark:text-text-muted-dark uppercase tracking-wide">
                   University of Colorado Boulder

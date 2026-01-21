@@ -103,7 +103,7 @@ export default function JoinUsPage() {
                         </div>
                         <h3 className="text-2xl font-bold mb-3 text-black dark:text-white">Faculty Positions</h3>
                         <p className="text-text-muted dark:text-text-muted-dark mb-8 text-sm leading-relaxed">
-                            The Department of Computer Science and CAIR are looking for tenure-track faculty to lead new research directions.
+                            The Department of Computer Science and Colorado AI Lab are looking for tenure-track faculty to lead new research directions.
                         </p>
                         
                          <div className="flex flex-col gap-3">
@@ -134,7 +134,7 @@ export default function JoinUsPage() {
                     <span className="text-primary font-bold text-xs uppercase tracking-widest mb-2 block">Why Boulder?</span>
                     <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-6 leading-tight">Research meets <br/>Adventure.</h2>
                     <p className="text-lg text-text-muted dark:text-text-muted-dark mb-6">
-                        Located at the base of the Rocky Mountains, CU Boulder offers an unparalleled quality of life. AI@CUBoulder members enjoy 300 days of sunshine, world-class hiking and skiing, and a vibrant downtown just minutes from the lab.
+                        Located at the base of the Rocky Mountains, CU Boulder offers an unparalleled quality of life. Colorado AI Lab members enjoy 300 days of sunshine, world-class hiking and skiing, and a vibrant downtown just minutes from the lab.
                     </p>
                     <p className="text-lg text-text-muted dark:text-text-muted-dark mb-8">
                         Beyond the outdoors, Boulder is a burgeoning tech hub with heavy industry presence from Google, Apple, and Amazon, providing ample collaboration opportunities for our researchers.

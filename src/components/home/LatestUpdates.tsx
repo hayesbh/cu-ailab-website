@@ -63,7 +63,7 @@ export function LatestUpdates({ data, news }: LatestUpdatesProps) {
                  <div className="bg-primary/10 rounded p-4 border border-primary/20">
                     <h5 className="text-xs font-bold text-primary uppercase mb-1">Mark Your Calendar</h5>
                     <p className="text-xs text-text-muted dark:text-text-muted-dark">
-                        The annual CAIR Symposium is scheduled for Dec 15th.
+                        The annual Colorado AI Lab Symposium is scheduled for Dec 15th.
                     </p>
                  </div>
               </div>

@@ -2,7 +2,7 @@ import { getContent } from '@/lib/content';
 import { NewsArchive, NewsItem } from '@/components/news/NewsArchive';
 
 export const metadata = {
-  title: 'News Archive | CAIR',
+  title: 'News Archive | Colorado AI Lab',
   description: 'Latest updates, publications, and announcements from the Colorado AI Research lab.',
 };
 
