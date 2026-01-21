@@ -2,6 +2,19 @@
 
 This repository contains the source code for the Colorado AI Lab website. It is a modern, static site built with [Next.js](https://nextjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/). CI/CD pipeline will be handled by GitHub Actions and deploy changes to a staging environment with limited access to promote changes to production, but this is temporarily blocked.
 
+## Table of Contents
+
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Content Management: How-to Guides](#content-management-how-to-guides)
+  - [1. Managing People](#1-managing-people-srccontentpeopleyaml)
+  - [2. Managing Publications](#2-managing-publications-srccontentpublicationsyaml)
+  - [3. Managing Projects](#3-managing-projects)
+  - [4. Teaching & Curriculum Tree](#4-teaching--curriculum-tree-srccontentteachingyaml)
+  - [5. Managing Degree Programs](#5-managing-degree-programs-srccontentdegree-programsmd)
+- [Development & Deployment](#development--deployment)
+
+
 ## Tech Stack
 
 The project relies on the following frontend stack:
