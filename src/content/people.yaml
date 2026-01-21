@@ -27,7 +27,7 @@ faculty:
   - name: "Prof. Christoffer Heckman"
     role: "Director, Associate Professor"
     image: "/headshots/chris_heckman.png"
-    link: "https://arpg.colorado.edu/"
+    link: "https://arpg.github.io/"
     interests: ["Foundation Models", "VLMs", "Robotics"]
   - name: "Prof. Danna Gurari"
     role: "Assistant Professor"
