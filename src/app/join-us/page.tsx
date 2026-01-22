@@ -1,10 +1,12 @@
+import { withBasePath } from '@/lib/paths';
+
 export default function JoinUsPage() {
   return (
     <div className="min-h-screen">
         {/* Simple Hero */}
         <div className="relative h-[60vh] min-h-[600px] w-full flex items-end justify-center overflow-hidden bg-black pb-12">
             <img 
-                src="/ai-at-boulder.jpg" 
+                src={withBasePath("/ai-at-boulder.jpg")} 
                 className="absolute inset-0 w-full h-full object-cover"
                 alt="AI at Boulder"
             />

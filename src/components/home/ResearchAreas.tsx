@@ -2,6 +2,7 @@
 
 import { useRef } from 'react';
 import Link from 'next/link';
+import { withBasePath } from '@/lib/paths';
 import { ResearchAreaCard, ResearchArea } from './ResearchAreaCard';
 
 interface ResearchAreasProps {
@@ -75,7 +76,7 @@ export function ResearchAreas({ data }: ResearchAreasProps) {
                  <p className="text-gray-200 mb-6">
                    Explore our work in machine learning theory, AI for science, and human-computer interaction.
                  </p>
-                 <Link href="/research" className="inline-flex items-center text-primary font-bold group-hover:underline underline-offset-4">
+                 <Link href={withBasePath("/research")} className="inline-flex items-center text-primary font-bold group-hover:underline underline-offset-4">
                    View All Areas <span className="material-symbols-outlined ml-1 text-lg">arrow_forward</span>
                  </Link>
                </div>

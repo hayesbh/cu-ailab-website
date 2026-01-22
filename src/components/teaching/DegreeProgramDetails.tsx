@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import ReactMarkdown from 'react-markdown';
+import { withBasePath } from '@/lib/paths';
 import { DegreeProgramFrontmatter } from '@/lib/degreeProgramUtils';
 
 interface DegreeProgramDetailsProps {
@@ -65,9 +66,9 @@ export function DegreeProgramDetails({ frontmatter, content }: DegreeProgramDeta
       <div className="flex flex-col max-w-[1200px] flex-1 w-full">
         {/* Breadcrumbs */}
         <div className="flex flex-wrap gap-2 pb-6 text-sm">
-          <a href="/" className="text-[#897c61] hover:text-primary transition-colors font-medium leading-normal">Home</a>
+          <a href={withBasePath("/")} className="text-[#897c61] hover:text-primary transition-colors font-medium leading-normal">Home</a>
           <span className="text-[#897c61] font-medium leading-normal">/</span>
-          <a href="/teaching" className="text-[#897c61] hover:text-primary transition-colors font-medium leading-normal">Academics</a>
+          <a href={withBasePath("/teaching")} className="text-[#897c61] hover:text-primary transition-colors font-medium leading-normal">Academics</a>
           <span className="text-[#897c61] font-medium leading-normal">/</span>
           <span className="text-[#181611] dark:text-white font-semibold leading-normal">{frontmatter.title}</span>
         </div>
@@ -244,7 +245,7 @@ export function DegreeProgramDetails({ frontmatter, content }: DegreeProgramDeta
                    <div className="flex gap-4 mb-4">
                       <div 
                          className="w-12 h-12 rounded-full bg-gray-300 bg-cover bg-center" 
-                         style={{ backgroundImage: `url("${frontmatter.contact.image}")` }}
+                         style={{ backgroundImage: `url("${withBasePath(frontmatter.contact.image)}")` }}
                       ></div>
                       <div>
                          <p className="text-sm font-bold text-[#181611] dark:text-white">{frontmatter.contact.name}</p>

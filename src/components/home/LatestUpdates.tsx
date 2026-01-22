@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/paths';
 
 interface NewsItem {
   title: string;
@@ -32,7 +33,7 @@ export function LatestUpdates({ data, news }: LatestUpdatesProps) {
                   <span className="material-symbols-outlined text-primary">calendar_month</span>
                   Upcoming Events
                 </h3>
-                <Link href="/events" className="text-xs font-bold text-primary hover:text-primary-hover uppercase tracking-wider">
+                <Link href={withBasePath("/events")} className="text-xs font-bold text-primary hover:text-primary-hover uppercase tracking-wider">
                   View All
                 </Link>
               </div>
@@ -77,7 +78,7 @@ export function LatestUpdates({ data, news }: LatestUpdatesProps) {
                 <h2 className="text-3xl font-bold tracking-tight mb-2 text-black dark:text-white">{data.title}</h2>
                 <p className="text-lg text-text-muted dark:text-text-muted-dark">{data.subtitle}</p>
               </div>
-              <Link href="/news" className="text-sm font-bold border-b-2 border-primary pb-0.5 hover:text-primary transition-colors text-black dark:text-white">
+              <Link href={withBasePath("/news")} className="text-sm font-bold border-b-2 border-primary pb-0.5 hover:text-primary transition-colors text-black dark:text-white">
                 View Archive
               </Link>
             </div>
@@ -124,7 +125,7 @@ export function LatestUpdates({ data, news }: LatestUpdatesProps) {
                         {item.authors.map((author, i) => (
                           <img 
                             key={i}
-                            src={author.image} 
+                            src={withBasePath(author.image)} 
                             alt={author.name} 
                             className="h-8 w-8 rounded-full border-2 border-white dark:border-card-dark" 
                           />

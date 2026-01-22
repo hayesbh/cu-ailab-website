@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import { withBasePath } from '@/lib/paths';
 
 interface Person {
   name: string;
@@ -19,7 +19,7 @@ export function PersonCard({ person }: PersonCardProps) {
     <div className="flex flex-col items-start gap-4 group cursor-pointer h-full">
       <div className="relative w-full aspect-[4/5] rounded overflow-hidden bg-gray-200">
         <img
-          src={person.image}
+          src={withBasePath(person.image)}
           alt={`Portrait of ${person.name}`}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0"
         />

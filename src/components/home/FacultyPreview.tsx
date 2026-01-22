@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { withBasePath } from '@/lib/paths';
 
 interface Person {
   name: string;
@@ -32,7 +33,7 @@ export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
               {data.subtitle}
             </p>
           </div>
-          <Link href="/people" className="h-10 px-6 rounded bg-primary text-black flex items-center justify-center text-sm font-bold hover:bg-primary-hover transition-colors">
+          <Link href={withBasePath("/people")} className="h-10 px-6 rounded bg-primary text-black flex items-center justify-center text-sm font-bold hover:bg-primary-hover transition-colors">
             {data.cta}
           </Link>
         </div>
@@ -42,7 +43,7 @@ export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
             <div key={index} className="flex flex-col items-start gap-4 group cursor-pointer">
               <div className="relative w-full aspect-square rounded overflow-hidden bg-gray-200">
                 <img
-                  src={person.image}
+                  src={withBasePath(person.image)}
                   alt={`Portrait of ${person.name}`}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 grayscale group-hover:grayscale-0"
                 />
@@ -56,7 +57,7 @@ export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
             </div>
           ))}
 
-          <Link href="/join-us" className="flex flex-col items-start gap-4 group cursor-pointer">
+          <Link href={withBasePath("/join-us")} className="flex flex-col items-start gap-4 group cursor-pointer">
             <div className="relative w-full aspect-square rounded overflow-hidden bg-gray-100 border-2 border-dashed border-border-light dark:border-border-dark flex items-center justify-center group-hover:border-primary transition-colors">
               <span className="material-symbols-outlined text-4xl text-text-muted opacity-50 group-hover:text-primary group-hover:opacity-100 transition-all">add</span>
             </div>

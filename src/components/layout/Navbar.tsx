@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import { withBasePath } from '@/lib/paths';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,10 +37,10 @@ export function Navbar() {
   }, [isOpen]);
 
   const navItems = [
-    { name: 'Research', href: '/research' },
-    { name: 'People', href: '/people' },
-    { name: 'Publications', href: '/publications' },
-    { name: 'Teaching', href: '/teaching' },
+    { name: 'Research', href: withBasePath('/research') },
+    { name: 'People', href: withBasePath('/people') },
+    { name: 'Publications', href: withBasePath('/publications') },
+    { name: 'Teaching', href: withBasePath('/teaching') },
   ];
 
   return (
@@ -47,7 +48,7 @@ export function Navbar() {
       <header className="sticky top-0 z-50 w-full border-b border-border-light dark:border-border-dark bg-background-light/95 dark:bg-background-dark/90 backdrop-blur-md">
         <div className="mx-auto flex h-20 max-w-[1400px] items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4">
-            <Link href="/" className="flex items-center gap-4 group" onClick={() => setIsOpen(false)}>
+            <Link href={withBasePath("/")} className="flex items-center gap-4 group" onClick={() => setIsOpen(false)}>
               <div className="flex h-10 w-10 items-center justify-center rounded bg-black text-white dark:bg-primary dark:text-text-main group-hover:scale-105 transition-transform duration-300">
                 <span className="material-symbols-outlined text-[24px]">bubble_chart</span>
               </div>
@@ -82,7 +83,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-4">
             <Link
-              href="/join-us"
+              href={withBasePath("/join-us")}
               className="hidden sm:flex h-10 items-center justify-center rounded bg-black dark:bg-primary px-6 text-sm font-bold text-white dark:text-text-main hover:bg-gray-800 dark:hover:bg-primary-hover transition-all shadow-md hover:shadow-lg"
             >
               Join Us
@@ -153,7 +154,7 @@ export function Navbar() {
                 className="w-full max-w-[280px]"
               >
                 <Link
-                  href="/join-us"
+                  href={withBasePath("/join-us")}
                   className="flex items-center justify-center h-14 rounded-full bg-black text-white text-lg font-bold uppercase tracking-wider shadow-xl hover:scale-105 transition-transform"
                   onClick={() => setIsOpen(false)}
                 >
