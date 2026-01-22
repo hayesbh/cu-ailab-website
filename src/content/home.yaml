@@ -1,16 +1,18 @@
 hero:
   title: "Advancing Intelligence."
   subtitle: "The Colorado AI Lab pioneers the intersection of machine learning, computer vision, and robotics to solve complex real-world challenges."
-  new_label: "New: Accepting PhD Applications for Fall 2026"
+  new_label: "New: MS in AI Degree Starting Enrollment in Fall 2026!"
   cta_primary: "Explore Our Research"
+  cta_primary_link: "/research"
   cta_secondary: "Meet the Team"
+  cta_secondary_link: "/people"
   background_image: ""
 
 ticker:
-  - 'Latest: "KenGPT: A New Kind of Department Chair" @ NeurIPS 2025'
-  - 'New Grant from NSF Robust Intelligence on Making Robots Feel Actual Pain "Just in Case"'
-  - 'Welcome back to the team: Dr. Christoffer Heckman'
-  - 'Upcoming Seminar: "Transformer Architectures for Cats" on Jan 18'
+  - 'Nationally recognized NSF AI Institute iSAT renewed funding to expand research on AI-literate education and the future workforce'
+  - '2026 Research and Innovation Office Seed Grants awarded to AI Lab faculty'
+  - 'CU researchers joined a $4 million, multi-university initiative funded by the U.S. Office of Naval Research to develop next-generation AI algorithms for autonomous systems'
+  - 'Assistant Professor Zachary Sunberg earns NSF CAREER Award for AI and autonomy research'
 
 research_areas:
   title: "Impactful Research Areas"

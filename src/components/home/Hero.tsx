@@ -14,7 +14,9 @@ interface HeroProps {
     subtitle: string;
     new_label: string;
     cta_primary: string;
+    cta_primary_link: string;
     cta_secondary: string;
+    cta_secondary_link: string;
     background_image: string;
   };
   ticker_items: string[];
@@ -69,10 +71,10 @@ export function Hero({ data, ticker_items }: HeroProps) {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <button className="h-12 px-8 rounded bg-primary text-black font-bold text-lg hover:bg-primary-hover transition-colors shadow-lg">
+            <Link href={(data.cta_primary_link)} className="flex items-center justify-center h-12 px-8 rounded bg-primary text-black font-bold text-lg hover:bg-primary-hover transition-colors shadow-lg">
               {data.cta_primary}
-            </button>
-            <Link href="/people" className="flex items-center justify-center h-12 px-8 rounded border-2 border-white bg-transparent font-bold text-lg hover:bg-white hover:text-black transition-colors">
+            </Link>
+            <Link href={(data.cta_secondary_link)} className="flex items-center justify-center h-12 px-8 rounded border-2 border-white bg-transparent font-bold text-lg hover:bg-white hover:text-black transition-colors">
               {data.cta_secondary}
             </Link>
           </motion.div>
