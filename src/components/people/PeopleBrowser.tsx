@@ -20,7 +20,7 @@ interface PeopleBrowserProps {
   peopleData: PeopleData;
 }
 
-const FILTERS = ['All Members', 'Faculty', 'Postdocs', 'PhD Students', 'Alumni'];
+const FILTERS = ['All Members', 'Tenure-Track Faculty', 'Research Faculty', 'Teaching Faculty', 'Staff', 'Postdocs'];
 
 export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
   const [activeFilter, setActiveFilter] = useState('All Members');
@@ -28,7 +28,18 @@ export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
 
   // Combine all people for easier filtering
   const allPeople = [
-    ...(peopleData.faculty || []).map(p => ({ ...p, category: 'Faculty' })),
+    ...(peopleData.faculty || []).map(p => {
+      let category = 'Tenure-Track Faculty';
+      const role = p.role.toLowerCase();
+      if (role.includes('staff')) {
+        category = 'Staff';
+      } else if (role.includes('teaching') || role.includes('instructor')) {
+        category = 'Teaching Faculty';
+      } else if (role.includes('research')) {
+        category = 'Research Faculty';
+      }
+      return { ...p, category };
+    }),
     ...(peopleData.students || []).map(p => {
         // Simple heuristic to determine category from role if needed, 
         // or we rely on the role text itself. 
@@ -38,7 +49,7 @@ export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
         if (p.role.toLowerCase().includes('alum')) category = 'Alumni';
         if (p.role.toLowerCase().includes('undergrad') || p.role.toLowerCase().includes('master')) category = 'Students';
         return { ...p, category };
-    })
+    }).filter(p => !['PhD Students', 'Alumni'].includes(p.category))
   ];
 
   const filteredPeople = allPeople.filter(person => {
@@ -118,7 +129,7 @@ export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
         {/* Join Card - Only show when viewing All Members or Students/Postdocs, or always? 
             Let's show it always unless it looks weird, or maybe only on 'All Members' and 'PhD Students' / 'Postdocs'
         */}
-        {(activeFilter === 'All Members' || activeFilter === 'PhD Students' || activeFilter === 'Postdocs') && (
+        {(activeFilter === 'All Members' || activeFilter === 'Postdocs') && (
             <div className="flex flex-col items-center justify-center p-8 bg-background-alt dark:bg-card-dark rounded-xl border-2 border-dashed border-border-light dark:border-border-dark text-center h-full min-h-[400px]">
                 <div className="w-16 h-16 rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center mb-4">
                     <span className="material-symbols-outlined text-2xl text-text-muted">person_add</span>

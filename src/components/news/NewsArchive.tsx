@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import { withBasePath } from '@/lib/paths';
 
 export interface NewsItem {
   title: string;
@@ -167,7 +168,7 @@ export function NewsArchive({ news }: NewsArchiveProps) {
                     
                     {item.link ? (
                       <h3 className="text-2xl font-bold text-text-main dark:text-white group-hover:text-primary transition-colors">
-                        <Link href={item.link}>{item.title}</Link>
+                        <Link href={item.link || '#'}>{item.title}</Link>
                       </h3>
                     ) : (
                       <h3 className="text-2xl font-bold text-text-main dark:text-white transition-colors">
@@ -200,7 +201,7 @@ export function NewsArchive({ news }: NewsArchiveProps) {
                            {item.authors.map((author, i) => (
                              <img 
                                key={i}
-                               src={author.image} 
+                               src={withBasePath(author.image)} 
                                alt={author.name} 
                                title={author.name}
                                className="h-8 w-8 rounded-full border-2 border-white dark:border-[#2a2915]" 

@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
 
   // Recommended for static hosting
   trailingSlash: true,
+
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isStaging ? "/int/staging" : "",
+  },
 };
 
 export default nextConfig;

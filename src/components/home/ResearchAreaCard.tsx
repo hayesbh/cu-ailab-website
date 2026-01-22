@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { withBasePath } from '@/lib/paths';
 
 export interface ResearchArea {
   title: string;
@@ -27,7 +28,7 @@ export function ResearchAreaCard({ item, index }: ResearchAreaCardProps) {
     >
       <div className="group relative aspect-[4/5] md:aspect-[3/4] overflow-hidden rounded-xl bg-black">
         <img
-          src={item.image}
+          src={withBasePath(item.image)}
           alt={item.title}
           className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-70 group-hover:opacity-50"
         />

@@ -72,7 +72,7 @@ export function Hero({ data, ticker_items }: HeroProps) {
             <button className="h-12 px-8 rounded bg-primary text-black font-bold text-lg hover:bg-primary-hover transition-colors shadow-lg">
               {data.cta_primary}
             </button>
-            <Link href={withBasePath("/people")} className="flex items-center justify-center h-12 px-8 rounded border-2 border-white bg-transparent font-bold text-lg hover:bg-white hover:text-black transition-colors">
+            <Link href="/people" className="flex items-center justify-center h-12 px-8 rounded border-2 border-white bg-transparent font-bold text-lg hover:bg-white hover:text-black transition-colors">
               {data.cta_secondary}
             </Link>
           </motion.div>

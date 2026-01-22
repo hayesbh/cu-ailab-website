@@ -33,7 +33,7 @@ export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
               {data.subtitle}
             </p>
           </div>
-          <Link href={withBasePath("/people")} className="h-10 px-6 rounded bg-primary text-black flex items-center justify-center text-sm font-bold hover:bg-primary-hover transition-colors">
+          <Link href="/people" className="h-10 px-6 rounded bg-primary text-black flex items-center justify-center text-sm font-bold hover:bg-primary-hover transition-colors">
             {data.cta}
           </Link>
         </div>
@@ -57,7 +57,7 @@ export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
             </div>
           ))}
 
-          <Link href={withBasePath("/join-us")} className="flex flex-col items-start gap-4 group cursor-pointer">
+          <Link href="/join-us" className="flex flex-col items-start gap-4 group cursor-pointer">
             <div className="relative w-full aspect-square rounded overflow-hidden bg-gray-100 border-2 border-dashed border-border-light dark:border-border-dark flex items-center justify-center group-hover:border-primary transition-colors">
               <span className="material-symbols-outlined text-4xl text-text-muted opacity-50 group-hover:text-primary group-hover:opacity-100 transition-all">add</span>
             </div>

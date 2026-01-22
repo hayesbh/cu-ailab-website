@@ -1,5 +1,6 @@
 import React from 'react';
 import { getProjectData, getAllProjectSlugs } from '@/lib/projectUtils';
+import { withBasePath } from '@/lib/paths';
 import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
 
@@ -53,7 +54,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
           {frontmatter.hero_image && (
             <div className="w-full rounded-[2rem] overflow-hidden shadow-sm aspect-video bg-gray-100 dark:bg-[#32311b]">
               <img 
-                src={frontmatter.hero_image} 
+                src={withBasePath(frontmatter.hero_image)} 
                 alt={frontmatter.title} 
                 className="w-full h-full object-cover filter brightness-95"
               />
@@ -73,7 +74,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 img: ({node, ...props}) => (
                    <div className="my-8 rounded-[2rem] overflow-hidden bg-black relative aspect-video group cursor-pointer">
                       {/* TODO: Add play button overlay if it's a video/simulation demo, for now just rendering image */}
-                      <img className="w-full h-full object-cover opacity-80" {...props} />
+                      <img className="w-full h-full object-cover opacity-80" {...props} src={withBasePath(props.src as string)} />
                    </div>
                 ),
               }}

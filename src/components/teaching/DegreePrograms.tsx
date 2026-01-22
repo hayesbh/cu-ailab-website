@@ -1,3 +1,4 @@
+import { withBasePath } from '@/lib/paths';
 import React from 'react';
 
 interface DegreeProgramsProps {
@@ -54,7 +55,7 @@ export function DegreePrograms({ programs }: DegreeProgramsProps) {
               </ul>
 
               <a 
-                href={linkUrl} 
+                href={withBasePath(linkUrl)} 
                 className="mt-auto text-sm font-bold border-b-2 border-primary w-max pb-0.5 hover:text-primary transition-colors text-text-main"
               >
                 {linkText} →

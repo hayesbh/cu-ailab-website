@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ResearchProject } from '@/types/content';
+import { withBasePath } from '@/lib/paths';
 
 interface ProjectCardProps {
   project: ResearchProject;
@@ -10,7 +11,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
     <article className="group relative h-[400px] bg-white dark:bg-[#32311b] rounded-[2rem] overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-[#e5e5dc] dark:border-[#3a3928]">
       <div className="absolute inset-0 z-0">
         <img 
-          src={project.image} 
+          src={withBasePath(project.image)} 
           alt={project.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-[0.95]"
         />

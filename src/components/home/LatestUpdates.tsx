@@ -33,7 +33,7 @@ export function LatestUpdates({ data, news }: LatestUpdatesProps) {
                   <span className="material-symbols-outlined text-primary">calendar_month</span>
                   Upcoming Events
                 </h3>
-                <Link href={withBasePath("/events")} className="text-xs font-bold text-primary hover:text-primary-hover uppercase tracking-wider">
+                <Link href="/events" className="text-xs font-bold text-primary hover:text-primary-hover uppercase tracking-wider">
                   View All
                 </Link>
               </div>
@@ -78,7 +78,7 @@ export function LatestUpdates({ data, news }: LatestUpdatesProps) {
                 <h2 className="text-3xl font-bold tracking-tight mb-2 text-black dark:text-white">{data.title}</h2>
                 <p className="text-lg text-text-muted dark:text-text-muted-dark">{data.subtitle}</p>
               </div>
-              <Link href={withBasePath("/news")} className="text-sm font-bold border-b-2 border-primary pb-0.5 hover:text-primary transition-colors text-black dark:text-white">
+              <Link href="/news" className="text-sm font-bold border-b-2 border-primary pb-0.5 hover:text-primary transition-colors text-black dark:text-white">
                 View Archive
               </Link>
             </div>
