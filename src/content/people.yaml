@@ -43,7 +43,7 @@ faculty:
     role: "Assistant Professor"
     image: "/headshots/esther_rolf.jpeg"
     link: "https://www.estherrolf.com/"
-    interests: ["Climate Science", "Computer Vision", "Machine Learning"]
+    interests: ["Machine Learning",  "Geospatial AI", "Computer Vision"]
   - name: "Prof. James Martin"
     role: "Professor"
     image: "/headshots/james_martin.png"
