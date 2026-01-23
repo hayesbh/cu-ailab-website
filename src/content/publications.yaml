@@ -156,3 +156,2730 @@ publications:
       video: "#"
     abstract: >
       We investigate the dynamics of human trust in autonomous robots during simulated search-and-rescue missions. Through a mixed-methods study (N=40), we found that explainability features significantly increased trust resilience after robot errors. We propose a new design framework for HRI interfaces in critical environments.
+
+    - title: "Soft Robotics: Review of Fluid\u2010Driven Intrinsically Soft Devices; Manufacturing,\
+    \ Sensing, Control, and Applications in Human\u2010Robot Interaction"
+  venue: Advanced Engineering Materials, 2017
+  year: 2017
+  authors: Panagiotis Polygerinos and Nikolaus Correll and Stephen A Morin and Bobak
+    Mosadegh and Cagdas D Onal and Kirstin Petersen and Matteo Cianchetti and Michael
+    T Tolley and Robert F Shepherd
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adem.201700016
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Reducing the barrier to entry of complex robotic software: a MoveIt! case
+    study'
+  venue: Journal of Software Engineering for Robotics (JOSER) 5 (1), 3-16, 2014
+  year: 2014
+  authors: David Coleman and Ioan Sucan and Sachin Chitta and Nikolaus Correll
+  pages: 3-16
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/1404.3785
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Materials that couple sensing, actuation, computation, and communication
+  venue: Science 347 (6228), 1261689, 2015
+  year: 2015
+  authors: Michael Andrew McEvoy and Nikolaus Correll
+  pages: '1261689'
+  publisher: American Association for the Advancement of Science
+  links:
+    pdf: https://www.science.org/doi/abs/10.1126/science.1261689
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Analysis and observations from the first amazon picking challenge
+  venue: IEEE Transactions on Automation Science and Engineering 15 (1), 172-188,
+    2018
+  year: 2018
+  authors: Nikolaus Correll and Kostas E Bekris and Dmitry Berenson and Oliver Brock
+    and Albert Causo and Kris Hauser and Kei Okada and Alberto Rodriguez and Joseph
+    M Romano and Peter R Wurman
+  pages: 172-188
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/7583659/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Social integration of robots into groups of cockroaches to control self-organized
+    choices
+  venue: Science 318 (5853), 1155-1158, 2007
+  year: 2007
+  authors: "Jos\xE9 Halloy and Gr\xE9gory Sempo and Gilles Caprari and Colette Rivault\
+    \ and Masoud Asadpour and Fabien T\xE2che and Imen Sa\xEFd and Virginie Durier\
+    \ and Stephane Canonge and Jean Marc Am\xE9 and Claire Detrain and Nikolaus Correll\
+    \ and Alcherio Martinoli and Francesco Mondada and Roland Siegwart and Jean-Louis\
+    \ Deneubourg"
+  pages: 1155-1158
+  publisher: American Association for the Advancement of Science
+  links:
+    pdf: https://www.science.org/doi/abs/10.1126/science.1144259
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Organizing the aggregate: Languages for spatial computing'
+  venue: 'Formal and Practical Aspects of Domain-Specific Languages: Recent Developments,
+    2012'
+  year: 2012
+  authors: Jacob Beal and Stefan Dulman and Kyle Usbeck and Mirko Viroli and Nikolaus
+    Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://www.igi-global.com/chapter/content/71829
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Swistrack-a flexible open source tracking software for multi-agent systems
+  venue: "2008 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2008"
+  year: 2008
+  authors: Thomas Lochmatter and Pierre Roduit and Chris Cianci and Nikolaus Correll
+    and Jacques Jacot and Alcherio Martinoli
+  pages: 4004-4010
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/4650937/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Modeling and designing self-organized aggregation in a swarm of miniature
+    robots
+  venue: The International Journal of Robotics Research 30 (5), 615-626, 2011
+  year: 2011
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 615-626
+  publisher: SAGE Publications
+  links:
+    pdf: https://journals.sagepub.com/doi/abs/10.1177/0278364911403017
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A soft pneumatic actuator that can sense grasp and touch
+  venue: "2015 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2015"
+  year: 2015
+  authors: Nicholas Farrow and Nikolaus Correll
+  pages: 2317-2323
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/7353689/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'C-FOREST: Parallel Shortest Path Planning With Superlinear Speedup'
+  venue: Transactions on Robotics, 1-9, 2013
+  year: 2013
+  authors: Michael Otte and Nikolaus Correll
+  pages: 1-9
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6425493/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "Soft autonomous materials\u2014using active elasticity and embedded distributed\
+    \ computation"
+  venue: Experimental Robotics, 227-240, 2010
+  year: 2010
+  authors: "Nikolaus Correll and \xC7a\u011Fda\u015F D \xD6nal and Haiyi Liang and\
+    \ Erik Schoenfeld and Daniela Rus"
+  pages: 227-240
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A robotic skin for collision avoidance and affective touch recognition
+  venue: IEEE Robotics and Automation Letters 3 (3), 1386-1393, 2018
+  year: 2018
+  authors: Dana Hughes and John Lammie and Nikolaus Correll
+  pages: 1386-1393
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/8272325/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Experience-Based Planning with Sparse Roadmap Spanners
+  venue: IEEE International Conference on Robotics and Automation, 2015
+  year: 2015
+  authors: David Coleman and Ioan A Sucan and Mark Moll and Kei Okada and Nikolaus
+    Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/7139284/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Thermoplastic variable stiffness composites with embedded, networked sensing,
+    actuation, and control
+  venue: Journal of Composite Materials 49 (15), 1799-1808, 2015
+  year: 2015
+  authors: M Andy McEvoy and Nikolaus Correll
+  pages: 1799-1808
+  publisher: SAGE Publications
+  links:
+    pdf: https://journals.sagepub.com/doi/abs/10.1177/0021998314525982
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Multirobot inspection of industrial machinery
+  venue: IEEE Robotics & Automation Magazine 16 (1), 103-112, 2009
+  year: 2009
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 103-112
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/4799452/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'SwisTrack: A tracking tool for multi-unit robotic and biological systems'
+  venue: "2006 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2006"
+  year: 2006
+  authors: "Nikolaus Correll and Gregory Sempo and Yuri Lopez De Meneses and Jos\xE9\
+    \ Halloy and Jean-Louis Deneubourg and Alcherio Martinoli"
+  pages: 2185-2191
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/4058708/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Collective inspection of regular structures using a swarm of miniature robots
+  venue: "Experimental robotics IX: The 9th international symposium on experimental\
+    \ \u2026, 2006"
+  year: 2006
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 375-386
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/11552246_36
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Multi-level spatial modeling for stochastic distributed robotic systems
+  venue: The International Journal of Robotics Research 30 (5), 574-589, 2011
+  year: 2011
+  authors: Amanda Prorok and Nikolaus Correll and Alcherio Martinoli
+  pages: 574-589
+  publisher: SAGE Publications
+  links:
+    pdf: https://journals.sagepub.com/doi/abs/10.1177/0278364911399521
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Collaborative coverage using a swarm of networked miniature robots
+  venue: Robotics and Autonomous Systems 57 (5), 517-525, 2009
+  year: 2009
+  authors: Samuel Rutishauser and Nikolaus Correll and Alcherio Martinoli
+  pages: 517-525
+  publisher: North-Holland
+  links:
+    pdf: https://www.sciencedirect.com/science/article/pii/S0921889008001590
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Modeling multi-robot task allocation with limited information as global game
+  venue: Swarm Intelligence 10 (2), 147-160, 2016
+  year: 2016
+  authors: Anshul Kanakia and Behrouz Touri and Nikolaus Correll
+  pages: 147-160
+  publisher: Springer US
+  links:
+    pdf: https://link.springer.com/article/10.1007/s11721-016-0123-4
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Introduction to Autonomous Robots-Kinematics, Perception, Localization and
+    Planning.
+  venue: Magellan Press, 2015
+  year: 2015
+  authors: Nikolaus Correll
+  pages: 1-230
+  publisher: Magellan Press
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Building a distributed robot garden
+  venue: "\U0001F3C6 2009 IEEE/RSJ International Conference on Intelligent Robots\
+    \ and Systems \u2026, 2009"
+  year: 2009
+  authors: Nikolaus Correll and Nikos Arechiga and Adrienne Bolger and Mario Bollini
+    and Ben Charrow and Adam Clayton and Felipe Dominguez and Kenneth Donahue and
+    Samuel Dyar and Luke Johnson and Huan Liu and Alexander Patrikalakis and Timothy
+    Robertson and Jeremy Smith and Daniel Soltero and Melissa Tanner and Lauren White
+    and Daniela Rus
+  pages: 1509-1516
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/5354261/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A One-Year Introductory Robotics Curriculum for Computer Science Upperclassmen
+  venue: IEEE Transactions on Education, 1-1, 2012
+  year: 2012
+  authors: Nikolaus Correll and Rowan Wing and David Coleman
+  pages: 1-1
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6335453/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A multifunctional soft robotic shape display with high-speed actuation, sensing,
+    and control
+  venue: Nature Communications 14 (1), 4516, 2023
+  year: 2023
+  authors: BK Johnson and M Naris and V Sundaram and A Volchko and K Ly and SK Mitchell
+    and E Acome and N Kellaris and Christoph Keplinger and N Correll and JS Humbert
+    and ME Rentschler
+  pages: '4516'
+  publisher: Nature Publishing Group UK
+  links:
+    pdf: https://www.nature.com/articles/s41467-023-39842-2
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Texture recognition and localization in amorphous robotic skin
+  venue: Bioinspiration & biomimetics 10 (5), 055002, 2015
+  year: 2015
+  authors: Dana Hughes and Nikolaus Correll
+  pages: '055002'
+  publisher: IOP Publishing
+  links:
+    pdf: https://iopscience.iop.org/article/10.1088/1748-3190/10/5/055002/meta
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Ad-hoc wireless network coverage with networked robots that cannot localize
+  venue: 2009 IEEE International Conference on Robotics and Automation, 3878-3885,
+    2009
+  year: 2009
+  authors: Nikolaus Correll and Jonathan Bachrach and Daniel Vickery and Daniela Rus
+  pages: 3878-3885
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/5152742/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Introduction to autonomous robots: mechanisms, sensors, actuators, and algorithms'
+  venue: Mit Press, 2022
+  year: 2022
+  authors: Nikolaus Correll and Bradley Hayes and Christoffer Heckman and Alessandro
+    Roncone
+  pages: ''
+  publisher: Mit Press
+  links:
+    pdf: https://books.google.com/books?hl=en&lr=&id=9iVlEAAAQBAJ&oi=fnd&pg=PR15&dq=info:GqZkvZEzPowJ:scholar.google.com&ots=v5ZWf4C3yY&sig=O7W9hoIwGiP_vRuhl5II6E2SPGo
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Integrated Force and Distance Sensing using Elastomer-Embedded Commodity
+    Proximity Sensors.
+  venue: "\U0001F3C6 Robotics: Science and Systems, 2016"
+  year: 2016
+  authors: Radhen Patel and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://www.researchgate.net/profile/Radhen-Patel/publication/304532892_Integrated_force_and_distance_sensing_using_elastomer-embedded_commodity_proximity_sensors/links/59d85017a6fdcc2aad065a87/Integrated-force-and-distance-sensing-using-elastomer-embedded-commodity-proximity-sensors.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Integrated proximity, contact and force sensing using elastomer-embedded
+    commodity proximity sensors
+  venue: Autonomous Robots 42 (7), 1443-1458, 2018
+  year: 2018
+  authors: Radhen Patel and Rebecca Cox and Nikolaus Correll
+  pages: 1443-1458
+  publisher: Springer US
+  links:
+    pdf: https://link.springer.com/article/10.1007/s10514-018-9751-4
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: An efficient and versatile means for assembling and manufacturing systems
+    in space
+  venue: AIAA SPACE 2012 Conference & Exposition, 5115, 2012
+  year: 2012
+  authors: John Dorsey and William Doggett and Robert Hafley and Erik Komendera and
+    Nikolaus Correll and Bruce King
+  pages: '5115'
+  publisher: ''
+  links:
+    pdf: https://arc.aiaa.org/doi/pdf/10.2514/6.2012-5115
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'A stick-slip omnidirectional powertrain for low-cost swarm robotics: Mechanism,
+    calibration, and control'
+  venue: "2014 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2014"
+  year: 2014
+  authors: John Klingner and Anshul Kanakia and Nicholas Farrow and Dustin Reishus
+    and Nikolaus Correll
+  pages: 846-851
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6942658/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A general methodology for the control of mixed natural-artificial societies
+  venue: Handbook of Collective Robotics, 2013
+  year: 2013
+  authors: "Francesco Mondada and Alcherio Martinoli and Nicolaus Correll and Alexey\
+    \ Gribovskiy and Jos\xE9 Ignacio Halloy and Roland Siegwart and Jean-Louis Deneubourg"
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.1201/b14908-20&type=chapterpdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Robust distributed coverage using a swarm of miniature robots
+  venue: "Proceedings 2007 IEEE International Conference on Robotics and Automation\
+    \ \u2026, 2007"
+  year: 2007
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 379-384
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/4209121/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Systems, devices, components, and methods for a compact robotic gripper with
+    palm-mounted sensing, grasping, and computing devices and components
+  venue: US Patent 11,148,295, 2021
+  year: 2021
+  authors: Nikolaus J Correll and Austin K Miller and Branden Romero
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://patents.google.com/patent/US11148295B2/en
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Social control of herd animals by integration of artificially controlled
+    congeners
+  venue: "\U0001F3C6 From Animals to Animats 10: 10th International Conference on\
+    \ Simulation of \u2026, 2008"
+  year: 2008
+  authors: Nikolaus Correll and Mac Schwager and Daniela Rus
+  pages: 437-446
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-540-69134-1_43
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Recognizing social touch gestures using recurrent and convolutional neural
+    networks
+  venue: Robotics and Automation (ICRA), 2017 IEEE International Conference on, 2017
+  year: 2017
+  authors: Dana Hughes and Alon Krauthammer and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/7989267/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Decentralized self-repair to maintain connectivity and coverage in networked
+    multi-robot systems
+  venue: 2011 IEEE International Conference on Robotics and Automation, 3863-3868,
+    2011
+  year: 2011
+  authors: Anna Derbakova and Nikolaus Correll and Daniela Rus
+  pages: 3863-3868
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/5980367/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: System identification of self-organizing robotic swarms
+  venue: "\U0001F3C6 Distributed Autonomous Robotic Systems 7, 31-40, 2006"
+  year: 2006
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 31-40
+  publisher: Springer Japan
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/4-431-35881-1_4
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Miniaturized circuitry for capacitive self-sensing and closed-loop control
+    of soft electrostatic transducers
+  venue: Soft Robotics 8 (6), 673-686, 2021
+  year: 2021
+  authors: Khoi Ly and Nicholas Kellaris and Dade McMorris and Brian K Johnson and
+    Eric Acome and Vani Sundaram and Mantas Naris and J Sean Humbert and Mark E Rentschler
+    and Christoph Keplinger and Nikolaus Correll
+  pages: 673-686
+  publisher: Mary Ann Liebert, Inc., publishers
+  links:
+    pdf: https://www.liebertpub.com/doi/abs/10.1089/soro.2020.0048
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Identification and control of a nonlinear soft actuator and sensor system
+  venue: IEEE Robotics and Automation Letters 5 (3), 3783-3790, 2020
+  year: 2020
+  authors: Brian K Johnson and Vani Sundaram and Mantas Naris and Eric Acome and Khoi
+    Ly and Nikolaus Correll and Christoph Keplinger and James Sean Humbert and Mark
+    E Rentschler
+  pages: 3783-3790
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/9042285/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Parameter estimation and optimal control of swarm-robotic systems: A case
+    study in distributed task allocation'
+  venue: 2008 IEEE international conference on robotics and automation, 3302-3307,
+    2008
+  year: 2008
+  authors: Nikolaus Correll
+  pages: 3302-3307
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/4543714/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Indoor robot gardening: design and implementation'
+  venue: Intelligent Service Robotics 3 (4), 219-232, 2010
+  year: 2010
+  authors: Nikolaus Correll and Nikos Arechiga and Adrienne Bolger and Mario Bollini
+    and Ben Charrow and Adam Clayton and Felipe Dominguez and Kenneth Donahue and
+    Samuel Dyar and Luke Johnson and Huan Liu and Alexander Patrikalakis and Timothy
+    Robertson and Jeremy Smith and Daniel Soltero and Melissa Tanner and Lauren White
+    and Daniela Rus
+  pages: 219-232
+  publisher: Springer-Verlag
+  links:
+    pdf: https://link.springer.com/article/10.1007/s11370-010-0076-1
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Robots assembling machines: learning from the world robot summit 2018 assembly
+    challenge'
+  venue: Advanced Robotics 34 (7-8), 408-421, 2020
+  year: 2020
+  authors: Felix Von Drigalski and Christian Schlette and Martin Rudorfer and Nikolaus
+    Correll and Joshua C Triyonoputro and Weiwei Wan and Tokuo Tsuji and Tetsuyou
+    Watanabe
+  pages: 408-421
+  publisher: Taylor & Francis
+  links:
+    pdf: https://www.tandfonline.com/doi/abs/10.1080/01691864.2019.1705910
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Flutter: An exploration of an assistive garment using distributed sensing,
+    computation and actuation'
+  venue: "Proceedings of the Ninth International Conference on Tangible, Embedded,\
+    \ and \u2026, 2015"
+  year: 2015
+  authors: Halley Profita and Nicholas Farrow and Nikolaus Correll
+  pages: 359-362
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/2677199.2680586
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Miniature Six-channel Range and Bearing System: Algorithm, Analysis and
+    Experimental Validation'
+  venue: ''
+  year: 2014
+  authors: Nicholas Farrow and John Klingner and Dustin Reishus and Nikolaus Correll
+  pages: 6180-6185
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6907770/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Autonomous industrial assembly using force, torque, and RGB-D sensing
+  venue: Advanced Robotics 34 (7-8), 546-559, 2020
+  year: 2020
+  authors: James Watson and Austin Miller and Nikolaus Correll
+  pages: 546-559
+  publisher: Taylor & Francis
+  links:
+    pdf: https://www.tandfonline.com/doi/abs/10.1080/01691864.2020.1715254
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Fault-tolerant Covariance Intersection for Localizing Robot Swarms
+  venue: 'Distributed Autonomous Robotic Systems: The 14th International Symposium
+    9, 485, 2019'
+  year: 2019
+  authors: John Klingner and Nisar Ahmed and Nikolaus Correll
+  pages: '485'
+  publisher: Springer
+  links:
+    pdf: https://www.sciencedirect.com/science/article/pii/S092188901930243X
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Detecting and identifying tactile gestures using deep autoencoders, geometric
+    moments and gesture level features
+  venue: "Proceedings of the 2015 ACM on International Conference on Multimodal \u2026\
+    , 2015"
+  year: 2015
+  authors: Dana Hughes and Nicholas Farrow and Halley Profita and Nikolaus Correll
+  pages: 415-422
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/2818346.2830601
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Simultaneous Localization, Mapping, and Manipulation for Unsupervised Object
+    Discovery
+  venue: IEEE International Conference on Robotics and Automation, 1344-1351, 2015
+  year: 2015
+  authors: Lu Ma and Mahsa Ghafarianzadeh and Dave Coleman and Nikolaus Correll and
+    Gabe Sibley
+  pages: 1344-1351
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/7139365/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed boundary coverage with a team of networked miniature robots using
+    a robust market-based algorithm
+  venue: Annals of Mathematics and Artificial Intelligence 52 (2), 307-333, 2008
+  year: 2008
+  authors: Patrick Amstutz and Nikolaus Correll and Alcherio Martinoli
+  pages: 307-333
+  publisher: Springer Netherlands
+  links:
+    pdf: https://link.springer.com/article/10.1007/s10472-009-9127-8
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Comparing coordination schemes for miniature robotic swarms: A case study
+    in boundary coverage of regular structures'
+  venue: "Experimental Robotics: The 10th International Symposium on Experimental\
+    \ \u2026, 2008"
+  year: 2008
+  authors: Nikolaus Correll and Samuel Rutishauser and Alcherio Martinoli
+  pages: 471-480
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-540-77457-0_44
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Modeling and optimization of a swarm-intelligent inspection system
+  venue: "\U0001F3C6 Distributed Autonomous Robotic Systems 6, 369-378, 2007"
+  year: 2007
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 369-378
+  publisher: Springer Japan
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-4-431-35873-2_36
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Shape change through programmable stiffness
+  venue: "Experimental Robotics: The 14th International Symposium on Experimental\
+    \ \u2026, 2015"
+  year: 2015
+  authors: Michael McEvoy and Nikolaus Correll
+  pages: 893-907
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-23778-7_59
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Optimal parameter identification for discrete mechanical systems with application
+    to flexible object manipulation
+  venue: "2014 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2014"
+  year: 2014
+  authors: Timothy M Caldwell and Dave Coleman and Nikolaus Correll
+  pages: 898-905
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6942666/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Multi-modal prosthetic fingertip sensor with proximity, contact, and force
+    localization capabilities
+  venue: Advances in Mechanical Engineering 11 (4), 1687814019844643, 2019
+  year: 2019
+  authors: "Jacob Segil and Radhen Patel and John Klingner and Richard F \uFB00 Weir\
+    \ and Nikolaus Correll"
+  pages: '1687814019844643'
+  publisher: SAGE Publications
+  links:
+    pdf: https://journals.sagepub.com/doi/abs/10.1177/1687814019844643
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Wireless robotic materials
+  venue: Proceedings of the 15th ACM Conference on Embedded Network Sensor Systems,
+    1-6, 2017
+  year: 2017
+  authors: Nikolaus Correll and Prabal Dutta and Richard Han and Kristofer Pister
+  pages: 1-6
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/3131672.3131702
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A One-hour Curriculum to Engage Middle School Students in Robotics and Computer
+    Science using Cubelets
+  venue: Int. Symposium on Distributed Autonomous Robotic Systems, 2012
+  year: 2012
+  authors: Nikolaus Correll and Chris Wailes and Scott Slaby
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-642-55146-8_12
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Will robots be bodies with brains or brains with bodies?
+  venue: Science Robotics 2 (12), eaar4527, 2017
+  year: 2017
+  authors: "Yi\u011Fit Meng\xFC\xE7 and Nikolaus Correll and Rebecca Kramer and Jamie\
+    \ Paik"
+  pages: eaar4527
+  publisher: Science Robotics
+  links:
+    pdf: https://www.science.org/doi/abs/10.1126/scirobotics.aar4527
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Object Transportation by Granular Convection Using Swarm Robots
+  venue: Distributed Autonomous Robotic Systems (DARS), 2012
+  year: 2012
+  authors: Ken Sugawara and Nikolaus Correll and Dustin Reishus
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-642-55146-8_10
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Functionalized textiles for interactive soft robotics
+  venue: 2017 IEEE international conference on robotics and automation (ICRA), 5525-5531,
+    2017
+  year: 2017
+  authors: Nicholas Farrow and Lauren McIntire and Nikolaus Correll
+  pages: 5525-5531
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/7989651/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Probabilistic modeling of swarming systems
+  venue: Springer handbook of computational intelligence, 1423-1432, 2015
+  year: 2015
+  authors: Nikolaus Correll and Heiko Hamann
+  pages: 1423-1432
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-662-43505-2_74
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A Response Threshold Sigmoid Function Model for Swarm Robot Collaboration
+  venue: Int. Symposium on Distributed Autonomous Robotic Systems (DARS), 2014
+  year: 2014
+  authors: Anshul Kanakia and John Klingner and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-4-431-55879-8_14
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A Soft, Amorphous Skin that can Sense and Localize Textures
+  venue: IEEE International Conference on Robotics and Automation (ICRA), 1844-1851,
+    2014
+  year: 2014
+  authors: Dana Hughes and Nikolaus Correll
+  pages: 1844-1851
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6907101/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Any-com multi-robot path-planning: Maximizing collaboration for variable
+    bandwidth'
+  venue: "Distributed Autonomous Robotic Systems: The 10th International Symposium\
+    \ \u2026, 2013"
+  year: 2013
+  authors: Michael Otte and Nikolaus Correll
+  pages: 161-173
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-642-32723-0_12
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Coordination schemes for distributed boundary coverage with a swarm of miniature
+    robots: synthesis, analysis and experimental validation'
+  venue: "Ecole Polytechnique F\xE9d\xE9rale, Lausanne, CH, 2007"
+  year: 2007
+  authors: Nicolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://infoscience.epfl.ch/bitstreams/e17fb2b4-3971-4621-8fba-d6d0abea23ce/download
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "Self-organized embedded sensor/actuator networks for \u201Csmart\u201D turbines,\u201D"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems Workshop\
+    \ \u2026, 2006"
+  year: 2006
+  authors: Nikolaus Correll and Christopher Cianci and Xavier Raemy and Alcherio Martinoli
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://www.researchgate.net/profile/Nikolaus-Correll/publication/37437784_Self-Organized_Embedded_SensorActuator_Networks_for_''Smart''_Turbines/links/0c960520ede6088253000000/Self-Organized-Embedded-Sensor-Actuator-Networks-for-Smart-Turbines.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Mobile Manipulation Hackathon: Moving into Real World Applications'
+  venue: IEEE Robotics & Automation Magazine, 2021
+  year: 2021
+  authors: Maximo A Roa and Mehmet R Dogar and Jordi Pages and Carlos Vivas and Antonio
+    Morales and Nikolaus Correll and Michael Gorner and Jan Rosell and Sergi Foix
+    and Raphael Memmesheimer and Francesco Ferro
+  pages: ''
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/9380912/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Materials that make robots smart
+  venue: The International Journal of Robotics Research 38 (12-13), 1338-1351, 2019
+  year: 2019
+  authors: Dana Hughes and Christoffer Heckman and Nikolaus Correll
+  pages: 1338-1351
+  publisher: SAGE Publications
+  links:
+    pdf: https://journals.sagepub.com/doi/abs/10.1177/0278364919856099
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Electro-hydraulic rolling soft wheel: Design, hybrid dynamic modeling, and
+    model predictive control'
+  venue: IEEE Transactions on Robotics 38 (5), 3044-3063, 2022
+  year: 2022
+  authors: Khoi Ly and Jatin V Mayekar and Sarah Aguasvivas and Christoph Keplinger
+    and Mark E Rentschler and Nikolaus Correll
+  pages: 3044-3063
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/9766178/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Assembly Path Planning for Stable Robotic Construction
+  venue: IEEE Conference on Technologies for Practical Robot Applications (TePRA),
+    2014
+  year: 2014
+  authors: Michael McEvoy and Erik Komendera and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6869152/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Any-com multi-robot path-planning with dynamic teams: Multi-robot coordination
+    under communication constraints'
+  venue: Experimental Robotics, 743-757, 2010
+  year: 2010
+  authors: Michael Otte and Nikolaus Correll
+  pages: 743-757
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Active Materials
+  venue: de Gruyter, 2021
+  year: 2021
+  authors: "Peter Fratzl and Michael Friedman and Karin Krauthausen and Wolfgang Sch\xE4\
+    ffner"
+  pages: '372'
+  publisher: de Gruyter
+  links:
+    pdf: https://library.oapen.org/handle/20.500.12657/52253
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: System identification and closed-loop control of a hydraulically amplified
+    self-healing electrostatic (HASEL) actuator
+  venue: "2018 IEEE/RSJ international conference on intelligent robots and systems\
+    \ \u2026, 2018"
+  year: 2018
+  authors: Cosima Schunk and Levi Pearson and Eric Acome and Timothy G Morrissey and
+    Nikolaus Correll and Christoph Keplinger and Mark E Rentschler and J Sean Humbert
+  pages: 6417-6423
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/8593797/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Modeling and analysis of beaconless and beacon-based policies for a swarm-intelligent
+    inspection system
+  venue: "Proceedings of the 2005 IEEE international conference on robotics and \u2026\
+    , 2005"
+  year: 2005
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 2477-2482
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/1570484/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Towards optimal control of self-organized robotic inspection systems
+  venue: IFAC Proceedings Volumes 39 (15), 304-309, 2006
+  year: 2006
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 304-309
+  publisher: Elsevier
+  links:
+    pdf: https://www.sciencedirect.com/science/article/pii/S1474667016385317
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Improving grasp performance using in-hand proximity and contact sensing
+  venue: Robotic grasping and manipulation challenge, 146-160, 2016
+  year: 2016
+  authors: Radhen Patel and Rebeca Curtis and Branden Romero and Nikolaus Correll
+  pages: 146-160
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-94568-2_9
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Precise Assembly of 3D Truss Structures Using EKF-based Error Prediction
+    and Correction
+  venue: International Symposium on Experimental Robotics (ISER), 2014
+  year: 2014
+  authors: Erik Komendera and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://journals.sagepub.com/doi/abs/10.1177/0278364915596588
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Shape-changing materials using variable stiffness and distributed control
+  venue: Soft robotics 5 (6), 737-747, 2018
+  year: 2018
+  authors: Michael Andy McEvoy and Nikolaus Correll
+  pages: 737-747
+  publisher: Mary Ann Liebert, Inc., publishers
+  links:
+    pdf: https://www.liebertpub.com/doi/abs/10.1089/soro.2017.0147
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed machine learning in materials that couple sensing, actuation,
+    computation and communication
+  venue: arXiv preprint arXiv:1606.03508, 2016
+  year: 2016
+  authors: Dana Hughes and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/1606.03508
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed camouflage for swarm robotics and smart materials
+  venue: Autonomous Robots 42 (8), 1635-1650, 2018
+  year: 2018
+  authors: Yang Li and Nikolaus Klingner and John and Correll
+  pages: 1635-1650
+  publisher: Springer Nature
+  links:
+    pdf: https://link.springer.com/article/10.1007/s10514-018-9717-6
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Morphological and embedded computation in a self-contained soft robotic hand
+  venue: arXiv preprint arXiv:1605.00354, 2016
+  year: 2016
+  authors: Nicholas Farrow and Yang Li and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/1605.00354
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Consensus or deadlock? Consequences of simple behavioral rules for coordination
+    in group decisions
+  venue: Plos One 11 (9), e0162768, 2016
+  year: 2016
+  authors: Helen F McCreery and Nikolaus Correll and Michael D Breed and Samuel Flaxman
+  pages: e0162768
+  publisher: Public Library of Science
+  links:
+    pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0162768
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Truss Assembly and Welding by Intelligent Precision Jigging Robots
+  venue: "IEEE International Conference on Technologies for Practical Robot \u2026\
+    , 2014"
+  year: 2014
+  authors: Erik Komendera and John T Dorsey and William R Doggett and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6869150/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Embedded magnetic sensing for feedback control of soft HASEL actuators
+  venue: IEEE Transactions on Robotics 39 (1), 808-822, 2022
+  year: 2022
+  authors: Vani Sundaram and Khoi Ly and Brian K Johnson and Mantas Naris and Maxwell
+    P Anderson and James Sean Humbert and Nikolaus Correll and Mark Rentschler
+  pages: 808-822
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/9882180/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Peer-to-peer learning in robotics education: lessons from a challenge project
+    class'
+  venue: Computers in Education Journal 1 (3), 60-66, 2010
+  year: 2010
+  authors: Nikolaus Correll and Daniela Rus
+  pages: 60-66
+  publisher: ''
+  links:
+    pdf: https://www.researchgate.net/profile/Nikolaus-Correll/publication/228440062_Peer-to-Peer_Learning_in_Robotics_Education_Lessons_from_a_Challenge_Project_Class/links/0c960520ede5db1113000000/Peer-to-Peer-Learning-in-Robotics-Education-Lessons-from-a-Challenge-Project-Class.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'SwitchBack: an on-body RF-based gesture input device'
+  venue: Proceedings of the 2014 ACM International Symposium on Wearable Computers,
+    63-66, 2014
+  year: 2014
+  authors: Dana Hughes and Halley Profita and Nikolaus Correll
+  pages: 63-66
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/2634317.2634343
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Multi-Modal Fingertip Sensor With Proximity, Contact, And Force Localization
+    Capabilities
+  venue: US Patent App. 17/257,715, 2021
+  year: 2021
+  authors: Nikolaus Correll and Radhen Patel and Jacob Segil and John Klingner and
+    Richard F Weir
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://patents.google.com/patent/US20210293643A1/en
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Precise truss assembly using commodity parts and low precision welding
+  venue: Intelligent Service Robotics 7 (2), 93-102, 2014
+  year: 2014
+  authors: Erik Komendera and Dustin Reishus and John T Dorsey and William R Doggett
+    and Nikolaus Correll
+  pages: 93-102
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: https://link.springer.com/article/10.1007/s11370-013-0144-4
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Trinocular visual odometry for divergent views with minimal overlap
+  venue: 2013 IEEE Workshop on Robot Vision (WORV), 229-236, 2013
+  year: 2013
+  authors: Jaeheon Jeong and Jane Mulligan and Nikolaus Correll
+  pages: 229-236
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6521943/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Self-assembly of modular robots from finite number of modules using graph
+    grammars
+  venue: "2011 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2011"
+  year: 2011
+  authors: Vijeth Rai and Anne Van Rossum and Nikolaus Correll
+  pages: 4783-4789
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6095038/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "Augmented reality for human\u2013swarm interaction in a swarm-robotic chemistry\
+    \ simulation"
+  venue: Artificial Life and Robotics 27 (2), 407-415, 2022
+  year: 2022
+  authors: Sumeet Batra and John Klingner and Nikolaus Correll
+  pages: 407-415
+  publisher: Springer Japan
+  links:
+    pdf: https://link.springer.com/article/10.1007/s10015-022-00763-w
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed convolutional neural networks for human activity recognition
+    in wearable robotics
+  venue: "Distributed Autonomous Robotic Systems: The 13th International Symposium\
+    \ \u2026, 2018"
+  year: 2018
+  authors: Dana Hughes and Nikolaus Correll
+  pages: 619-631
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-73008-0_43
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed inverse kinematics for shape-changing robotic materials
+  venue: "\U0001F3C6 Procedia Technology 26, 4-11, 2016"
+  year: 2016
+  authors: M Andy McEvoy and Nikolaus Correll
+  pages: 4-11
+  publisher: Elsevier
+  links:
+    pdf: https://www.sciencedirect.com/science/article/pii/S2212017316303498
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed Spatio-Temporal Gesture Recognition in Sensor Arrays
+  venue: ACM Transactions on Autonomous and Adaptive Systems, 2015
+  year: 2015
+  authors: HOMA HOSSEINMARDI and AKSHAY MYSORE and NICHOLAS FARROW and NIKOLAUS CORRELL
+    and RICHARD HAN
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/2744203
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Gesture based distributed user interaction system for a reconfigurable self-organizing
+    smart wall
+  venue: "Proceedings of the 8th International Conference on Tangible, Embedded and\
+    \ \u2026, 2014"
+  year: 2014
+  authors: Nicholas Farrow and Naren Sivagnanadasan and Nikolaus Correll
+  pages: 245-246
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/2540930.2540967
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'A challenging application in swarm robotics: The autonomous inspection of
+    complex engineered structures'
+  venue: Bulletin of the Swiss Society for Automatic Control 46, 15-19, 2007
+  year: 2007
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 15-19
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=15731396328099816527&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Embedded Neural Networks for Robot Autonomy
+  venue: 'Robotics Research: The 19th International Symposium ISRR 20, 242, 2022'
+  year: 2022
+  authors: Sarah Aguasvivas Manzano and Dana Hughes and Cooper Simpson and Radhen
+    Patel and Christoffer Heckman and Nikolaus Correll
+  pages: '242'
+  publisher: Springer Nature
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=3442263995743201433&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Intelligent RF-based gesture input devices implemented using e-textiles
+  venue: Sensors 17 (2), 219, 2017
+  year: 2017
+  authors: Dana Hughes and Halley Profita and Sarah Radzihovsky and Nikolaus Correll
+  pages: '219'
+  publisher: MDPI
+  links:
+    pdf: https://www.mdpi.com/1424-8220/17/2/219
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Improving grasp performance using in-hand proximity and dynamic tactile sensing
+  venue: International Symposium on Experimental Robotics, 185-194, 2016
+  year: 2016
+  authors: Radhen Patel and Jorge Canardo Alastuey and Nikolaus Correll
+  pages: 185-194
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-50115-4_17
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Robotic Materials: From smart polymers to computational metamaterials'
+  venue: 'Robot Makers Workshop at "Robotics: Science and System", 2014'
+  year: 2014
+  authors: Nikolaus Correll and Richard Voyles
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=17348745846410312725&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Dynamic teams of robots as ad hoc distributed computers: reducing the complexity
+    of multi-robot motion planning via subspace selection'
+  venue: Autonomous Robots 42 (8), 1691-1713, 2018
+  year: 2018
+  authors: Michael Otte and Nikolaus Correll
+  pages: 1691-1713
+  publisher: Springer US
+  links:
+    pdf: https://link.springer.com/article/10.1007/s10514-018-9714-9
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: How investing in robots actually helps human jobs
+  venue: Time, April 2, 2017
+  year: 2017
+  authors: Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=4218376061655543735&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Abstracting Perception and Manipulation in End-User Robot Programming using
+    Sikuli
+  venue: IEEE Conference on Technologies for Practical Robot Applications (TePRA),
+    2014
+  year: 2014
+  authors: Michael Kasper and Nikolaus Correll and Tom Yeh
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6869156/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Architectures and Control of Networked Robotic Systems
+  venue: Handbook of Collective Robotics, 2013
+  year: 2013
+  authors: Nikolaus Correll and Daniela Rus
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.1201/b14908-6&type=chapterpdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Establishing Multi-Cast Groups in Computational Robotic Materials
+  venue: ''
+  year: 2012
+  authors: Shang Ma and Homa Hosseinmardi and Nicholas Farrow and Richard Han and
+    Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6468331/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Merging Local and Global 3D Perception using Contact Sensing.
+  venue: AAAI Spring Symposia, 2017
+  year: 2017
+  authors: Rebecca Cox and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://cdn.aaai.org/ocs/15375/15375-68269-1-PB.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Technology and the Garden
+  venue: Dumbarton Oaks Research Library and Collection, 2014
+  year: 2014
+  authors: Michael G Lee
+  pages: ''
+  publisher: Dumbarton Oaks Research Library and Collection
+  links:
+    pdf: https://toc.library.ethz.ch/objects/pdf03/z01_978-0-88402-396-8_01.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Navigation with foraging
+  venue: "2013 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2013"
+  year: 2013
+  authors: Michael Otte and Nikolaus Correll and Emilio Frazzoli
+  pages: 3150-3157
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/6696804/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Handbook of Collective Robotics
+  venue: Pan Stanford, 2012
+  year: 2012
+  authors: F Mondada and J Halloy and A Martinoli and N Correll and A Gribovskiy and
+    G Sempo and R Siegwart and JL Deneubourg
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=17831400257779225569&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'DeliGrasp: Inferring Object Properties with LLMs for Adaptive Grasp Policies'
+  venue: Int. Conference on Robotic Learning (CoRL), 2024
+  year: 2024
+  authors: William Xie and Maria Valentini and Jensen Lavering and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/2403.07832
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "SIRONA: sustainable integration of regenerative outer-space nature and agriculture.\
+    \ Part 2\u2014design development and projected performance"
+  venue: Acta Astronautica 196, 350-368, 2022
+  year: 2022
+  authors: Heather Hava and H Larissa Zhou and Chad Mehlenbeck and Abby King and Elizabeth
+    M Lombardi and Kyri Baker and Andy Kaufman and Nikolaus Correll
+  pages: 350-368
+  publisher: Pergamon
+  links:
+    pdf: https://www.sciencedirect.com/science/article/pii/S0094576520304185
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Distributed Autonomous Robotic Systems: The 14th International Symposium'
+  venue: Springer, 2019
+  year: 2019
+  authors: Nikolaus Correll and Mac Schwager and Michael Otte
+  pages: ''
+  publisher: Springer
+  links:
+    pdf: https://books.google.com/books?hl=en&lr=&id=ks6FDwAAQBAJ&oi=fnd&pg=PR5&dq=info:YYmCbt7bdN8J:scholar.google.com&ots=Zx8CVPUvq-&sig=sKn6N8K-vRUSyMRwY9vVVCgRh6s
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Algorithmic Foundations of Programmable Matter Dagstuhl Seminar 16271
+  venue: ACM SIGACT News 48 (2), 87-94, 2017
+  year: 2017
+  authors: "S\xE1ndor P Fekete and Andr\xE9a Richa and Kay R\xF6mer and Christian\
+    \ Scheideler"
+  pages: 87-94
+  publisher: ACM
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/3106700.3106713
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Bloom filter-based ad hoc multicast communication in cyber-physical systems
+    and computational materials
+  venue: "International Conference on Wireless Algorithms, Systems, and Applications\
+    \ \u2026, 2012"
+  year: 2012
+  authors: Homa Hosseinmardi and Nikolaus Correll and Richard Han
+  pages: 595-606
+  publisher: Springer Berlin Heidelberg
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-642-31869-6_52
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Multiple object 3d-mapping using a physics simulator
+  venue: Technical report, 2010
+  year: 2010
+  authors: Neeti Wagle and Nikolaus Correll
+  pages: ''
+  publisher: University of Colorado at Boulder
+  links:
+    pdf: https://www.academia.edu/download/44866329/Multiple_Object_3D-Mapping_using_a_Physi20160418-9035-14p8fty.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Behavior modes for randomized robotic coverage
+  venue: "2009 Second International Conference on Robot Communication and Coordination\
+    \ \u2026, 2009"
+  year: 2009
+  authors: Jacob Beal and Nikolaus Correll and Leonardo Urbina and Jonathan Bachrach
+  pages: 1-6
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/4957478/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A versatile robotic hand with 3D perception, force sensing for autonomous
+    manipulation
+  venue: RSS Workshop on Warehouse Automation, Daegu, Korea, 2024
+  year: 2024
+  authors: Nikolaus Correll and Dylan Kriegman and Stephen Otto and James Watson
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/2402.06018
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: High-bandwidth nonlinear control for soft actuators with recursive network
+    models
+  venue: International Symposium on Experimental Robotics, 589-599, 2020
+  year: 2020
+  authors: Sarah Aguasvivas Manzano and Patricia Xu and Khoi Ly and Robert Shepherd
+    and Nikolaus Correll
+  pages: 589-599
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-030-71151-1_52
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Simulating chemical reactions using a swarm of miniature robots
+  venue: International Conference on Simulation of Adaptive Behavior, 305-316, 2016
+  year: 2016
+  authors: Audrey Randall and John Klingner and Nikolaus Correll
+  pages: 305-316
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-43488-9_27
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "The Swarm-Wall: Toward Life\u2019s Uncanny Valley"
+  venue: ICRA Workshop on Robotics and Art, 2013
+  year: 2013
+  authors: Nikolaus Correll and Nicholas Farrow and Ken Sugawara and Michael Theodore
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=7482683926787216091&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: The any-com approach to multi-robot coordination
+  venue: "IEEE Int. Conf. on Robotics and Automation: Network Science and Systems\
+    \ \u2026, 2010"
+  year: 2010
+  authors: Michael Otte and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: http://ottelab.com/html_stuff/pdf_files/otte_icra_netss10.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'From natural to artificial camouflage: components and systems'
+  venue: arXiv preprint arXiv:1809.04171, 2018
+  year: 2018
+  authors: Yang Li and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/1809.04171
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Honeycomb: a platform for computational robotic materials'
+  venue: "Proceedings of the 7th International Conference on Tangible, Embedded and\
+    \ \u2026, 2013"
+  year: 2013
+  authors: Nikolaus Correll and Nicholas Farrow and Shang Ma
+  pages: 419-422
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/2460625.2460718
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Robotic Materials with Controllable Stiffness
+  venue: THE 19TH INTERNATIONAL CONFERENCE ON COMPOSITE MATERIALS, COR80314, 2013
+  year: 2013
+  authors: M McEvoy and N Farrow and N Correll
+  pages: COR80314
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=13334709521087154539&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Software engineering for robotics: Future research directions; report from
+    the 2023 workshop on software engineering for robotics'
+  venue: arXiv preprint arXiv:2401.12317, 2024
+  year: 2024
+  authors: Claire Le Goues and Sebastian Elbaum and David Anthony and Z Berkay Celik
+    and Mauricio Castillo-Effen and Nikolaus Correll and Pooyan Jamshidi and Morgan
+    Quigley and Trenton Tabor and Qi Zhu
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/2401.12317
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Robotic materials
+  venue: arXiv preprint arXiv:1903.10480, 2019
+  year: 2019
+  authors: Nikolaus Correll and Ray Baughman and Richard Voyles and Lining Yao and
+    Dan Inman
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/1903.10480
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "Robotic grasping and manipulation: first robotic grasping and manipulation\
+    \ challenge, RGMC 2016, Held in Conjunction with IROS 2016, Daejeon, South Korea,\
+    \ October 10\u201312, 2016, Revised Papers"
+  venue: Springer, 2018
+  year: 2018
+  authors: Yu Sun and Joe Falco
+  pages: ''
+  publisher: Springer
+  links:
+    pdf: https://books.google.com/books?hl=en&lr=&id=Tw9kDwAAQBAJ&oi=fnd&pg=PR5&dq=info:1rGwlQkmxjwJ:scholar.google.com&ots=Z8nGTJH7tK&sig=FgS-Q1K6mCwBmLvQcOuq-FrCJP0
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Terrain sensitive tires for autonomous driving
+  venue: 'Material Robotics Workshop at Robotics: Science and Systems, 2017'
+  year: 2017
+  authors: Dana Hughes and Christopher Heckman and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=16239266917705853491&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Flutter
+  venue: "\U0001F3C6 Adjunct Proceedings of the 16th International Symposium on Wearable\
+    \ \u2026, 2012"
+  year: 2012
+  authors: H Profita and N Farrow and N Correll
+  pages: 44-46
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=13477972839735684890&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: From swarm robotics to smart materials
+  venue: Neural Computing and Applications 19 (6), 785-786, 2010
+  year: 2010
+  authors: "Nikolaus Correll and Roderich Gro\xDF"
+  pages: 785-786
+  publisher: Springer-Verlag
+  links:
+    pdf: https://link.springer.com/article/10.1007/s00521-010-0440-2
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Toward smart composites: Small-scale, untethered prediction and control
+    for soft sensor/actuator systems'
+  venue: Journal of Composite Materials 56 (26), 4025-4039, 2022
+  year: 2022
+  authors: Sarah A Manzano and Vani Sundaram and Artemis Xu and Khoi Ly and Mark Rentschler
+    and Robert Shepherd and Nikolaus Correll
+  pages: 4025-4039
+  publisher: SAGE Publications
+  links:
+    pdf: https://journals.sagepub.com/doi/abs/10.1177/00219983221129691
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Wireless online impact source localization on a composite
+  venue: Procedia Manufacturing 24, 319-324, 2018
+  year: 2018
+  authors: Sarah Aguasvivas Manzano and Dana Hughes and Nikolaus Correll
+  pages: 319-324
+  publisher: Elsevier
+  links:
+    pdf: https://www.sciencedirect.com/science/article/pii/S2351978918305389
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Assembly by intelligent scaffolding
+  venue: Department of Computer Science, University of Colorado at Boulder, Tech.
+    Rep, 2011
+  year: 2011
+  authors: Erik Komendera and Dustin Reishus and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://spl.cde.state.co.us/artemis/ucbserials/ucb51110internet/2011/ucb511101080internet.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Towards forceful robotic foundation models: a literature survey'
+  venue: arXiv preprint arXiv:2504.11827, 2025
+  year: 2025
+  authors: William Xie and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/2504.11827
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Capacitive Self-Sensing for Electrostatic Transducers with High Voltage Isolation
+  venue: US Patent App. 17/928,453, 2023
+  year: 2023
+  authors: Nikolaus Correll and Khoi D Ly and Nicholas Alexander Kellaris and Christoph
+    Matthias KEPLINGER
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://patents.google.com/patent/US20230200250A1/en
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'SIRONA: Sustainable integration of Regenerative Outer-space nature and Agriculture.
+    Part 1--architecture and technology'
+  venue: "\U0001F3C6 49th International Conference on Environmental Systems, 2019"
+  year: 2019
+  authors: Heather Hava and Larissa Zhou and Elizabeth Lombardi and Kaixin Cui and
+    Heeyeon Joung and Sarah Aguasvivas Manzano and Abby King and Hayley Kinlaw and
+    Kyri Baker and Andy Kaufman and Nikolaus Correll
+  pages: ''
+  publisher: "\U0001F3C6 49th International Conference on Environmental Systems"
+  links:
+    pdf: https://ttu-ir.tdl.org/items/d075ddd0-b23d-4bbf-a9e4-04105d1b0ecb
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Measuring distance and contact force during robotic manipulation
+  venue: US Patent App. 15/487,463, 2017
+  year: 2017
+  authors: Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://patents.google.com/patent/US20170297206A1/en
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Textile-Based Assistive Wearables
+  venue: The Journal on Technology and Persons with Disabilities, 40--49, 2017
+  year: 2017
+  authors: Halley P Profita and Michael Lightner and Nikolaus Correll and Shaun K
+    Kane
+  pages: 40--49
+  publisher: ''
+  links:
+    pdf: https://scholarworks.calstate.edu/downloads/1r66j4644#page=47
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Intelligent RF-Based Gesture Input Devices Implemented Using e-Textiles.(2017)
+  venue: ''
+  year: 2017
+  authors: Dana Hughes and Halley Profita and Sarah Radzihovsky and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=17339181832400139415&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Soft Robotics
+  venue: Mary Ann Libert, Inc 2 (3), 2015
+  year: 2015
+  authors: Barry Trimmer and Josh Bongard and Fumiya Iida and John H Long Jr and Nanshu
+    Lu and Qibing Pei and Rhonda A Gordon and Iain A Anderson and David Barrett and
+    Hillel J Chiel and Nikolaus Correll and Antonio DeSimone and Akio Ishiguro and
+    Maarja Kruusmaa and George V Lauder and Hod Lipson and Carmel Majidi and Barbara
+    Mazzolai and Arianna Menciassi and Keisuke Morishima and Rahim Mutlu and Cagdas
+    D Onal and Roger D Quinn and John A Rogers and Jonathan Rossiter and Ian D Walker
+    and Kevin Warwick and Alon Wolf
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=7062813002242719979&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'SikuliBot: automating physical interface using images'
+  venue: "Adjunct Proceedings of the 27th Annual ACM Symposium on User Interface \u2026\
+    , 2014"
+  year: 2014
+  authors: Jeeeun Kim and Mike Kasper and Tom Yeh and Nikolaus Correll
+  pages: 53-54
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/2658779.2659110
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Robotic Manipulation for Identification of Flexible Objects
+  venue: International Symposium on Experimental Robotics (ISER), 2014
+  year: 2014
+  authors: TM Caldwell and D Coleman and N Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-23778-7_10
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Object Interaction Language (OIL): An intent-based language for programming
+    self-organized sensor/actuator networks'
+  venue: "2010 IEEE/RSJ International Conference on Intelligent Robots and Systems\
+    \ \u2026, 2010"
+  year: 2010
+  authors: Daniel J Sutton and Peter T Klein and Michael W Otte and Nikolaus Correll
+  pages: 6113-6118
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/5651536/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'PCP: the personal commute portal'
+  venue: "Proceedings of the 6th ACM conference on Embedded network sensor systems\
+    \ \u2026, 2008"
+  year: 2008
+  authors: Hari Balakrishnan and Nikolaus Correll and Jakob Erikkson and Sejoon Lim
+    and Samuel Madden and Daniela Rus
+  pages: 353-354
+  publisher: ''
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.1145/1460412.1460448
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed exploration and coverage
+  venue: California Institute of Technology / ETH Zurich, 2003
+  year: 2003
+  authors: Nikolaus Correll and Alcherio Martinoli and Kjerstin Easton and J Burdick
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Just Add Force for Contact-Rich Robot Policies
+  venue: CoRL 2024 Workshop on Mastering Robot Manipulation in a World of Abundant
+    Data, 2024
+  year: 2024
+  authors: William Xie and Stefan Caldararu and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/2410.13124
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Algorithmic foundations of programmable matter
+  venue: Dagstuhl seminar 16271, 2015
+  year: 2015
+  authors: "SP Fekete and A Richa and Kay R\xF6mer and Christian Scheideler"
+  pages: ''
+  publisher: ''
+  links:
+    pdf: http://dagstuhl.sunsite.rwth-aachen.de/volltexte/dagrep-complete/2016/dagrep-v006-i007-complete.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Distributed Autonomous Robotic Systems: The 10th International Symposium'
+  venue: Springer Publishing Company, Incorporated, 2014
+  year: 2014
+  authors: Alcherio Martinoli and Francesco Mondada and Nikolaus Correll and Grgory
+    Mermoud and Magnus Egerstedt and M Ani Hsieh and Lynne E Parker and Kasper Sty
+  pages: ''
+  publisher: Springer Publishing Company, Incorporated
+  links:
+    pdf: https://dl.acm.org/doi/abs/10.5555/2755400
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'endo/exo: Making Art and Music with Distributed Computing'
+  venue: New Interfaces for Musical Expression (NIME), 2014
+  year: 2014
+  authors: Jiffer Harriman and Michael Theodore and Nikolaus Correll and Hunter Ewen
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://www.nime.org/proceedings/2014/nime2014_523.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Ping pong ball-sized robot for various applications in industries
+  venue: Advanced Manufacturing Technology 34 (10), 1-3, 2013
+  year: 2013
+  authors: Nikolaus Correll
+  pages: 1-3
+  publisher: Frost & Sullivan
+  links:
+    pdf: https://go.gale.com/ps/i.do?id=GALE%7CA352376354&sid=googleScholar&v=2.1&it=r&linkaccess=abs&issn=08855684&p=AONE&sw=w
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Structure from Motion Using the Extended Kalman Filter
+  venue: 'Springer: Berlin/Heidelberg, Germany, 2012'
+  year: 2012
+  authors: A Martinoli and F Mondada and N Correll and G Mermoud
+  pages: ''
+  publisher: 'Springer: Berlin/Heidelberg, Germany'
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=12103072776263750242&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 6-DOF visual servoing using the Lie group of affine transformations
+  venue: MSc Theses, 2002
+  year: 2002
+  authors: Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://lup.lub.lu.se/student-papers/search/publication/8848179
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A Machine Learning Approach to Contact Localization in Variable Density Three-Dimensional
+    Tactile Artificial Skin
+  venue: '2nd NeurIPS Workshop on Touch Processing: From Data to Knowledge, 2024'
+  year: 2024
+  authors: Mitchell Murray and Yutong Zhang and Carson Kohlbrenner and Caleb Escobedo
+    and Thomas Dunnington and Nolan Stevenson and Nikolaus Correll and Alessandro
+    Roncone
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://openreview.net/forum?id=sbkPfK5f20
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed Tactile Sensors for Palmar Surfaces of Prosthetic Hands
+  venue: 2023 11th International IEEE/EMBS Conference on Neural Engineering (NER),
+    1-4, 2023
+  year: 2023
+  authors: Hoang Truong and Nikolaus Correll and Jacob Segil
+  pages: 1-4
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/10123819/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Optimal decision making in robotic assembly and other trial-and-error tasks
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS\
+    \ \u2026, 2023"
+  year: 2023
+  authors: James Watson and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/10341863/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Robotic materials for robot autonomy
+  venue: Robotic Systems and Autonomous Platforms, 295-307, 2019
+  year: 2019
+  authors: Nikolaus Correll
+  pages: 295-307
+  publisher: Woodhead Publishing
+  links:
+    pdf: https://www.sciencedirect.com/science/article/pii/B9780081022603000123
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Fast sample-based planning for dynamic systems by zero-control linearization-based
+    steering
+  venue: 'Robotics Research: Volume 2, 453-469, 2017'
+  year: 2017
+  authors: Timothy M Caldwell and Nikolaus Correll
+  pages: 453-469
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-60916-4_26
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "Manipulation using the \u201CUtah\u201D prosthetic hand: The role of stiffness\
+    \ in manipulation"
+  venue: Robotic Grasping and Manipulation Challenge, 107-116, 2016
+  year: 2016
+  authors: Radhen Patel and Jacob Segil and Nikolaus Correll
+  pages: 107-116
+  publisher: Springer International Publishing
+  links:
+    pdf: https://link.springer.com/chapter/10.1007/978-3-319-94568-2_6
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Anderson, Mike S.
+  venue: "Distributed Autonomous Robotic Systems: The 11th International Symposium\
+    \ 104 \u2026, 2014"
+  year: 2014
+  authors: "Ross P Anderson and Thomas Apker and Fumiya Iida and Jose Baca and Tucker\
+    \ R Balch and Akiya Kamimura and Wolfgang Banzhaf and Hidenori Kawamura and Calin\
+    \ Belta and Haruhisa Kurokawa and Nicola Bezzo and Hyukseong Kwon and Andreas\
+    \ Breitenmoser and Luzius Brodbeck and William Li and Doug Lipinski and Mario\
+    \ FM Campos and Lantao Liu and Luiz Chaimowicz and Wenguo Liu and Jianing Chen\
+    \ and Christopher G Lowe and Gregory S Chirikjian and Mandar Chitre and Alcherio\
+    \ Martinoli and Christopher M Clark and Eric Martinson and Thomas R Collins and\
+    \ Daniel McGibney and Brian Coltin and James McLurkin and Nikolaus Correll and\
+    \ Dejan Milutinovic and Kamran Mohseni and Sangeeta Daingade and Dorothy N Monekosso\
+    \ and Prithviraj Dasgupta and Ryo Morioka and Ezequiel Di Mario and Hiro Mukai\
+    \ and Tony J Dodd and Ayan Dutta and Radhika Nagpal and Nils Napp and Rafael Fierro\
+    \ and Carl Nelson and Francisco Fl\xF3rez-Revuelta and Michael Novitzky and Toshio\
+    \ Fukuda and Daniel Pack and Melvin Gauci and Liqian Peng and Raphael Grech and\
+    \ Charles Pippin and Roderich Gro\xDF and Sailesh Prabhu"
+  pages: '449'
+  publisher: Springer
+  links:
+    pdf: https://books.google.com/books?hl=en&lr=&id=JNi6BQAAQBAJ&oi=fnd&pg=PA449&dq=info:0ehQEBDAyXYJ:scholar.google.com&ots=F2iLgHj62P&sig=2-XVQxPdJOIT_Qisx6EuwjNZReM
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Towards Real-Time Trinocular Visual Odometry
+  venue: Applied Mechanics and Materials 490, 1424-1429, 2014
+  year: 2014
+  authors: Jae Heon Jeong and Nikolaus Correll
+  pages: 1424-1429
+  publisher: Trans Tech Publications Ltd
+  links:
+    pdf: https://www.scientific.net/AMM.490-491.1424
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Distributed Autonomous Robotic Systems: The 10th International Symposium'
+  venue: Springer, 2013
+  year: 2013
+  authors: "Francesco Mondada and Nikolaus Correll and Gr\xE9gory Mermoud and Magnus\
+    \ Egerstedt and M Ani Hsieh and Lynne E Parker and Kasper St\xF8y and Alcherio\
+    \ Martinoli"
+  pages: ''
+  publisher: Springer
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=12278988452059405044&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Self-Organized Robotic Systems: Large-Scale Experiments in Aggregation and
+    Self-Assembly using Miniature Robots'
+  venue: Handbook of Collective Robotics, 2013
+  year: 2013
+  authors: Gregory Mermoud and Amanda Prorok and Loic Matthey and Christopher M Cianci
+    and Nikolaus Correll and Alcherio Martinoli
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://www.researchgate.net/profile/Nikolaus-Correll/publication/49460342_Self-Organized_Robotic_Systems_Large-Scale_Experiments_in_Aggregation_and_Self-Assembly_using_Miniature_Robots/links/54319f840cf27e39fa9f9434/Self-Organized-Robotic-Systems-Large-Scale-Experiments-in-Aggregation-and-Self-Assembly-using-Miniature-Robots.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed Autonomous Robotic Systems
+  venue: Springer, 2006
+  year: 2006
+  authors: Nikolaus Correll and A Martinoli
+  pages: ''
+  publisher: Springer
+  links:
+    pdf: https://link.springer.com/content/pdf/10.1007/978-3-030-05816-6.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: On the Dual-Use Dilemma in Physical Reasoning and Force
+  venue: arXiv preprint arXiv:2505.18792, 2025
+  year: 2025
+  authors: William Xie and Enora Rice and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/2505.18792
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Unfettered Forceful Skill Acquisition with Physical Reasoning and Coordinate
+    Frame Labeling
+  venue: arXiv preprint arXiv:2505.09731, 2025
+  year: 2025
+  authors: William Xie and Max Conway and Yutong Zhang and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://arxiv.org/abs/2505.09731
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Embedded magnetic sensing for soft actuators
+  venue: US Patent 12,296,492, 2025
+  year: 2025
+  authors: Mark Rentschler and Vani Sundaram and Khoi Ly and Jatin Mayekar and Nikolaus
+    Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://patents.google.com/patent/US12296492B2/en
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Early failure prediction during robotic assembly using Transformers
+  venue: 'Workshop on Robotic Assembly at Robotics: Science and Systems, Daegu, Korea,
+    2023'
+  year: 2023
+  authors: "Roger Montan\xE9-G\xFCell and James Watson and Nikolaus Correll"
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Toward Semi-Autonomous Prosthetic Hand Control: Applying Embedded Neural
+    Networks to Improve Sensor Fusion in Prosthetic Fingertip Sensors'
+  venue: Myoelectric Controls Symposium, 2022
+  year: 2022
+  authors: Ben Pulver and Sarah Aguasvivas Manzano and Aaron Selnick and Serena Kishek
+    and Levin Sliker and Nikolaus Correll and Jacob Segil
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://conferences.lib.unb.ca/index.php/mec/article/view/1967
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Interview with Nikolaus Correll: Robotic Materials'
+  venue: Active Materials, 173, 2021
+  year: 2021
+  authors: Nikolaus Correll and Michael Friedman and Karin Krauthausen
+  pages: '173'
+  publisher: Walter de Gruyter GmbH & Co KG
+  links:
+    pdf: https://library.oapen.org/bitstream/handle/20.500.12657/52253/9783110562064.pdf?sequence=1#page=180
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Robots and autonomous systems, SI DARS 2018
+  venue: Robotics and Autonomous Systems 129, 103530, 2020
+  year: 2020
+  authors: Nikolaus Correll and Mac Schwager
+  pages: '103530'
+  publisher: North-Holland
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=7965787501505815876&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Pre-grasping reflex for a robot hand equipped with visual-haptic sensors
+  venue: ViTac Workshop at the Int. Conference on Robotics and Automation (ICRA),
+    2019
+  year: 2019
+  authors: Radhen Patel and Jacob Segil and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: RF-based gesture input device and associated method of use
+  venue: US Patent WO2016040938 A1, 2016
+  year: 2016
+  authors: Dana Hughes and Halley Profita and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Zero-Control Linearization-Based Steering for Sample-Based Planning of Dynamic
+    Systems
+  venue: ''
+  year: 2015
+  authors: TM Caldwell and N Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=6352408198745974123&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Large-Scale Experiments in Aggregation and Self-Assembly using Miniature
+    Robots
+  venue: 'Handbook of Collective Robotics: Fundamentals and Challenges, 231-259, 2013'
+  year: 2013
+  authors: "Gr\xE9gory Mermoud and Amanda Prorok and Lo\xEFc Matthey and Christopher\
+    \ Cianci and Nikolaus Correll and Alcherio Martinoli"
+  pages: 231-259
+  publisher: Pan Stanford
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Precise Truss Assembly using Commodity Parts and Imprecise Welding
+  venue: "IEEE International Conference on Technologies for Practical Robot \u2026\
+    , 2013"
+  year: 2013
+  authors: Erik Komendera and Dustin Reishus and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Self-Organized Robotic Systems: Large-Scale Experiments in Aggregation and
+    Self-Assembly Using Miniature Robots'
+  venue: ''
+  year: 2013
+  authors: "Gr \xE9gory Mermoud and Amanda Prorok and Lo\u0131c Matthey and Christopher\
+    \ Cianci and Nikolaus Correll and Alcherio Martinolia"
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://api.taylorfrancis.com/content/chapters/edit/download?identifierName=doi&identifierValue=10.1201/b14908-12&type=chapterpdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "\u7FA4\u308C\u884C\u52D5\u306E\u6570\u7406\u30E2\u30C7\u30EB\u3068\u305D\
+    \u306E\u5FDC\u7528"
+  venue: HAI Conference, 2013
+  year: 2013
+  authors: Ken Sugawara and Kanako Hata and Nikolaus Correll and Michael Theodore
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Self-Assembly and Self-Repair of Structures with Stability and Resource Constraints
+  venue: ''
+  year: 2012
+  authors: Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://apps.dtic.mil/sti/html/tr/ADA567314/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Organizing the aggregate: Languages for spatial computing'
+  venue: 'DOI: http://arxiv. org/abs/1202.5509 Google Scholar Google Scholar Reference
+    1, 2012'
+  year: 2012
+  authors: Beal Jacob and Dulman Stefan and Usbeck Kyle and Correll Nikolaus
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Multi-level Spatial Modeling for Swarm-Robotic Systems
+  venue: ''
+  year: 2010
+  authors: Amanda Prorok and Alcherio Martinoli and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://www.researchgate.net/profile/Nikolaus-Correll/publication/247933368_Multi-level_Spatial_Modeling_for_Stochastic_Distributed_Robotic_Systems/links/542d64e80cf29bbc126d2c5e/Multi-level-Spatial-Modeling-for-Stochastic-Distributed-Robotic-Systems.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: From Distributed Coverage Algorithms to Experiments with Miniature Robotic
+    Swarms
+  venue: IEEE Robotics & Automation Magazine 16 (1), 103-112, 2009
+  year: 2009
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: 103-112
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=7428777499419767732&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: 'Cells and Robots: Modeling and Control of Large-Size Agent Populations (Dejan
+    LJ Milutinovic and P. Lima; 2007)[Book Review]'
+  venue: IEEE Control Systems Magazine 28 (5), 140-141, 2008
+  year: 2008
+  authors: Nikolaus Correll
+  pages: 140-141
+  publisher: IEEE
+  links:
+    pdf: https://ieeexplore.ieee.org/abstract/document/4627402/
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Modeling self-organized aggregation in a swarm of miniature robots
+  venue: "IEEE 2007 International Conference on Robotics and Automation Workshop on\
+    \ \u2026, 2007"
+  year: 2007
+  authors: Nikolaus Correll and Alcherio Martinoli
+  pages: ''
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Modeling of mixed animal-robot societies
+  venue: Tech. Rep. SWIS-SP8, SWIS Lab., EPFL, 2005. 114 BIBLIOGRAPHY, 2005
+  year: 2005
+  authors: Anne-Elisabeth Tran Qui and N Correll and A Martinoli
+  pages: ''
+  publisher: Tech. Rep. SWIS-SP8, SWIS Lab., EPFL, 2005. 114 BIBLIOGRAPHY
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Assembly by Intelligent Scaffolding; CU-CS-1080-11
+  venue: ''
+  year: ''
+  authors: Dustin Reishus and Erik Komendera and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=14093911207669122965&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "Embedded computing in multi-\u2010modal tactile sensing skins"
+  venue: Computer Science 303 (717), 1436, 0
+  year: ''
+  authors: Nikolaus Correll
+  pages: '1436'
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=14559290359455191352&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: A MACROSCOPIC MODEL OF SELF-ORGANIZING AGGREGATION PHENOMENA
+  venue: ''
+  year: ''
+  authors: Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=7005586903077620648&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Distributed Machine Learning in Materials that Couple Sensing, Actuation,
+    Computation and Communication, May 2017
+  venue: ''
+  year: ''
+  authors: Dana Hughes and Nikolaus Correll
+  pages: '2016'
+  publisher: ''
+  links:
+    pdf: ''
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Dynamic Obstacle Avoidance in Shared Human Robot Workspace
+  venue: ''
+  year: ''
+  authors: Kaleb Bishop and Himanshu Gupta and Dylan Kriegman and Tuhina Tripathi
+    and Yi-Shiuan Tung and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://tuhina2313.github.io/assets/files/Manipulation_report.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: "Touch challenge \u201815: recognizing social touch gestures"
+  venue: ''
+  year: ''
+  authors: Viet-Cuong Ta and Wafa Johal and Maxime Portaz and Eric Castelli and Dominique
+    Vaufreydaz and Jingxin Liu Qin and Fan Zhang and Hongying Meng and Nadia Berthouze
+    and Tugce Balli Altuglu and Kerem Altun and Nicholas Farrow and Halley Profita
+    and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://icmi.acm.org/2015/docs/TouchChallenge15_programv2.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: In-situ Deep Learning for Prediction and Controls in Smart Composites
+  venue: ''
+  year: ''
+  authors: Sarah Aguasvivas Manzano and Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://www.researchgate.net/profile/Sarah-Aguasvivas-Manzano/publication/335947694_In-situ_Deep_Learning_for_Prediction_and_Controls_in_Smart_Composites/links/62320a1e4ce552783cc0c831/In-situ-Deep-Learning-for-Prediction-and-Controls-in-Smart-Composites.pdf
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: Proximity Perception in Robotics at IROS 2019, Macau, China
+  venue: ''
+  year: ''
+  authors: "Hosam Alagi and Stephan M\xFChlbacher-Karrer and Stefan Escaida Navarro\
+    \ and Bj\xF6rn Hein and Hubert Zangl and Keisuke Koyama"
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.archive.org/work/akigr2btzrguhlk657xabgeezu/access/wayback/https://publikationen.bibliothek.kit.edu/1000105220/55766859
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+- title: MANUFACTURING OF MULTIFUNCTIONAL SOFT COMPOSITES WITH INTEGRATED PROXIMITY
+    AND TACTILE SENSING
+  venue: ''
+  year: ''
+  authors: Nikolaus Correll
+  pages: ''
+  publisher: ''
+  links:
+    pdf: https://scholar.google.com/scholar?cluster=5696332979705357594&hl=en&oi=scholarr
+    video: ''
+  abstract: Nikolaus Correll1, 2 1 Department of Computer Science/Material Science
+    Engineering, University of Colorado, ncorrell@ colorado. edu, http://correll.
+    cs. colorado. edu 2 Robotic Materials Inc., Boulder, CO, 80304, http://www. roboticmaterials.
+    com
+
