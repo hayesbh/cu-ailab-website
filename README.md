@@ -1,6 +1,6 @@
 # Colorado AI Lab Website
 
-This repository contains the source code for the Colorado AI Lab website. It is a modern, static site built with [Next.js](https://nextjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/). CI/CD pipeline will be handled by GitHub Actions and deploy changes to a staging environment with limited access to promote changes to production, but this is temporarily blocked.
+This repository contains the source code for the Colorado AI Lab website. It is a modern, static site built with [Next.js](https://nextjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/). A CI/CD pipeline takes changes committed to this repository and deploys them to a staging environment. One of the site admins will promote changes verified in staging up to production after testing.
 
 ## Table of Contents
 
