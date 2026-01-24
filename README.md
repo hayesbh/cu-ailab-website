@@ -73,26 +73,29 @@ faculty:
 
 This file controls both the **Network Graph** visualization and the **Publication List**.
 
-#### Adding a Publication to the List
-Scroll to the `publications` section and add a new entry:
+#### option A: Adding a Personal Publication List (Recommended)
+This is the preferred method for faculty to maintain their own lists.
 
-```yaml
-publications:
-  - title: "Paper Title"
-    venue: "NeurIPS"
-    year: "2024"
-    month: "December" # Optional
-    award: "Best Paper" # Optional
-    # Use markdown (**) to bold lab authors
-    authors: "**J. Doe**, A. Smith, **B. Hayes**"
-    links:
-      pdf: "https://arxiv.org/..."
-      code: "https://github.com/..."
-      video: "#" # Optional
-    abstract: >
-      Paste the abstract here. The greater-than sign (>) allows
-      for multi-line strings in YAML.
-```
+1.  **Create a new file**: `src/content/publications/yourname.publications.yaml`
+2.  **Add your publications**:
+    ```yaml
+    publications:
+      - title: "Paper Title"
+        venue: "NeurIPS"
+        year: "2024"
+        authors: "**J. Doe**, A. Smith"
+        links:
+          pdf: "https://..."
+    ```
+3.  **Register your file**: Edit `src/content/publications.yaml` and add your file path to the `sources` list:
+    ```yaml
+    sources:
+      - "publications/demo.publications" # Existing
+      - "publications/yourname.publications" # Add yours (no extension needed)
+    ```
+
+#### Option B: Adding to the Main List
+You can also add publications directly to `src/content/publications.yaml` in the `publications` list, though Option A is cleaner for collaboration.
 
 #### Updating the Network Graph
 The interactive graph is defined manually in the `network` section to allow for precise layout control.

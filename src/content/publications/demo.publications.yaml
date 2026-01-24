@@ -1,0 +1,41 @@
+publications:
+  - title: "Segment Anything: A New Foundation Model for Image Segmentation"
+    venue: "CVPR"
+    year: "2024"
+    month: "June"
+    authors: "**M. Garcia**, R. Chen, S. Patel, A. Kirillov"
+    links:
+      pdf: "#"
+      code: "#"
+    abstract: >
+      We introduce the Segment Anything Model (SAM), a new AI model from Meta AI that can "cut out" any object, in any image, with a single click. SAM is a promptable segmentation system with zero-shot generalization to unfamiliar objects and images, without the need for additional training. This capability effectively lowers the barrier to entry for creating segmentation masks for any object, enabling a wide array of downstream applications in computer vision.
+
+  - title: "Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles"
+    venue: "NeurIPS"
+    year: "2023"
+    award: "Best Paper"
+    authors: "A. Smith, B. Johnson, **C. Lee**, D. Williams"
+    links:
+      pdf: "#"
+      data: "#"
+    abstract: >
+      We propose a novel unsupervised learning approach where a convolutional neural network is trained to solve Jigsaw puzzles as a pretext task. By reassembling shuffled patches of an image, the network learns both spatial context and object part relationships. We demonstrate that the learned features transfer exceptionally well to downstream tasks such as object detection and classification.
+
+  - title: "Efficient Transformers for Long Sequence Modeling in Genomics"
+    venue: "ICML"
+    year: "2023"
+    authors: "J. Doe, **K. Kim**, L. Wang"
+    links:
+      pdf: "#"
+    abstract: >
+      Processing long DNA sequences remains a computational bottleneck for Transformer-based models. We introduce "GenoFormer", a sparse attention mechanism tailored for genomic data that reduces complexity from quadratic to linear. Our model achieves state-of-the-art results on promoter prediction and variant effect prediction tasks while being 5x faster than standard BERT models.
+
+  - title: "Human-Robot Trust in High-Stakes Emergency Response Scenarios"
+    venue: "HRI"
+    year: "2023"
+    authors: "P. Zhang, **E. Davis**"
+    links:
+      pdf: "#"
+      video: "#"
+    abstract: >
+      We investigate the dynamics of human trust in autonomous robots during simulated search-and-rescue missions. Through a mixed-methods study (N=40), we found that explainability features significantly increased trust resilience after robot errors. We propose a new design framework for HRI interfaces in critical environments.

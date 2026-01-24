@@ -78,4 +78,5 @@ export interface PublicationsContent {
   };
   network: NetworkData;
   publications: Publication[];
+  sources?: string[];
 }

@@ -1,4 +1,5 @@
 import { getContent } from "@/lib/content";
+import { getPublications } from "@/lib/publications"; // Added import
 import { ResearchPageContent, PublicationsContent, ResearchProject } from "@/types/content";
 import { ResearchHero } from "@/components/research/ResearchHero";
 import { ProjectFilters } from "@/components/research/ProjectFilters";
@@ -8,7 +9,7 @@ import { FundingSupport } from "@/components/research/FundingSupport";
 
 export default function ResearchPage() {
   const researchData = getContent<ResearchPageContent>("research");
-  const publicationsData = getContent<PublicationsContent>("publications");
+  const publicationsData = getPublications();
   const projectsData = getContent<{ projects: ResearchProject[] }>("projects");
   
   const featuredProjects = projectsData.projects.filter(p => p.featured);

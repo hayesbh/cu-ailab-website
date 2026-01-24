@@ -7,6 +7,7 @@ import { ArrowDown } from 'lucide-react';
 import { withBasePath } from '@/lib/paths';
 
 import { ThreeGraph } from './ThreeGraph';
+import { TaglineCycler } from './TaglineCycler';
 
 interface HeroProps {
   data: {
@@ -24,7 +25,7 @@ interface HeroProps {
 
 export function Hero({ data, ticker_items }: HeroProps) {
   return (
-    <section className="relative w-full overflow-hidden bg-background-dark text-white pt-24 pb-32 lg:pt-32 lg:pb-40 min-h-[90vh] flex items-center">
+    <section className="relative w-full overflow-hidden bg-background-dark text-white pt-8 pb-32 lg:pt-12 lg:pb-40 min-h-[90vh] flex items-center">
       {/* Background */}
       <div className="absolute inset-0">
         <ThreeGraph />
@@ -64,6 +65,14 @@ export function Hero({ data, ticker_items }: HeroProps) {
           >
             {data.subtitle}
           </motion.p>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+          >
+            {/*<TaglineCycler />*/}
+           </motion.div>
 
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
