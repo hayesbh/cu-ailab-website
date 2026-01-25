@@ -86,7 +86,7 @@ export function PublicationsClient({ data }: PublicationsClientProps) {
         </div>
       </section>
 
-      <CoAuthorshipNetwork data={data.network} />
+      {/*<CoAuthorshipNetwork data={data.network} />*/}
       
       <PublicationFilters 
         onSearchChange={setSearchQuery}

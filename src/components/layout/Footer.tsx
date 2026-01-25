@@ -81,7 +81,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>© 2024 University of Colorado Boulder</p>
+          <p>© {new Date().getFullYear()} University of Colorado Boulder</p>
           <div className="flex gap-6">
             {['Privacy Policy', 'Terms of Use', 'Accessibility'].map((item) => (
               <Link key={item} href="#" className="hover:text-primary transition-colors">
