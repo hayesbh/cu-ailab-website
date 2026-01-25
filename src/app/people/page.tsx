@@ -2,6 +2,7 @@ import { getContent } from '@/lib/content';
 import { PersonCard } from '@/components/shared/PersonCard';
 import { PeopleBrowser } from '@/components/people/PeopleBrowser';
 import Image from 'next/image';
+import { withBasePath } from '@/lib/paths';
 
 export default function PeoplePage() {
   const peopleData = getContent<any>('people');
@@ -12,7 +13,7 @@ export default function PeoplePage() {
       <div className="relative bg-black text-white py-32 mb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/boulder-skyline.jpg"
+            src={withBasePath("/boulder-skyline.jpg")}
             alt="CU Boulder Skyline"
             fill
             className="object-cover opacity-60"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { withBasePath } from '@/lib/paths';
 
 interface HeroProps {
   data: {
@@ -17,7 +18,7 @@ export function Hero({ data }: HeroProps) {
     <section className="relative px-4 md:px-10 py-8 md:py-12 bg-white dark:bg-background-dark">
       <div 
         className="max-w-[1280px] mx-auto bg-cover bg-center bg-no-repeat rounded-xl overflow-hidden relative min-h-[480px] flex items-center justify-center p-8"
-        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("${data.image_url}")` }}
+        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("${withBasePath(data.image_url)}")` }}
       >
         <div className="text-center max-w-3xl z-10 flex flex-col gap-6 items-center">
           <h1 className="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.033em]">
