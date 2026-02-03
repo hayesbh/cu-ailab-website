@@ -5,6 +5,7 @@ import { DegreePrograms } from '@/components/teaching/DegreePrograms';
 import { CourseCatalog } from '@/components/teaching/CourseCatalog';
 
 import { getAllDegreePrograms } from '@/lib/degreeProgramUtils';
+import { SHOW_COURSE_TREE } from '@/lib/flags';
 
 export default function TeachingPage() {
   const data = getContent<any>('teaching');
@@ -13,9 +14,11 @@ export default function TeachingPage() {
   return (
     <>
       <Hero data={data.hero} />
-      <div className="hidden md:block">
-        <CourseInteractions courses={data.courses} />
-      </div>
+      {SHOW_COURSE_TREE && (
+        <div className="hidden md:block">
+          <CourseInteractions courses={data.courses} />
+        </div>
+      )}
       <DegreePrograms programs={degreePrograms} />
       <CourseCatalog courses={data.courses} filters={data.catalog_filters} />
     </>

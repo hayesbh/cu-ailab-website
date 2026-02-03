@@ -1,4 +1,5 @@
 import { withBasePath } from '@/lib/paths';
+import Link from 'next/link';
 
 export default function JoinUsPage() {
   return (
@@ -32,98 +33,67 @@ export default function JoinUsPage() {
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {/* PhD Card */}
-                    <div className="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-transparent hover:border-primary/20">
+                    <div className="flex flex-col bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-transparent hover:border-primary/20">
                         <div className="w-12 h-12 bg-background-alt dark:bg-card-dark rounded-full flex items-center justify-center mb-6">
                             <span className="material-symbols-outlined text-2xl">school</span>
                         </div>
                         <h3 className="text-2xl font-bold mb-3 text-black dark:text-white">Prospective Students</h3>
                         <p className="text-text-muted dark:text-text-muted-dark mb-8 text-sm leading-relaxed">
-                            We are actively recruiting MS and PhD students passionate about machine learning, NLP, and computer vision.
+                            We are always looking to recruit MS and PhD students passionate about artificial intelligence, machine learning, robotics, and related fields.
                         </p>
                         
-                        <div className="flex flex-col gap-3">
-                             <details className="group">
-                                <summary className="flex justify-between items-center font-bold text-xs uppercase tracking-wide cursor-pointer py-2 border-b border-border-light dark:border-border-dark">
-                                    PhD Deadlines & Process
-                                    <span className="material-symbols-outlined text-sm group-open:rotate-180 transition-transform">expand_more</span>
-                                </summary>
-                                <div className="pt-2 pb-4 text-xs text-text-muted">
-                                    Applications are due Dec 15th. Apply via the CS Department website.
-                                </div>
-                             </details>
-                             <details className="group">
-                                <summary className="flex justify-between items-center font-bold text-xs uppercase tracking-wide cursor-pointer py-2 border-b border-border-light dark:border-border-dark">
-                                    Contacting Faculty
-                                    <span className="material-symbols-outlined text-sm group-open:rotate-180 transition-transform">expand_more</span>
-                                </summary>
-                                <div className="pt-2 pb-4 text-xs text-text-muted">
-                                    Please read individual faculty websites before emailing.
-                                </div>
-                             </details>
-                        </div>
                         
-                        <div className="mt-8">
-                            <button className="w-full py-3 bg-black dark:bg-white text-white dark:text-black font-bold rounded hover:opacity-90 transition-opacity text-sm">
+                        <div className="mt-auto">
+                            <a 
+                                href="https://www.colorado.edu/cs/admissions/graduate-admissions/how-apply"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-full py-3 bg-black dark:bg-white text-white dark:text-black font-bold rounded hover:opacity-90 transition-opacity text-sm inline-block text-center"
+                            >
                                 Apply to Grad School
-                            </button>
+                            </a>
                         </div>
                     </div>
 
                     {/* Postdoc Card */}
-                    <div className="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-transparent hover:border-primary/20">
+                    <div className="flex flex-col bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-transparent hover:border-primary/20">
                          <div className="w-12 h-12 bg-background-alt dark:bg-card-dark rounded-full flex items-center justify-center mb-6">
                             <span className="material-symbols-outlined text-2xl">science</span>
                         </div>
                         <h3 className="text-2xl font-bold mb-3 text-black dark:text-white">Postdocs & Researchers</h3>
                         <p className="text-text-muted dark:text-text-muted-dark mb-8 text-sm leading-relaxed">
-                            Join us as a postdoctoral scholar or research scientist. Collaborate on cutting-edge grants and mentor students.
+                            Join us as a postdoctoral scholar or research scientist. Collaborate on cutting-edge grants and mentor students. Please visit our individual faculty groups' websites to see available positions.
                         </p>
                         
-                        <div className="flex flex-col gap-3">
-                             <details className="group">
-                                <summary className="flex justify-between items-center font-bold text-xs uppercase tracking-wide cursor-pointer py-2 border-b border-border-light dark:border-border-dark">
-                                    Current Openings
-                                    <span className="material-symbols-outlined text-sm group-open:rotate-180 transition-transform">expand_more</span>
-                                </summary>
-                                <div className="pt-2 pb-4 text-xs text-text-muted">
-                                    We have two open positions in Robotics and NLP.
-                                </div>
-                             </details>
-                        </div>
-                        
-                        <div className="mt-8">
-                            <button className="w-full py-3 bg-black dark:bg-white text-white dark:text-black font-bold rounded hover:opacity-90 transition-opacity text-sm">
-                                View Research Roles
-                            </button>
+                        <div className="mt-auto">
+                            <Link 
+                                href="/people"
+                                className="w-full py-3 bg-black dark:bg-white text-white dark:text-black font-bold rounded hover:opacity-90 transition-opacity text-sm inline-block text-center"
+                            >
+                                View Faculty Page
+                            </Link>
                         </div>
                     </div>
 
                     {/* Faculty Card */}
-                    <div className="bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-transparent hover:border-primary/20">
+                    <div className="flex flex-col bg-white dark:bg-background-dark p-8 rounded-2xl shadow-sm hover:shadow-xl transition-shadow border border-transparent hover:border-primary/20">
                          <div className="w-12 h-12 bg-background-alt dark:bg-card-dark rounded-full flex items-center justify-center mb-6">
                             <span className="material-symbols-outlined text-2xl">podium</span>
                         </div>
                         <h3 className="text-2xl font-bold mb-3 text-black dark:text-white">Faculty Positions</h3>
                         <p className="text-text-muted dark:text-text-muted-dark mb-8 text-sm leading-relaxed">
-                            The Department of Computer Science and Colorado AI Lab are looking for tenure-track faculty to lead new research directions.
+                            The Department of Computer Science and Colorado AI Lab are regularly looking for tenure-track faculty to lead new research directions. Details about open positions can be found on the CS department website.
                         </p>
                         
-                         <div className="flex flex-col gap-3">
-                             <details className="group">
-                                <summary className="flex justify-between items-center font-bold text-xs uppercase tracking-wide cursor-pointer py-2 border-b border-border-light dark:border-border-dark">
-                                    Search Timeline
-                                    <span className="material-symbols-outlined text-sm group-open:rotate-180 transition-transform">expand_more</span>
-                                </summary>
-                                <div className="pt-2 pb-4 text-xs text-text-muted">
-                                    Interviews typically typically occur in Spring.
-                                </div>
-                             </details>
-                        </div>
-
-                        <div className="mt-8">
-                            <button className="w-full py-3 bg-black dark:bg-white text-white dark:text-black font-bold rounded hover:opacity-90 transition-opacity text-sm">
+                        <div className="mt-auto">
+                            <a 
+                                href="https://www.colorado.edu/cs/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="w-full py-3 bg-black dark:bg-white text-white dark:text-black font-bold rounded hover:opacity-90 transition-opacity text-sm inline-block text-center"
+                            >
                                 See Faculty Postings
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>

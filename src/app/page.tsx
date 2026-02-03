@@ -3,6 +3,7 @@ import { Hero } from '@/components/home/Hero';
 import { ResearchAreas } from '@/components/home/ResearchAreas';
 import { LatestUpdates } from '@/components/home/LatestUpdates';
 import { FacultyPreview } from '@/components/home/FacultyPreview';
+import { SHOW_LATEST_UPDATES } from '@/lib/flags';
 
 export default function Home() {
   const homeData = getContent<any>('home');
@@ -18,10 +19,12 @@ export default function Home() {
       <ResearchAreas 
         data={homeData.research_areas} 
       />
-      <LatestUpdates 
-        data={homeData.latest_updates} 
-        news={newsData} 
-      />
+      {SHOW_LATEST_UPDATES && (
+        <LatestUpdates 
+          data={homeData.latest_updates} 
+          news={newsData} 
+        />
+      )}
       <FacultyPreview 
         data={homeData.faculty_preview} 
         faculty={peopleData.faculty} 
