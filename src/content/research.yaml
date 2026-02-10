@@ -2,12 +2,12 @@ hero:
   title: "Our Research"
   description: "Pushing the boundaries of Artificial Intelligence at CU Boulder through interdisciplinary collaboration and ethical innovation."
   stats:
-    - value: "150+"
-      label: "Papers Published"
-    - value: "12"
-      label: "Best Paper Awards"
-    - value: "16"
-      label: "Active Funded Projects"
+    - value: "16+"
+      label: "Faculty Members"
+    - value: "7"
+      label: "Research Themes"
+    - value: "8+"
+      label: "Partner Institutions"
 
 filters:
   categories:
@@ -18,10 +18,18 @@ filters:
     - "Machine Learning"
     - "HCI"
     - "AI Ethics"
+    - "Human-AI Teaming"
+    - "Safety & Alignment"
+    - "Multimodal AI"
+    - "Systems"
+    - "Theoretical AI"
 
 funding_logos:
   - name: "NSF"
+  - name: "ONR"
+  - name: "ARL"
+  - name: "NASA"
   - name: "DARPA"
-  - name: "Google Research"
+  - name: "Google"
   - name: "Meta AI"
-  - name: "OpenAI"
+  - name: "Amazon"

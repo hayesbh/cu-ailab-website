@@ -1,14 +1,20 @@
 "use client";
 
-import { useState } from "react";
-
 interface ProjectFiltersProps {
   categories: string[];
+  activeCategory: string;
+  onCategoryChange: (category: string) => void;
+  searchQuery: string;
+  onSearchChange: (query: string) => void;
 }
 
-export function ProjectFilters({ categories }: ProjectFiltersProps) {
-  const [activeCategory, setActiveCategory] = useState("All Areas");
-
+export function ProjectFilters({
+  categories,
+  activeCategory,
+  onCategoryChange,
+  searchQuery,
+  onSearchChange,
+}: ProjectFiltersProps) {
   return (
     <section className="space-y-6">
       <div className="flex flex-col md:flex-row gap-4">
@@ -21,6 +27,8 @@ export function ProjectFilters({ categories }: ProjectFiltersProps) {
             type="text"
             className="block w-full pl-12 pr-4 py-3 bg-white dark:bg-[#32311b] border-none rounded-full text-text-main dark:text-white placeholder-text-sub dark:placeholder-gray-500 focus:ring-2 focus:ring-primary shadow-sm text-base"
             placeholder="Search projects, papers, or authors..."
+            value={searchQuery}
+            onChange={(e) => onSearchChange(e.target.value)}
           />
         </div>
 
@@ -42,7 +50,7 @@ export function ProjectFilters({ categories }: ProjectFiltersProps) {
         {categories.map((category) => (
           <button
             key={category}
-            onClick={() => setActiveCategory(category)}
+            onClick={() => onCategoryChange(category)}
             className={`px-5 py-2 rounded-full text-sm font-medium transition-colors ${
               activeCategory === category
                 ? "bg-primary text-text-main font-bold transition-transform active:scale-95"

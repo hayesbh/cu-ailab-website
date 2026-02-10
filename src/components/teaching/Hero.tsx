@@ -5,7 +5,7 @@ interface HeroProps {
   data: {
     title: string;
     subtitle: string;
-    button_text: string;
+    button_text?: string;
     image_url: string;
   };
 }
@@ -28,9 +28,11 @@ export function Hero({ data }: HeroProps) {
           <p className="text-gray-200 text-lg md:text-xl font-normal leading-relaxed max-w-2xl">
             {data.subtitle}
           </p>
-          <button className="mt-4 flex cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-text-main text-base font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all shadow-[0_0_20px_rgba(249,245,6,0.4)]">
-            {data.button_text}
-          </button>
+          {data.button_text && (
+            <button className="mt-4 flex cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-8 bg-primary text-text-main text-base font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all shadow-[0_0_20px_rgba(249,245,6,0.4)]">
+              {data.button_text}
+            </button>
+          )}
         </div>
       </div>
     </section>

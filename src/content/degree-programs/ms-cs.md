@@ -1,12 +1,13 @@
 ---
 title: "Master of Science in Artificial Intelligence"
-description: "A rigorous, interdisciplinary curriculum designed to prepare students for leadership roles in the rapidly evolving field of AI."
+description: "A rigorous, interdisciplinary curriculum designed to prepare students for leadership and engineering roles in the rapidly evolving field of AI by combining theoretical foundations with practical application. Coming soon in Fall 2026!"
 type: "light"
 icon: "school"
+external_link_url: "#"
 features:
   - "30 Credit Hours"
   - "Thesis & Non-Thesis"
-  - "AI Specialization"
+  - "Frontier AI Topics"
 order: 1
 hero:
   image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDqa12QX-QB7H0ru-RxEYN2dS7DECsxopcCNf0sjChWRj7myDKCRwosvk17ugP1V1WeR-u2maHGsYb9OWEyi3Ds4tQMPwnDiTGrVahtABySmEWSE7iQivlywNEgplYjPOhNDnLICZXQ996POVDn6Zenxr3KKIgT6i3HMbzC70Oi4y3jNhqmHQ7MbAzNXjWAOpzcn-a0INBK7dtnInXhQmCLS8csANDZCOyLplqcwnoG9ZRoDkzVzpsQgJaeGiL-JfaILWM3rAI7jEo"
@@ -82,6 +83,6 @@ contact:
   image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBCO_18KGdOJyrdt1Ab2n36CGPxE2Qcfa2feXdmXHBKH6H3528InWE28hxYG6LRhZypyZi7XPQAZrKm5S4ks6jjZO-PEYm7BNJOqP6ya7gNdG5s9EoAZEIwIubRm1w5BaBDtwhYD8pe_CyFnvj4qu4WzTym4ansztWvoNhCvHlFhE0jH_IyYHU8T_IiUkpvNOJLD6N-_e0ruPtNxYS72drlJkDuEjvPfHcSUXy-LuDcIeLXMwv8irnjybW9aJ_hJK07pajompwQpq4"
 ---
 
-The Master of Science in Artificial Intelligence at CU Boulder offers a rigorous, interdisciplinary curriculum designed to prepare students for leadership roles in the rapidly evolving field of AI. Our program combines theoretical foundations with practical application, leveraging the cutting-edge research of the CAIR Group.
+The Master of Science in Artificial Intelligence at CU Boulder offers a rigorous, interdisciplinary curriculum designed to prepare students for leadership and engineering roles in the rapidly evolving field of AI. Our program combines theoretical foundations with practical application, leveraging the cutting-edge research of the Colorado AI Lab faculty.
 
 Students will engage in deep learning, natural language processing, computer vision, and robotics, working alongside world-class faculty. The program culminates in a capstone project or thesis that addresses real-world challenges, ensuring graduates are industry-ready.

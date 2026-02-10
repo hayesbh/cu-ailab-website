@@ -1,8 +1,13 @@
 import { getContent } from "@/lib/content";
 import { PublicationsContent } from "@/types/content";
 import { PublicationsClient } from "./PublicationsClient";
+import { notFound } from "next/navigation";
+import { SHOW_PUBLICATIONS } from "@/lib/flags";
 
 export default function PublicationsPage() {
+  if (!SHOW_PUBLICATIONS) {
+    return notFound();
+  }
   const publicationsData = getContent<PublicationsContent>("publications");
 
   // Load additional publications from linked sources

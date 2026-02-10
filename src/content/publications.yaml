@@ -121,3 +121,4 @@ publications: []
 # List of paths relative to src/content, pointing to files with a 'publications' list
 sources:
   - "publications/demo.publications"
+  - "publications/hayes.publications"

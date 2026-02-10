@@ -5,9 +5,10 @@ type: "light"
 icon: "smart_toy"
 features:
   - "Project-Based Learning"
-  - "Industry Partnerships"
+  - "Expert-designed Modules Covering Latest in AI"
   - "Flexible Schedule"
 order: 3
+external_link_url: "https://www.colorado.edu/cs/academics/graduate-programs/professional-masters-artificial-intelligence"
 hero:
   image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDqa12QX-QB7H0ru-RxEYN2dS7DECsxopcCNf0sjChWRj7myDKCRwosvk17ugP1V1WeR-u2maHGsYb9OWEyi3Ds4tQMPwnDiTGrVahtABySmEWSE7iQivlywNEgplYjPOhNDnLICZXQ996POVDn6Zenxr3KKIgT6i3HMbzC70Oi4y3jNhqmHQ7MbAzNXjWAOpzcn-a0INBK7dtnInXhQmCLS8csANDZCOyLplqcwnoG9ZRoDkzVzpsQgJaeGiL-JfaILWM3rAI7jEo"
   image_alt: "Futuristic abstract network background"

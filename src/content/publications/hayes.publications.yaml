@@ -1,0 +1,466 @@
+publications:
+  - title: Robust robotic exploration and mapping using generative occupancy map synthesis.
+    venue: Auton. Robots
+    year: "2026"
+    authors: Lorin Achey, Alec Reed, Brendan Crowe, Bradley Hayes, Christoffer Heckman
+    links:
+      pdf: https://doi.org/10.1007/s10514-025-10229-0
+    month: March
+  - title: "From Principle to Practice: A Culturally Responsive Toolkit for the Busy CS Teacher."
+    venue: Inroads
+    year: "2025"
+    authors: Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/3766902
+    month: December
+  - title: Single-shot policy explanation to improve task performance via semantic reward coaching.
+    venue: Neural Comput. Appl.
+    year: "2025"
+    authors: Aaquib Tabrez, Ryan Leonard, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1007/s00521-025-11477-y
+    month: September
+  - title: Iteratively Adding Latent Human Knowledge Within Trajectory Optimization Specifications Improves Learning and Task Outcomes.
+    venue: IEEE Robotics Autom. Lett.
+    year: "2025"
+    authors: Christine T. Chang, Maria P. Stull, Breanne Crockett, Emily Jensen, Clare Lohrmann, Mitchell Hebert, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/LRA.2024.3522779
+    month: February
+  - title: Human Demonstrations Enable Efficient Solutions to Sequential Manifold Planning Problems.
+    venue: HRI
+    year: "2025"
+    authors: Breanne Crockett, Carl L. Mueller, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/HRI61500.2025.10974076
+  - title: Online Diffusion-Based 3D Occupancy Prediction at the Frontier with Probabilistic Map Reconciliation.
+    venue: ICRA
+    year: "2025"
+    authors: Alec Reed, Lorin Achey, Brendan Crowe, Bradley Hayes, Christoffer Heckman
+    links:
+      pdf: https://doi.org/10.1109/ICRA55743.2025.11128832
+  - title: Employing Laban Shape for Generating Emotionally and Functionally Expressive Trajectories in Robotic Manipulators.
+    venue: RO-MAN
+    year: "2025"
+    authors: Srikrishna Bangalore Raghu, Clare Lohrmann, Akshay Bakshi, Jennifer Kim, Jose Caraveo Herrera, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.1109/RO-MAN63969.2025.11217717
+  - title: Employing Laban Shape for Generating Emotionally and Functionally Expressive Trajectories in Robotic Manipulators.
+    venue: CoRR
+    year: "2025"
+    authors: Srikrishna Bangalore Raghu, Clare Lohrmann, Akshay Bakshi, Jennifer Kim, Jose Caraveo Herrera, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2505.11716
+    month: May
+  - title: Robust Robotic Exploration and Mapping Using Generative Occupancy Map Synthesis.
+    venue: CoRR
+    year: "2025"
+    authors: Lorin Achey, Alec Reed, Brendan Crowe, Bradley Hayes, Christoffer Heckman
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2506.20049
+    month: June
+  - title: "CRED: Counterfactual Reasoning and Environment Design for Active Preference Learning."
+    venue: CoRR
+    year: "2025"
+    authors: Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2507.05458
+    month: July
+  - title: "ShelfAware: Real-Time Visual-Inertial Semantic Localization in Quasi-Static Environments with Low-Cost Sensors."
+    venue: CoRR
+    year: "2025"
+    authors: Shivendra Agrawal, Jake Brawer, Ashutosh Naik, Alessandro Roncone, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2512.09065
+    month: December
+  - title: Generating Pattern-Based Conventions for Predictable Planning in Human-Robot Collaboration.
+    venue: ACM Trans. Hum. Robot Interact.
+    year: "2024"
+    authors: Clare Lohrmann, Maria P. Stull, Alessandro Roncone, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/3659061
+    month: December
+  - title: Automated Assessment and Adaptive Multimodal Formative Feedback Improves Psychomotor Skills Training Outcomes in Quadrotor Teleoperation.
+    venue: HAI
+    year: "2024"
+    authors: Emily Jensen, Sriram Sankaranarayanan 0001, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/3687272.3688322
+  - title: Explainable Guidance and Justification for Mental Model Alignment in Human-Robot Teams.
+    venue: HRI (Companion)
+    year: "2024"
+    authors: Matthew B. Luebbers, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/3610978.3638364
+  - title: Workspace Optimization Techniques to Improve Prediction of Human Motion During Human-Robot Collaboration.
+    venue: HRI
+    year: "2024"
+    authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/3610977.3635003
+  - title: Recency Bias in Task Performance History Affects Perceptions of Robot Competence and Trustworthiness.
+    venue: ICRA
+    year: "2024"
+    authors: Matthew B. Luebbers, Aaquib Tabrez, Kanaka Samagna Talanki, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/ICRA57147.2024.10611334
+  - title: "SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation."
+    venue: IROS
+    year: "2024"
+    authors: Alec Reed, Brendan Crowe, Doncey Albin, Lorin Achey, Bradley Hayes, Christoffer Heckman
+    links:
+      pdf: https://doi.org/10.1109/IROS58592.2024.10802589
+  - title: Robot Social Identity Performance Facilitates Contextually-Driven Trust Calibration and Accurate Human Assessments of Robot Capabilities.
+    venue: RO-MAN
+    year: "2024"
+    authors: Maria P. Stull, Clare Lohrmann, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/RO-MAN60168.2024.10731361
+  - title: Workspace Optimization Techniques to Improve Prediction of Human Motion During Human-Robot Collaboration.
+    venue: CoRR
+    year: "2024"
+    authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2401.12965
+  - title: "SceneSense: Diffusion Models for 3D Occupancy Synthesis from Partial Observation."
+    venue: CoRR
+    year: "2024"
+    authors: Alec Reed, Brendan Crowe, Doncey Albin, Lorin Achey, Bradley Hayes, Christoffer Heckman
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2403.11985
+  - title: Automated Assessment and Adaptive Multimodal Formative Feedback Improves Psychomotor Skills Training Outcomes in Quadrotor Teleoperation.
+    venue: CoRR
+    year: "2024"
+    authors: Emily Jensen, Sriram Sankaranarayanan 0001, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2405.15982
+  - title: Large Language Models Enable Automated Formative Feedback in Human-Robot Interaction Tasks.
+    venue: CoRR
+    year: "2024"
+    authors: Emily Jensen, Sriram Sankaranarayanan 0001, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2405.16344
+  - title: "ShelfHelp: Empowering Humans to Perform Vision-Independent Manipulation Tasks with a Socially Assistive Robotic Cane."
+    venue: CoRR
+    year: "2024"
+    authors: Shivendra Agrawal, Suresh Nayak, Ashutosh Naik, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2405.20501
+  - title: Online Diffusion-Based 3D Occupancy Prediction at the Frontier with Probabilistic Map Reconciliation.
+    venue: CoRR
+    year: "2024"
+    authors: Alec Reed, Lorin Achey, Brendan Crowe, Bradley Hayes, Christoffer Heckman
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2409.10681
+  - title: "ShelfHelp: Empowering Humans to Perform Vision-Independent Manipulation Tasks with a Socially Assistive Robotic Cane."
+    venue: AAMAS
+    year: "2023"
+    authors: Shivendra Agrawal, Suresh Nayak, Ashutosh Naik, Bradley Hayes
+    links:
+      pdf: https://dl.acm.org/doi/10.5555/3545946.3598805
+  - title: "More Than a Number: A Multi-dimensional Framework For Automatically Assessing Human Teleoperation Skill."
+    venue: HRI (Companion)
+    year: "2023"
+    authors: Emily Jensen, Bradley Hayes, Sriram Sankaranarayanan 0001
+    links:
+      pdf: https://doi.org/10.1145/3568294.3580167
+  - title: Collaborative Planning and Negotiation in Human-Robot Teams.
+    venue: HRI (Companion)
+    year: "2023"
+    authors: Christine T. Chang, Mitchell Hebert, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/3568294.3579978
+  - title: "Human Non-Compliance with Robot Spatial Ownership Communicated via Augmented Reality: Implications for Human-Robot Teaming Safety."
+    venue: ICRA
+    year: "2023"
+    authors: Christine T. Chang, Matthew B. Luebbers, Mitchell Hebert, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/ICRA48891.2023.10161277
+  - title: Smart Glasses for Gait Analysis of Parkinson's Disease Patients.
+    venue: MIPRO
+    year: "2023"
+    authors: Ivana Kiprijanovska, Filip Panchevski, Simon Stankoski, Martin Gjoreski, James Archer, John Broulidakis, Ifigeneia Mavridou, Bradley Hayes, Tiago Jo&#227;o Guerreiro 0001, Charles Nduka, Hristijan Gjoreski
+    links:
+      pdf: https://doi.org/10.23919/MIPRO57284.2023.10159926
+  - title: Autonomous Justification for Enabling Explainable Decision Support in Human-Robot Teaming.
+    venue: "Robotics: Science and Systems"
+    year: "2023"
+    authors: Matthew B. Luebbers, Aaquib Tabrez, Kyler Ruvane, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.15607/RSS.2023.XIX.002
+  - title: Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment.
+    venue: CoRR
+    year: "2023"
+    authors: Jake Brawer, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2311.00153
+  - title: Improving Human Legibility in Collaborative Robot Tasks through Augmented Reality and Workspace Preparation.
+    venue: CoRR
+    year: "2023"
+    authors: Yi-Shiuan Tung, Matthew B. Luebbers, Alessandro Roncone, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2311.05562
+  - title: "PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation."
+    venue: IEEE Robotics Autom. Lett.
+    year: "2022"
+    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.1109/LRA.2022.3148442
+  - title: Intention-Aware Navigation in Crowds with Extended-Space POMDP Planning.
+    venue: AAMAS
+    year: "2022"
+    authors: Himanshu Gupta, Bradley Hayes, Zachary Sunberg
+    links:
+      pdf: https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p562.pdf
+  - title: Descriptive and Prescriptive Visual Guidance to Improve Shared Situational Awareness in Human-Robot Teaming.
+    venue: AAMAS
+    year: "2022"
+    authors: Aaquib Tabrez, Matthew B. Luebbers, Bradley Hayes
+    links:
+      pdf: https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1256.pdf
+  - title: A Novel Perceptive Robotic Cane with Haptic Navigation for Enabling Vision-Independent Participation in the Social Dynamics of Seat Choice.
+    venue: IROS
+    year: "2022"
+    authors: Shivendra Agrawal, Mary Etta West, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/IROS47612.2022.9981219
+  - title: Bilevel Optimization for Just-in-Time Robotic Kitting and Delivery via Adaptive Task Segmentation and Scheduling.
+    venue: RO-MAN
+    year: "2022"
+    authors: Yi-Shiuan Tung, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.1109/RO-MAN53752.2022.9900670
+  - title: "PokeRRT: Poking as a Skill and Failure Recovery Tactic for Planar Non-Prehensile Manipulation."
+    venue: CoRR
+    year: "2022"
+    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://arxiv.org/abs/2201.13428
+  - title: "PokeRRT: A Kinodynamic Planning Approach for Poking Manipulation."
+    venue: CoRR
+    year: "2022"
+    authors: Anuj Pasricha, Yi-Shiuan Tung, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2203.04761
+  - title: Intention-Aware Navigation in Crowds with Extended-Space POMDP Planning.
+    venue: CoRR
+    year: "2022"
+    authors: Himanshu Gupta, Bradley Hayes, Zachary Sunberg
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2206.10028
+  - title: Bilevel Optimization for Just-in-Time Robotic Kitting and Delivery via Adaptive Task Segmentation and Scheduling.
+    venue: CoRR
+    year: "2022"
+    authors: Yi-Shiuan Tung, Kayleigh Bishop, Bradley Hayes, Alessandro Roncone
+    links:
+      pdf: https://doi.org/10.48550/arXiv.2209.08387
+  - title: 2nd Edition of Solutions for Socially Intelligent HRI in Real-World Scenarios (SSIR-HRI).
+    venue: HRI (Companion)
+    year: "2021"
+    authors: Karen Tatarian, Sera Buyukgoz, Marine Chamoux, Aaquib Tabrez, Bradley Hayes, Mohamed Chetouani
+    links:
+      pdf: https://doi.org/10.1145/3434074.3444874
+  - title: Exploring Applications for Autonomous Nonverbal Human-Robot Interaction.
+    venue: HRI (Companion)
+    year: "2021"
+    authors: Justin W. Hart, Nick DePalma, Mitchell W. Pryor, Bradley Hayes, Karl Kruusam&#228;e, Reuth Mirsky, Xuesu Xiao
+    links:
+      pdf: https://doi.org/10.1145/3434074.3444882
+  - title: "ARC-LfD: Using Augmented Reality for Interactive Long-Term Robot Skill Maintenance via Constrained Learning from Demonstration."
+    venue: ICRA
+    year: "2021"
+    authors: Matthew B. Luebbers, Connor Brooks, Carl L. Mueller, Daniel Szafir, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/ICRA48506.2021.9561844
+  - title: "Asking the Right Questions: Facilitating Semantic Constraint Specification for Robot Skill Learning and Repair."
+    venue: IROS
+    year: "2021"
+    authors: Aaquib Tabrez, Jack Kawell, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/IROS51168.2021.9636375
+  - title: One-shot Policy Elicitation via Semantic Reward Manipulation.
+    venue: CoRR
+    year: "2021"
+    authors: Aaquib Tabrez, Ryan Leonard, Bradley Hayes
+    links:
+      pdf: https://arxiv.org/abs/2101.01860
+  - title: Trustworthy Human-Centered Automation Through Explainable AI and High-Fidelity Simulation.
+    venue: AHFE (6)
+    year: "2020"
+    authors: Bradley Hayes, Michael Moniz
+    links:
+      pdf: https://doi.org/10.1007/978-3-030-51064-0_1
+  - title: Safe and Robust Robot Learning from Demonstration through Conceptual Constraints.
+    venue: HRI (Companion)
+    year: "2020"
+    authors: Carl L. Mueller, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/3371382.3377428
+  - title: Automated Failure-Mode Clustering and Labeling for Informed Car-To-Driver Handover in Autonomous Vehicles.
+    venue: CoRR
+    year: "2020"
+    authors: Aaquib Tabrez, Matthew B. Luebbers, Bradley Hayes
+    links:
+      pdf: https://arxiv.org/abs/2005.04439
+  - title: Explanation-Based Reward Coaching to Improve Human Performance via Reinforcement Learning.
+    venue: HRI
+    year: "2019"
+    authors: Aaquib Tabrez, Shivendra Agrawal, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/HRI.2019.8673104
+  - title: Improving Human-Robot Interaction Through Explainable Reinforcement Learning.
+    venue: HRI
+    year: "2019"
+    authors: Aaquib Tabrez, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/HRI.2019.8673198
+  - title: Fast Online Segmentation of Activities from Partial Trajectories.
+    venue: ICRA
+    year: "2019"
+    authors: Tariq Iqbal, Shen Li 0003, Christopher K. Fourie, Bradley Hayes, Julie A. Shah
+    links:
+      pdf: https://doi.org/10.1109/ICRA.2019.8794054
+  - title: Robotic assistance in the coordination of patient care.
+    venue: Int. J. Robotics Res.
+    year: "2018"
+    authors: Matthew C. Gombolay, Xi Jessie Yang, Bradley Hayes, Nicole Seo, Zixi Liu, Samir Wadhwania, Tania Yu, Neel Shah, Toni Golen, Julie A. Shah
+    links:
+      pdf: https://doi.org/10.1177/0278364918778344
+  - title: Introduction to the Special Issue on Artificial Intelligence and Human-Robot Interaction.
+    venue: ACM Trans. Hum. Robot Interact.
+    year: "2018"
+    authors: Bradley Hayes, Maya Cakmak, Stephanie Rosenthal
+    links:
+      pdf: https://doi.org/10.1145/3279995
+  - title: Workshop on Longitudinal Human-Robot Teaming.
+    venue: HRI (Companion)
+    year: "2018"
+    authors: Joachim de Greeff, Bradley Hayes, Matthew C. Gombolay, Matthew Johnson 0001, Mark A. Neerincx, Jurriaan van Diggelen, Melissa Cefkin, Ivana Kruijff-Korbayov&#225;
+    links:
+      pdf: https://doi.org/10.1145/3173386.3173559
+  - title: Robust Robot Learning from Demonstration and Skill Repair Using Conceptual Constraints.
+    venue: IROS
+    year: "2018"
+    authors: Carl L. Mueller, Jeff Venicx, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1109/IROS.2018.8594133
+  - title: Proceedings of the AI-HRI Symposium at AAAI-FSS 2018.
+    venue: CoRR
+    year: "2018"
+    authors: Kalesha Bullard, Nick DePalma, Richard G. Freedman, Bradley Hayes, Luca Iocchi, Katrin S. Lohan, Ross Mead, Emmanuel Senft, Tom Williams 0001
+    links:
+      pdf: http://arxiv.org/abs/1809.06606
+  - title: Improving Robot Controller Transparency Through Autonomous Policy Explanation.
+    venue: HRI
+    year: "2017"
+    authors: Bradley Hayes, Julie A. Shah
+    links:
+      pdf: https://doi.org/10.1145/2909824.3020233
+  - title: Interpretable models for fast activity recognition and anomaly explanation during collaborative robotics tasks.
+    venue: ICRA
+    year: "2017"
+    authors: Bradley Hayes, Julie A. Shah
+    links:
+      pdf: https://doi.org/10.1109/ICRA.2017.7989778
+  - title: The 2015 AAAI Fall Symposium Series Reports.
+    venue: AI Mag.
+    year: "2016"
+    authors: Nisar Ahmed, Paul Bello, Selmer Bringsjord, Micah Clark, Bradley Hayes, Christopher Miller, Frans A. Oliehoek, Frank Stein, Matthijs T. J. Spaan
+    links:
+      pdf: https://doi.org/10.1609/aimag.v37i2.2661
+  - title: Robot Nonverbal Behavior Improves Task Performance In Difficult Collaborations.
+    venue: HRI
+    year: "2016"
+    authors: Henny Admoni, Thomas Weng, Bradley Hayes, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/HRI.2016.7451733
+  - title: Autonomously constructing hierarchical task networks for planning and human-robot collaboration.
+    venue: ICRA
+    year: "2016"
+    authors: Bradley Hayes, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/ICRA.2016.7487760
+  - title: Robotic Assistance in Coordination of Patient Care.
+    venue: "Robotics: Science and Systems"
+    year: "2016"
+    authors: Matthew C. Gombolay, Xi Jessie Yang, Bradley Hayes, Nicole Seo, Zixi Liu, Samir Wadhwania, Tania Yu, Neel Shah, Toni Golen, Julie A. Shah
+    links:
+      pdf: http://www.roboticsproceedings.org/rss12/p26.html
+  - title: Social Hierarchical Learning.
+    venue: AAAI
+    year: "2015"
+    authors: Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1609/aaai.v29i1.9266
+  - title: HRI Workshop on Human-Robot Teaming.
+    venue: HRI (Extended Abstracts)
+    year: "2015"
+    authors: Bradley Hayes, Matthew C. Gombolay, Malte F. Jung, Koen V. Hindriks, Joachim de Greeff, Catholijn M. Jonker, Mark A. Neerincx, Jeffrey M. Bradshaw, Matthew Johnson 0001, Ivana Kruijff-Korbayov&#225;, Maarten Sierhuis, Julie A. Shah, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1145/2701973.2714396
+  - title: Enhancing agent safety through autonomous environment adaptation.
+    venue: ICDL-EPIROB
+    year: "2015"
+    authors: Benjamin Rosman, Bradley Hayes, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/DEVLRN.2015.7346143
+  - title: Effective robot teammate behaviors for supporting sequential manipulation tasks.
+    venue: IROS
+    year: "2015"
+    authors: Bradley Hayes, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/IROS.2015.7354288
+  - title: Human-robot collaboration.
+    venue: AI Matters
+    year: "2014"
+    authors: Brian Scassellati, Bradley Hayes
+    links:
+      pdf: https://doi.org/10.1145/2685328.2685335
+  - title: Developing Effective Robot Teammates for Human-Robot Collaboration.
+    venue: AAAI Fall Symposia
+    year: "2014"
+    authors: Bradley Hayes, Brian Scassellati
+    links:
+      pdf: http://www.aaai.org/ocs/index.php/FSS/FSS14/paper/view/9185
+  - title: Asking for Help from a Gendered Robot.
+    venue: CogSci
+    year: "2014"
+    authors: Emma Alexander, Caroline Bank, Jie Jessica Yang, Bradley Hayes, Brian Scassellati
+    links:
+      pdf: https://escholarship.org/uc/item/3w70h4t9
+  - title: A developmentally inspired transfer learning approach for predicting skill durations.
+    venue: ICDL-EPIROB
+    year: "2014"
+    authors: Bradley Hayes, Elena Corina Grigore, Alexandru Litoiu, Aditi Ramachandran, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/DEVLRN.2014.6982979
+  - title: Discovering task constraints through observation and active learning.
+    venue: IROS
+    year: "2014"
+    authors: Bradley Hayes, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/IROS.2014.6943191
+  - title: People help robots who help others, not robots who help themselves.
+    venue: RO-MAN
+    year: "2014"
+    authors: Bradley Hayes, Daniel Ullman 0002, Emma Alexander, Caroline Bank, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/ROMAN.2014.6926262
+  - title: "Dancing With Myself: The effect of majority group size on perceptions of majority and minority robot group members."
+    venue: CogSci
+    year: "2013"
+    authors: Henny Admoni, Bradley Hayes, David Feil-Seifer, Daniel Ullman 0002, Brian Scassellati
+    links:
+      pdf: https://escholarship.org/uc/item/0tw6r4sk
+  - title: "Are you looking at me?: perception of robot attention is mediated by gaze type and group size."
+    venue: HRI
+    year: "2013"
+    authors: Henny Admoni, Bradley Hayes, David Feil-Seifer, Daniel Ullman 0002, Brian Scassellati
+    links:
+      pdf: http://dl.acm.org/citation.cfm?id=2447685
+  - title: Improving implicit communication in mixed human-robot teams with social force detection.
+    venue: ICDL-EPIROB
+    year: "2013"
+    authors: Bradley Hayes, Brian Scassellati
+    links:
+      pdf: https://doi.org/10.1109/DevLrn.2013.6652573

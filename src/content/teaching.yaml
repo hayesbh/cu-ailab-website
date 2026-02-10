@@ -1,7 +1,7 @@
 hero:
   title: "Forging the Future of **Intelligence**"
   subtitle: "Explore the AI curriculum at CU Boulder and build your personalized academic journey in artificial intelligence, machine learning, and robotics."
-  button_text: "Start Building Curriculum"
+  # button_text: "Start Building Curriculum"
   image_url: "/teaching-skyline.jpg"
 
 courses:

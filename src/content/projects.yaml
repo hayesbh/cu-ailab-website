@@ -1,22 +1,151 @@
 projects:
-  - title: "Generative Models for Climate Science"
-    categories: ["Climate AI"]
-    description: "Developing novel diffusion models to predict extreme weather events with higher accuracy than traditional meteorological simulations. This project leverages large-scale satellite data."
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB5YnG3XZ7gMrxPPeeyKK1Tv5b_dEKIMHudACvyA_dOrhyXMg8hyhvzCuoKxmgMVFbDbhiiR-Ctuf9J7bm2eiX13PcLY_XEridIH35Ct6-1lbkYaVZtGn4JYgKqYATp9dH3fLwR_69oX8o6kLNDjW3RXtJNrcKjnvNSrNFOCIyv2C62nKLbB4yWyexND9CuKThv1oigBHcVVFCI3INaGedMIVrwItEcpZfM1JcZPCmbPDo-iBF_lZHQ_YhEQlF5-GTHuEpnhG2uCtk"
-    external_url: "/projects/generative-models"
-    status: "Active"
-    featured: true
-  - title: "Ethical AI in Healthcare Systems"
-    categories: ["Healthcare", "Ethics"]
-    description: "Investigating bias in diagnostic algorithms and proposing a new framework for equitable deployment in hospital settings across diverse populations."
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDRhbb8UPBvKhgJ6bm2Dw88IivgsI0oHdLmyHQeTQ8nHyT0aB1_aE1r-CubejWuVSyV7uuAjuavgqhlMu1UTjKSVKfGXikhXGpR-VsCPyLzQSuI6JuPSIvspOhZq2YER3a1EPzj4Cu9NRn6pYsizpS7rWYNkpOqfGZWPcv235pyl82HnJuCq-wAUBgzAlPyAiXtZjL-sZxpXZVdCljYPImMJy8QLZ9omkmfrvhtzSchr36_JOXUNUvGJHaIuU-DFTJy5ov8P2sFMQs"
+  - title: "AI and the Humanities"
+    categories: ["Humanities", "Culture", "HCI", "NLP", "AI Ethics"]
+    description: "Using methods and models from AI to answer fundamental research questions in the humanities, while also exploring how the humanities can contribute to AI"
+    image: "/themes/society.png"
     external_url: "#"
     status: "Active"
     featured: true
-  - title: "Human-Robot Trust Dynamics"
-    categories: ["Robotics"]
-    description: "Exploring how humans develop trust in autonomous robotic systems during high-stakes emergency response scenarios using VR simulations."
-    image: "/human-ai-trust.png"
+  - title: "Geospatial AI"
+    categories: ["environmental monitoring", "sustainability","earth embeddings", "remote sensing", "Machine Learning", "Computer Vision", "AI Ethics"]
+    description: "Developing AI methods tailored to the unique nature of geospatial data like earth observation satellite imagery, for applications in Environmental monitoring and sustainability"
+    image: "/themes/perception.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Human-Robot Interaction"
+    categories: ["hri", "social intelligence", "human-centered ai", "psychology", "communication", "Robotics", "HCI", "Human-AI Teaming"]
+    description: "Investigating the algorithmic and behavioral foundations that allow robots to interpret social cues and participate in transparent interactions within human-centric environments."
+    image: "/themes/robotics.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Human-AI Teaming"
+    categories: ["coordination", "decision making", "alignment", "team fluency", "multi-agent systems", "HCI", "Human-AI Teaming"]
+    description: "Developing computational frameworks for seamless coordination between humans and autonomous systems by aligning AI with human cognitive models and intent."
+    image: "/themes/society.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Embodied Intelligence"
+    categories: ["robotics", "autonomous systems", "physical intelligence", "Robotics"]
+    description: "Engineering physical AI systems capable of robust perception and agile reasoning to perform complex manipulation and navigation tasks safely in unstructured, real-world settings."
+    image: "/themes/robotics.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Computational Social Science"
+    categories: ["css", "social science", "data", "NLP", "Machine Learning"]
+    description: "Developing and using AI methods to analyze and model social phenomena."
+    image: "/themes/society.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Computer Vision"
+    categories: ["Vision", "Computer Vision"]
+    description: "Developing and evaluating AI dataset challenges and models, focused on analyzing of visual information"
+    image: "/themes/perception.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Multimodal Artificial Intelligence"
+    categories: ["Vision", "Language", "Audio", "Computer Vision", "NLP", "Multimodal AI"]
+    description: "Developing and evaluating AI dataset challenges and models, focused on analyzing multimodal information"
+    image: "/themes/perception.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Human-Centered Artificial Intelligence"
+    categories: ["Artificial Intelligence", "Human Computer Interaction", "Human Factors", "HCI", "Human-AI Teaming"]
+    description: "Developing, evaluating, and applying systems that involve hybrid partnerships between humans and AI"
+    image: "/themes/society.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Neuro-Symbolic AI"
+    categories: ["Artificial Intelligence", "Neural Networks", "Symbolic Systems", "Representations", "Machine Learning", "Theoretical AI"]
+    description: "Integrating neural network based learning with symbolic representations and reasoning techniques. Neural components enable data-driven pattern recognition, while symbolic systems provide explicit knowledge modeling, rule-based inference and interpretability"
+    image: "/themes/learning.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Vision-Language-Action Models (VLAs)"
+    categories: ["multimodal reasoning", "foundation models", "robotics", "chain-of-thought", "instruction fine-tuning", "Robotics", "Computer Vision", "NLP", "Multimodal AI"]
+    description: "Pioneering the integration of large-scale multimodal models into the robotic control loop to enable long-horizon spatial reasoning and 'Chain-of-Causation' transparency in complex, unstructured environments."
+    image: "/themes/perception.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Safety-Critical Field Autonomy"
+    categories: ["field robotics", "search and rescue", "wildland firefighting", "mining", "resilient systems", "Robotics", "Safety & Alignment"]
+    description: "Advancing the capabilities of autonomous systems in 'data-impoverished' and hazardous settings by developing procedural world models and intelligent scenario sampling to ensure mission success under extreme physical constraints."
+    image: "/themes/robotics.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Decentralized Multi-Agent Coordination"
+    categories: ["multi-robot systems", "subterranean robotics", "collaborative dialogue", "communication-denied environments", "swarm intelligence", "Robotics", "Systems"]
+    description: "Architecting decentralized frameworks where teams of robots utilize natural language dialogue and semantic updates to maintain shared mental models and coordinate exploration strategies in GPS-denied or bandwidth-limited environments."
+    image: "/themes/robotics.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+  - title: "Formal Methods & Safety Alignment"
+    categories: ["reinforcement learning", "logic-based reasoning", "safety frontiers", "rlvr", "human-in-the-loop", "Safety & Alignment", "Machine Learning", "AI Ethics"]
+    description: "Bridging formal safety protocols with neural learning to identify 'Safe Rule-Breaking' frontiers and utilizing VLM-as-an-Oracle (RLVR) to align robotic behavior with expert human judgment and operational 'books' of protocol."
+    image: "/themes/learning.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+
+  # AUTOCOMPUTED
+
+  - title: "Natural Language Processing"
+    categories: ["Language", "NLP"]
+    description: "Developing, evaluating, and applying AI models for the processing and study of human language"
+    image: "/themes/perception.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+
+
+  - title: "Algorithmic Economics"
+    categories: ["Game Theory", "Machine Learning", "Theoretical AI"]
+    description: "Exploring the intersection of computer science and economics, focusing on information elicitation and prediction markets."
+    image: "/themes/society.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+
+
+  - title: "Educational Learning Analytics"
+    categories: ["EdTech", "Machine Learning", "HCI"]
+    description: "Applying machine learning and analytics to understand and improve student learning in complex educational environments."
+    image: "/themes/society.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+
+  - title: "Computational Semantics"
+    categories: ["NLP", "Cognitive Science"]
+    description: "Investigating how computers can understand and represent meaning in natural language, including metaphor and narrative."
+    image: "/themes/perception.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+
+  - title: "Systems for AI"
+    categories: ["Systems", "Machine Learning"]
+    description: "Building scalable, efficient, and secure infrastructure and systems to support large-scale machine learning and AI."
+    image: "/themes/learning.png"
+    external_url: "#"
+    status: "Active"
+    featured: true
+
+  - title: "Theoretical Machine Learning"
+    categories: ["Machine Learning", "Economics", "Theoretical AI"]
+    description: "Analyzing the theoretical foundations of machine learning through the lens of economics and information elicitation."
+    image: "/themes/learning.png"
     external_url: "#"
     status: "Active"
     featured: true

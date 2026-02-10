@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { withBasePath } from '@/lib/paths';
+import { SHOW_PUBLICATIONS } from '@/lib/flags';
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,7 +40,7 @@ export function Navbar() {
   const navItems = [
     { name: 'Research', href: '/research' },
     { name: 'People', href: '/people' },
-    { name: 'Publications', href: '/publications' },
+    ...(SHOW_PUBLICATIONS ? [{ name: 'Publications', href: '/publications' }] : []),
     { name: 'Teaching', href: '/teaching' },
   ];
 

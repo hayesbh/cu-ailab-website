@@ -104,23 +104,25 @@ export default function JoinUsPage() {
              <div className="mx-auto max-w-[1200px] px-4 flex flex-col md:flex-row items-center gap-12">
                 <div className="flex-1">
                     <span className="text-primary font-bold text-xs uppercase tracking-widest mb-2 block">Why Boulder?</span>
-                    <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-6 leading-tight">Research meets <br/>Adventure.</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-6 leading-tight">Research, <i>&nbsp;Elevated</i>.</h2>
                     <p className="text-lg text-text-muted dark:text-text-muted-dark mb-6">
                         Located at the base of the Rocky Mountains, CU Boulder offers an unparalleled quality of life. Colorado AI Lab members enjoy 300 days of sunshine, world-class hiking and skiing, and a vibrant downtown just minutes from the lab.
                     </p>
                     <p className="text-lg text-text-muted dark:text-text-muted-dark mb-8">
                         Beyond the outdoors, Boulder is a burgeoning tech hub with heavy industry presence from Google, Apple, and Amazon, providing ample collaboration opportunities for our researchers.
                     </p>
-                    <a href="#" className="font-bold border-b-2 border-primary hover:text-primary transition-colors text-black dark:text-white pb-1 inline-flex items-center gap-1">
+                    <a href="https://www.colorado.edu/" className="font-bold border-b-2 border-primary hover:text-primary transition-colors text-black dark:text-white pb-1 inline-flex items-center gap-1">
                         Explore Campus Life <span className="material-symbols-outlined text-sm">arrow_forward</span>
                     </a>
                 </div>
                 <div className="flex-1 relative">
-                    <div className="grid grid-cols-2 gap-4">
-                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSdWb_C_G3GHM6NJayjX0wPw5G6sQD9JhTxpEUlNC_wISRbxhVfincuAu6WEJ7pSo1makzk-YhiMC7FY0MWpNNSZR2MqEFmQdsbAF0NZHJgaWYZaXQoERroYNFgI91Wl55nZ3iXWd3YqDGimo7A_OTytOtBzNoCHDzSHZKCvRHt62gWteMOjmualNzi_KiHfq9agJiwxkuJ99boALSr_mLg1pB7yDC-2fXbV-73FBfniRShFwtbt8gAHa1xP-Va1kFUjbSMR4k8Kw" className="rounded-2xl w-full h-48 object-cover shadow-lg transform translate-y-8"/>
-                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxD1K0L_4u9F_msTI6E0CKwOAhZuXZHeEwB1dim8opPlR8uB2N63xtrdXUIfEV6gIe5MlUIl6rHmE_uLesexDhiOencfhSbbjHH7K85Ek2mXQytRxMefJ5A2AD4Bm1qOOJyYHvn0LOOPa0I7Uwt5vLTucwPh6rNtCgKmH8Wmdx24hCosgQvLAIgV5xqPrmzAfDzaamGadjy6RRCQvy0M9NRqpzDOoIiOVI1qYkSZtpGsPoBuknLPChVUJGGkK1nEFk--aK4ssC1i8" className="rounded-2xl w-full h-48 object-cover shadow-lg"/>
-                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXjf9IU6pAMV3KL6HuRuimC7j6Knu0kf1_VpABpvyBP8fe7WRIfcGr4KyBfpri7p82Pl0UPAyJ7ImoOvTHb_SwjZTNcFldJmhI-LmA6PQZh1neCBkOJj8MHlSLCS0qTR2311QyRVR7DAHYGDo2K2zwUKAQsmMN9UodJ982tRzjuX43AzJF6e29g9hIP3OPIH3l1L89IpHzQAw6PDiLdEidRdIToDBs04ByibtHMYFd0bn_O3UJM4m_AnW91_rvMkxTAyASddrdpaw" className="rounded-2xl w-full h-64 object-cover shadow-lg col-span-1 -mt-8"/>
-                        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtZzh2aLebU_iIeIRGNbXssLiFlMj7np6ojK93SLM8Wn5sRM6dL25dVn5EwQUuPr8V3pGSyUm2PQqdXbZt5zHt5iBgPfel_yLXZ-8aEFAt-Sa5Z3DOOefPOkwMLoCEeCD_FqLOi5Xcvpn_HapKGgqiO6I4t419EVEQ5UuimGi_Wud3xEaKwdgy_MXALyJHhvLu9pZ7DiTzmgZPyqURKArQmkuGfFh_6VByxJrInQ0dPfvbxI0jbFLejIvheUMVN6PbsfS9L5xW4-0" className="rounded-2xl w-full h-40 object-cover shadow-lg col-span-1 mt-4"/>
+                    <div className="columns-2 gap-4">
+                        <img src={withBasePath("/action-photos/ai-6.png")} className="rounded-2xl w-full object-cover shadow-lg break-inside-avoid mb-4" />
+                        <img src={withBasePath("/action-photos/ai-4.png")} className="rounded-2xl w-full object-cover shadow-lg break-inside-avoid mb-4" />
+                        <img src={withBasePath("/action-photos/ai-5.png")} className="rounded-2xl w-full object-cover shadow-lg break-inside-avoid mb-4" />
+                        <img src={withBasePath("/action-photos/ai-1.png")} className="rounded-2xl w-full object-cover shadow-lg break-inside-avoid mb-4" />
+                        <img src={withBasePath("/action-photos/ai-2.png")} className="rounded-2xl w-full object-cover shadow-lg break-inside-avoid mb-4" />
+                        <img src={withBasePath("/action-photos/ai-3.png")} className="rounded-2xl w-full object-cover shadow-lg break-inside-avoid mb-4" />
                     </div>
                 </div>
              </div>

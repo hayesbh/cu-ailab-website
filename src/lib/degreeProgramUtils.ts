@@ -18,6 +18,7 @@ export interface DegreeProgramFrontmatter {
   features?: string[];
   link_text?: string;
   link_url?: string;
+  external_link_url?: string;
   order?: number;
   hero?: {
     image: string;
@@ -68,7 +69,9 @@ export interface DegreeProgramFrontmatter {
 
 export function getAllDegreePrograms() {
   const fileNames = fs.readdirSync(degreeProgramsDirectory);
-  const allPrograms = fileNames.map((fileName) => {
+  const allPrograms = fileNames
+    .filter((fileName) => fileName.endsWith('.md'))
+    .map((fileName) => {
     const slug = fileName.replace(/\.md$/, '');
     const fullPath = path.join(degreeProgramsDirectory, fileName);
     const fileContents = fs.readFileSync(fullPath, 'utf8');

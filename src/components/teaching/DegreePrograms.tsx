@@ -10,6 +10,7 @@ interface DegreeProgramsProps {
     features?: string[];
     link_text?: string;
     link_url?: string;
+    external_link_url?: string;
     slug?: string; // Add slug as we might prefer to construct link from slug
   }[];
 }
@@ -22,7 +23,7 @@ export function DegreePrograms({ programs }: DegreeProgramsProps) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {programs.map((program, idx) => {
              const features = program.features || [];
-             const linkUrl = program.link_url || (program.slug ? `/teaching/${program.slug}` : '#');
+             const linkUrl = program.external_link_url || withBasePath(program.link_url || '') || (program.slug ? `/teaching/${program.slug}` : '#');
              const linkText = program.link_text || "Learn More";
              
              return (
@@ -54,12 +55,14 @@ export function DegreePrograms({ programs }: DegreeProgramsProps) {
                 ))}
               </ul>
 
+              {linkUrl !== '#' && (
               <a 
                 href={withBasePath(linkUrl)} 
                 className="mt-auto text-sm font-bold border-b-2 border-primary w-max pb-0.5 hover:text-primary transition-colors text-text-main"
               >
                 {linkText} →
               </a>
+              )}
             </div>
           );
           })}
