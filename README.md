@@ -2,6 +2,12 @@
 
 This repository contains the source code for the Colorado AI Lab website. It is a modern, static site built with [Next.js](https://nextjs.org/) and styled with [Tailwind CSS](https://tailwindcss.com/). A CI/CD pipeline takes changes committed to this repository and deploys them to a staging environment. One of the site admins will promote changes verified in staging up to production after testing.
 
+## Deployment Workflow
+
+Commits to this git repo are automatically deployed to the password-protected `ailab.colorado.edu` staging environment, available at [ailab.colorado.edu/int/staging](https://ailab.colorado.edu/int/staging). Staging is where changes can be reviewed and verified before going live.
+
+Manual promotion to production is triggered from a script that requires direct access to the host VM itself. Only site admins with VM access can perform this promotion step.
+
 ## Table of Contents
 
 - [Tech Stack](#tech-stack)
