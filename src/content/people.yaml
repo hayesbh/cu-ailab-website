@@ -3,7 +3,8 @@ faculty:
     role: "Assistant Professor"
     image: "/headshots/alessandro_roncone.png"
     link: "https://www.colorado.edu/cs/alessandro-roncone"
-    interests: ["Human-Robot Interaction", "Artificial Intelligence", "Robot Control"]
+    interests:
+      ["Human-Robot Interaction", "Artificial Intelligence", "Robot Control"]
   - name: "Prof. Alvaro Velasquez"
     role: "Assistant Professor"
     image: "/headshots/alvaro_velasquez.jpg"
@@ -18,7 +19,8 @@ faculty:
     role: "Assistant Professor"
     image: "/headshots/bo_waggoner.jpg"
     link: "https://www.bowaggoner.com/"
-    interests: ["Theoretical Computer Science", "Game Theory", "Machine Learning"]
+    interests:
+      ["Theoretical Computer Science", "Game Theory", "Machine Learning"]
   - name: "Prof. Bradley Hayes"
     role: "Associate Professor"
     image: "/headshots/brad_hayes.jpg"
@@ -43,7 +45,7 @@ faculty:
     role: "Assistant Professor"
     image: "/headshots/esther_rolf.jpeg"
     link: "https://www.estherrolf.com/"
-    interests: ["Machine Learning",  "Geospatial AI", "Computer Vision"]
+    interests: ["Machine Learning", "Geospatial AI", "Computer Vision"]
   - name: "Prof. James Martin"
     role: "Professor"
     image: "/headshots/james_martin.png"
@@ -73,7 +75,8 @@ faculty:
     role: "Associate Professor"
     image: "/headshots/rafael_frongillo.png"
     link: "https://www.colorado.edu/cs/rafael-frongillo"
-    interests: ["Theoretical Machine Learning", "Algorithmic Economics", "Game Theory"]
+    interests:
+      ["Theoretical Machine Learning", "Algorithmic Economics", "Game Theory"]
   - name: "Prof. Theodora Chaspari"
     role: "Associate Professor"
     image: "/headshots/theodora_chaspari.jpg"
@@ -84,5 +87,5 @@ affiliates:
     role: "Professor of Law"
     image: "/headshots/harry_surden.png"
     link: "https://www.harrysurden.com/"
-    interests: ["AI & Law", "Legal Technology", "Machine Learning"]
+    interests: ["AI & Law", "Legal Technology"]
 students:
