@@ -13,6 +13,7 @@ interface Person {
 
 interface PeopleData {
   faculty: Person[];
+  affiliates?: Person[];
   students: Person[];
 }
 
@@ -20,7 +21,7 @@ interface PeopleBrowserProps {
   peopleData: PeopleData;
 }
 
-const FILTERS = ['All Members', 'Tenure-Track Faculty', 'Research Faculty', 'Teaching Faculty', 'Staff', 'Postdocs'];
+const FILTERS = ['All Members', 'Tenure-Track Faculty', 'Research Faculty', 'Teaching Faculty', 'Affiliated Faculty', 'Staff', 'Postdocs'];
 
 export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
   const [activeFilter, setActiveFilter] = useState('All Members');
@@ -40,6 +41,7 @@ export function PeopleBrowser({ peopleData }: PeopleBrowserProps) {
       }
       return { ...p, category };
     }),
+    ...(peopleData.affiliates || []).map(p => ({ ...p, category: 'Affiliated Faculty' })),
     ...(peopleData.students || []).map(p => {
         // Simple heuristic to determine category from role if needed, 
         // or we rely on the role text itself. 

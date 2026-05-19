@@ -79,4 +79,10 @@ faculty:
     image: "/headshots/theodora_chaspari.jpg"
     link: "https://www.colorado.edu/ics/theodora-chaspari"
     interests: ["Affective Computing", "Health Analytics", "Human-Centered ML"]
+affiliates:
+  - name: "Prof. Harry Surden"
+    role: "Professor of Law"
+    image: "/headshots/harry_surden.png"
+    link: "https://www.harrysurden.com/"
+    interests: ["AI & Law", "Legal Technology", "Machine Learning"]
 students:
