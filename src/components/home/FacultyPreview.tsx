@@ -18,10 +18,15 @@ interface FacultyPreviewProps {
 }
 
 export function FacultyPreview({ data, faculty }: FacultyPreviewProps) {
-  // Shuffle faculty and take 5
-  const previewPeople = [...(faculty || [])]
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 5);
+  const all = faculty || [];
+  const pinnedOrder = ['Prof. Christoffer Heckman', 'Prof. Bradley Hayes'];
+  const pinned = pinnedOrder
+    .map((name) => all.find((p) => p.name === name))
+    .filter((p): p is Person => Boolean(p));
+  const rest = all
+    .filter((p) => !pinnedOrder.includes(p.name))
+    .sort(() => 0.5 - Math.random());
+  const previewPeople = [...pinned, ...rest].slice(0, 5);
 
   return (
     <section className="bg-background-light dark:bg-background-dark py-24">
