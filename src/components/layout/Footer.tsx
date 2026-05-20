@@ -45,13 +45,23 @@ export function Footer() {
 
 
           <div className="col-span-1">
+            <h4 className="font-bold mb-6 text-lg text-white">Contact</h4>
+            <p className="text-sm text-gray-400 leading-relaxed">
+              Prof. Brad Hayes<br />
+              <a
+                href="mailto:bradley.hayes@colorado.edu"
+                className="hover:text-primary transition-colors"
+              >
+                bradley.hayes@colorado.edu
+              </a>
+            </p>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
           <p>© {new Date().getFullYear()} University of Colorado Boulder</p>
           <div className="flex gap-6">
-            
+
           </div>
         </div>
       </div>

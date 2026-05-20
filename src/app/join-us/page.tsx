@@ -97,6 +97,19 @@ export default function JoinUsPage() {
                         </div>
                     </div>
                 </div>
+
+                <div className="mt-16 text-center max-w-2xl mx-auto">
+                    <h3 className="text-xl font-bold text-black dark:text-white mb-3">Point of Contact</h3>
+                    <p className="text-text-muted dark:text-text-muted-dark">
+                        Prof. Brad Hayes &middot;{' '}
+                        <a
+                            href="mailto:bradley.hayes@colorado.edu"
+                            className="font-semibold border-b-2 border-primary hover:text-primary transition-colors text-black dark:text-white pb-0.5"
+                        >
+                            bradley.hayes@colorado.edu
+                        </a>
+                    </p>
+                </div>
             </div>
         </section>
 
