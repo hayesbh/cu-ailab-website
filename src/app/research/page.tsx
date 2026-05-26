@@ -20,9 +20,20 @@ export default function ResearchPage() {
   // I will pass ALL projects to the browser.
   const allProjects = projectsData.projects;
 
+  // Populate the "Research Themes" stat from the actual number of projects
+  // instead of a hardcoded value, so it stays in sync with projects.yaml.
+  const heroData = {
+    ...researchData.hero,
+    stats: researchData.hero.stats.map((stat) =>
+      stat.label === "Research Themes"
+        ? { ...stat, value: String(allProjects.length) }
+        : stat
+    ),
+  };
+
   return (
     <main className="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-16">
-      <ResearchHero data={researchData.hero} />
+      <ResearchHero data={heroData} />
       <ResearchProjectBrowser initialProjects={allProjects} categories={researchData.filters.categories} />
       {/* 
           Note: publications.yaml returns an object with a 'publications' array property 

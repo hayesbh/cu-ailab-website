@@ -4,6 +4,7 @@ hero:
   stats:
     - value: "16+"
       label: "Faculty Members"
+    # value is computed dynamically from projects.yaml in research/page.tsx
     - value: "7"
       label: "Research Themes"
     - value: "8+"
