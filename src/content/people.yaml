@@ -82,6 +82,11 @@ faculty:
     image: "/headshots/theodora_chaspari.jpg"
     link: "https://www.colorado.edu/ics/theodora-chaspari"
     interests: ["Affective Computing", "Health Analytics", "Human-Centered ML"]
+  - name: "Prof. Tom Yeh"
+    role: "Associate Professor"
+    image: "/headshots/tom_yeh.png"
+    link: "https://www.colorado.edu/cs/tom-yeh"
+    interests: ["HCI", "AI Education", "Computer Vision"]
 affiliates:
   - name: "Prof. Harry Surden"
     role: "Professor of Law"
