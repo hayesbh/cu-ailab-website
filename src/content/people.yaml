@@ -41,6 +41,10 @@ faculty:
     image: "/headshots/david_quigley.png"
     link: "https://www.colorado.edu/cs/david-quigley"
     interests: ["Learning Analytics", "HCI", "Educational Technology"]
+  - name: "Prof. Henry Lovejoy"
+    role: "Associate Professor"
+    link: "https://www.colorado.edu/history/henry-lovejoy"
+    interests: ["Datasets", "Digital History"]
   - name: "Prof. Esther Rolf"
     role: "Assistant Professor"
     image: "/headshots/esther_rolf.jpeg"
